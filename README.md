@@ -1,3 +1,1 @@
 # PyBay
-
-Hello world

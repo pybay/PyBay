@@ -164,6 +164,6 @@ assets/static/*
 !assets/static/favicon.png
 packages/*/build
 packages/*/dist
-webpack/node_modules
+*/webpack/node_modules/*
 *~
 *#

@@ -160,7 +160,7 @@ cython_debug/
 #.idea/
 
 # Lektor
-assets/static/*
+*/assets/static/*
 !assets/static/favicon.png
 packages/*/build
 packages/*/dist

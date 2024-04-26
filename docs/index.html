@@ -2,43 +2,142 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="static/gen/styles.css?h=502bf09a">
 
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 
 <!-- Optional theme -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 
 <title>Welcome to PyBay!</title>
 <body>
   <header>
-    <nav class="navbar navbar-default navbar-dark navbar-expand-lg nav-fixed-top">
+    <div class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./">
+      <img src="" alt="PyBay" width="30" height="24">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
       <ul class="nav navbar-nav">
-        <li class="active"><a href="./">PyBay</a></li>
         
-          <li><a href="about/">About</a></li>
         
-          <li><a href="venue/">Venue</a></li>
+                  <li class="nav-item">
+            <a href="about/" class="nav-link">About</a></li>
         
-          <li><a href="sponsor-us/">Sponsor</a></li>
+
+
+        
+        
+                  <li class="nav-item">
+            <a href="attending/" class="nav-link">Attending</a></li>
+        
+
+
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="sponsors/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Sponsors
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li><a class="dropdown-item" href="sponsors/our-sponsors/">Our Sponsors</a></li>
+            
+            <li><a class="dropdown-item" href="sponsors/sponsor-us/">Sponsor Us</a></li>
+            
+          </ul>
+        </li>
+
+        
+
+
+        
+        
+                  <li class="nav-item">
+            <a href="test/" class="nav-link">test1</a></li>
+        
+
+
+        
+        
+                  <li class="nav-item">
+            <a href="venue/" class="nav-link"></a></li>
+        
+
+
         
       </ul>
+    </div>
+
     </nav>
+  </div>
   </header>
   <div class="body-wrapper">
     
-    <div class="container">
+  
+  
+  
+    
       
-  <h2>Welcome to PyBay!</h2>
-  <p><img src="webm" alt="image pybay 2019 video reel"></p>
-<h2>September 21, 2024 in San Francisco, CA</h2>
-<p>Join us for the largest gathering of Python developers within the great state of Texas. We'll discuss software development, data science, community, and of course: Python.</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+<!-- <div class="video-header" >
+	<video class="object-fit-fill"  src="mission-bay-center" autoplay muted loop>
+   
+        </video>
+	
+</div> -->
+
+<div class="hero-slider" style="padding: 0px; position: relative; overflow: hidden;" >
+	<ul class="slides" style="list-style-type: none; height: 300; position: relative; overflow: hidden; .preserve-3d;">
+<li class="video-header flex-active-slide">
+      <div class="video-wrapper">
+        <video autoplay muted loop>
+          <source src="mission-bay-center" >
+        </video>
+      </div>
+    </li>
+
+  
+</li>
+<ul>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+
+    
+  
+    
+      
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="text-block text-block-centered">
+  <h2>September 21, 2024 in San Francisco, CA</h2>
+<p>Join us for at gathering of Python developers in the San Francisco Bay Area. We'll discuss software development, data science, community, and of course: Python.</p>
 <h2>What's New At PyBay This Year?</h2>
 <p>PyBay has moved INDOORS for this years conference.  We are returning to the Mission Bay Conference Center which hosted PyBay in 2018 and 2019.</p>
 
-
+</div>
+      </div>
     </div>
+  </div>
+
     
+  
+
+
   </div>
 
   
@@ -65,9 +164,10 @@
 
     
   </footer>
-  <script type=text/javascript src="static/gen/app.js?h=86e1e782" charset="utf-8"></script>
+  <script type=text/javascript src="" charset="utf-8"></script>
   <!-- Latest compiled and minified JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 <script src="https://kit.fontawesome.com/f4feb5c95e.js" crossorigin="anonymous"></script>
 </body>
 

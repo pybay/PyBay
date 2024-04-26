@@ -1,6 +1,6 @@
 _model: poster
 ---
-title: Test
+title: Test1
 ---
 body:
 
@@ -27,3 +27,9 @@ text:
   system or cloud storage like Dropbox.
 ----
 class: two-column-list
+---
+_slug: 
+---
+short: test1
+---
+_hidden: no

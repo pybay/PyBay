@@ -1,0 +1,30 @@
+{% set video = record.attachments.get(this.video) %}
+<!-- <div class="video-header" >
+	<video class="object-fit-fill"  src="{{ video|url
+  }}" autoplay muted loop>
+   
+        </video>
+	{% if this.contents %}
+  {{ this.contents }}
+{% endif %}
+</div> -->
+
+<div class="hero-slider" style="padding: 0px; position: relative; overflow: hidden;" >
+	<ul class="slides" style="list-style-type: none; height: {{ this.height }}; position: relative; overflow: hidden; .preserve-3d;">
+<li class="video-header flex-active-slide">
+      <div class="video-wrapper">
+        <video autoplay muted loop>
+          <source src="{{ video|url
+  }}" >
+        </video>
+      </div>
+    </li>
+
+  {% if this.contents %}
+{{ this.contents }}
+{% endif %}
+</li>
+<ul>
+</div>
+
+

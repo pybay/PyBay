@@ -1,0 +1,67 @@
+_model: poster
+---
+title: Attending
+---
+body:
+
+#### banner ####
+image: conference-venue.gif
+----
+height: 300
+----
+contents: 
+#### text-block ####
+text:
+
+###Venue
+
+PyBay is returning to our Indoor conference venue at University of California San Francisco. 
+
+Mission Bay Conference Center at UCSF
+
+1675 Owens Street | Suite 251 | San Francisco, CA 94143-3008
+
+[Venue](http://www.acc-missionbayconferencecenter.com/)
+
+
+
+### Map
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6307.893282852009!2d-122.39562602277908!3d37.7678493125568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7fcefeed530f%3A0xcb08bae8f5ba0a48!2sMission%20Bay%20Conference%20Center!5e0!3m2!1sen!2sus!4v1713979345847!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+ 
+### Parking and Transportation
+
+If this is your first visit to San Francisco, then this guide can help you use public transportation in the city.
+
+[SF Travel Guide](https://www.sftravel.com/info/transportation-basics-how-to-get-around-san-francisco)
+
+The conference venue also has detailed public transit information available.
+
+[Conference Venue Transportation Recommendations](http://www.acc-missionbayconferencecenter.com/visiting-mbcc/parking-and-public-transportation.html)
+
+There is also several parking garages in the immediate area around the conference venue which can be reserved in advance.
+
+[Area Parking Garages](https://en.parkopedia.com/parking/garage/1670_owens_street_garage/94107/san_francisco/?arriving=202404241100&leaving=202404241300)
+----
+class: default
+#### banner ####
+image: cdbg.jpg
+----
+height: 300
+----
+contents: 
+#### text-block ####
+text:
+
+### Hotels
+
+* [Hyatt Place San Francisco Downtown](https://www.hyatt.com/hyatt-place/en-US/sfozs-hyatt-place-san-francisco-downtown)
+701 3rd St, San Francisco, CA, 94107
+
+* [San Francisco Marriott Marquis](https://www.marriott.com/en-us/hotels/sfodt-san-francisco-marriott-marquis/overview/)
+780 Mission St, San Francisco, CA 94103
+----
+class: default
+---
+short: Attending

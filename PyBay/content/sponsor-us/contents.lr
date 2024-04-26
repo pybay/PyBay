@@ -1,56 +1,11 @@
 _model: page
 ---
-title: Sponsor Us
+title: Sponsors
 ---
-body:
-
-The PyBay Conference is an annual gathering of Pythonistas put on by the Bay Area Python Association. We’re excited to announce
-that we will be returning on September 21, 2024, to the UCSF Mission Bay Conference Center in San Francisco, CA. This event is 100%
-community organized and is funded through the generosity of our sponsors.
-
-## About the Bay Area Python Association and PyBay Conference
-
-The Bay Area Python Association is a 501(c)3 non-profit organization dedicated to educating
-developers within the San Francisco Bay about Python. The PyBay Conference is the main fundraising event of the year. The event is an annual one that has been held every year since 2016 (with a few exceptions), making this the 9th year. 
-**On average, we sell out our venue and have 200-250 attendees a year.**
-
-## 2024 Prospectus
-
-
-
-## Notable Changes in our Prospectus
-
-We have updated our prospectus for 2024 to include more benefits to sponsors and
-to help us attract sponsors whom we believe our attendees will love. A few key 
-things to highlight:
- * [Insert highlights]
-
-## How We Use The Funds
-
-All sponsorship funds are used for the benefit of the PyBay Conference and
-Bay Area Python Association and the San Francisco Python community. We utilize funds to pay our venue, 
-vendors, supplies, and all other things conference related. Any surplus funds that we
-collect are used to fund the minimal operating cost of the Bay Area Python Association for the
-remainder of the year (primarily costs around bookkeeping, email, and foundation
-governance), as well as make next year’s PyBay better.
-
-Also, in an attempt to make PyBay as accessible as possible to everyone, we 
-subsidize our Individual ticket prices with Corporate tickets and Sponsorship 
-funds. By doing this we are able to keep PyBay Individual tickets as low as
-possible, ensuring that everyone can attend.
-
-## Health and Safety
-
-Our attendees' health and safety remain our top priority as we continue to monitor
-the state of the pandemic and look to venue, local, state, and CDC guidelines to
-make the best and most informed decisions around onsite safety and requirements.
-
-
-You can view our full [Health and Safety Requirements](../../attend#2024-health-and-safety-guidelines) on our website.
-
-----
-
-Thank you for considering to sponsor PyBay.
-
-If you’re interested in sponsoring PyBay, please reach out to 
-[sponsorship@pybay.com](mailto:sponsorship@pybay.com). 
+body: 
+---
+short: Sponsors
+---
+_slug: sponsors
+---
+_hidden: no

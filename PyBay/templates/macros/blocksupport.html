@@ -23,7 +23,7 @@
 {% endmacro %}
 
 {% macro render_full_width_blocks(blocks, classes='col-md-8 col-md-offset-2') %}
-  {% if blocks and blocks[0]._flowblock != 'banner' and caller %}
+  {% if blocks and blocks[0]._flowblock != 'banner' and blocks[0]._flowblock != 'video-banner' and caller %}
     {{ render_container(caller(), classes) }}
   {% endif %}
   {% for blk in blocks %}

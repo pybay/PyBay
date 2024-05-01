@@ -992,3 +992,18 @@ button.js-gitter-toggle-chat-button {
   height: calc(100% - 20px);
 }
 
+/* Responsive Google Slides, Google Maps, YouTube & Vimeo */
+iframe[src*="docs.google.com"],
+iframe[src*="google.com/maps"],
+iframe[src*="youtube.com"],
+iframe[src*="player.vimeo.com"]{
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+@media (max-width: 600px) {
+  video {
+    display: none;
+  }
+}

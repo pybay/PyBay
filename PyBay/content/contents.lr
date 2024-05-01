@@ -10,6 +10,8 @@ video: video.ogv
 height: 300
 ----
 contents: 
+----
+center_image: 
 #### text-block ####
 text:
 
@@ -21,6 +23,41 @@ Join us for at gathering of Python developers in the San Francisco Bay Area. We'
 PyBay has moved **indoors** for this years conference.  We are returning to the Mission Bay Conference Center which hosted PyBay in 2018 and 2019.
 ----
 class: centered
+#### text-block ####
+text:
+
+#### I am interest in...
+<div class="row">
+<div class="col-md-4 card text-center">
+  <div class="card-header">
+    <i class="fa-solid fa-building"></i> Attending
+  </div>
+  <div class="card-body">
+    <p class="card-text">We will be returning to the Mission Bay Conference Center</p>
+    <a href="/attending" class="btn btn-outline-secondary">Learn More</a>
+  </div>
+</div>
+<div class="col-md-4 card text-center">
+  <div class="card-header">
+    <i class="far fa-handshake"></i> Sponsoring
+  </div>
+  <div class="card-body">
+    <p class="card-text">PyBay wouldn't be possible without our sponsors. Check out our prospectus and sponsor PyBay today.</p>
+    <a href="/sponsors/sponsor-us/" class="btn btn-outline-secondary">Sponsor Us</a>
+  </div>
+</div>
+<div class="col-md-4 card text-center">
+  <div class="card-header">
+    <i class="fa-solid fa-microphone-lines"></i> Speaking
+  </div>
+  <div class="card-body">
+    <p class="card-text">Our call for proposals is available now! Submit your talk proposal today!</p>
+    <a href="/speaking" class="btn btn-outline-secondary">Submit Talks</a>
+  </div>
+</div>
+</div>
+----
+class: default
 ---
 _slug: 
 ---

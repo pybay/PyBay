@@ -1,5 +1,15 @@
-title: About the PyBay 2024 Conference
+_model: poster
 ---
-body: 
+title: About PyBay 2024
+---
+body:
+
+#### text-block ####
+text:
+
+## About PyBay
+PyBay is an annual conference gathering of Pythonistas put on by the Bay Area Python Association. We’re excited to announce that we will be returning on September 21, 2024, to the UCSF Mission Bay Conference Center in San Francisco, CA. This event is 100% community organized.
+----
+class: centered
 ---
 short: About

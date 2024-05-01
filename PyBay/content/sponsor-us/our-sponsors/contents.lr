@@ -1,10 +1,83 @@
-_model: page
+_model: sponsor-display
 ---
 title: Our Sponsors
 ---
 body:
 
+#### tier-block ####
+tier_name: Gold
+----
+description:
 
-[This could be you! See our sponsor prospectus](sponsor-us)
+These are the perks for this tier.
+ - one thing
+ - another thing
+----
+amount: 12000
+----
+visual_display: centered
+----
+add_sponsors:
+
+##### sponsor-block #####
+sponsor_company: Default
+-----
+sponsored_text:
+
+This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text 
+-----
+logo_image: your-logo-here.png
+-----
+sponsor_url: https://www.google.com
+#### tier-block ####
+tier_name: Silver
+----
+description:
+
+These are the perks for this tier.
+ - one thing
+ - another thing
+----
+amount: 7500
+----
+visual_display: centered
+----
+add_sponsors:
+
+##### sponsor-block #####
+sponsor_company: Default
+-----
+sponsored_text:
+
+This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text 
+-----
+logo_image: your-logo-here.png
+-----
+sponsor_url: https://www.google.com
+#### tier-block ####
+tier_name: Bronze
+----
+description:
+
+These are the perks for this tier.
+ - one thing
+ - another thing
+----
+amount: 5000
+----
+visual_display: centered
+----
+add_sponsors:
+
+##### sponsor-block #####
+sponsor_company: Default
+-----
+sponsored_text:
+
+This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text 
+-----
+logo_image: your-logo-here.png
+-----
+sponsor_url: https://google.com
 ---
 short: Our Sponsors

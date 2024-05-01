@@ -1,6 +1,7 @@
 [project]
 name = PyBay
 url_style = relative
+included_assets = logos/*
 
 [packages]
 lektor-webpack-support = 0.6.0

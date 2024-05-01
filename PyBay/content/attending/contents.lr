@@ -43,16 +43,6 @@ The conference venue also has detailed public transit information available.
 There is also several parking garages in the immediate area around the conference venue which can be reserved in advance.
 
 [Area Parking Garages](https://en.parkopedia.com/parking/garage/1670_owens_street_garage/94107/san_francisco/?arriving=202404241100&leaving=202404241300)
-----
-class: default
-#### banner ####
-image: cdbg.jpg
-----
-height: 300
-----
-contents: 
-#### text-block ####
-text:
 
 ### Hotels
 
@@ -63,5 +53,11 @@ text:
 780 Mission St, San Francisco, CA 94103
 ----
 class: default
+#### banner ####
+image: cdbg.jpg
+----
+height: 300
+----
+contents: 
 ---
 short: Attending

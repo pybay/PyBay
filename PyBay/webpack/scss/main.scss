@@ -1007,3 +1007,14 @@ iframe[src*="player.vimeo.com"]{
     display: none;
   }
 }
+
+.navbar-brand {
+  padding: 0px; /* firefox bug fix */
+}
+.navbar-brand>img {
+  src: url("../logos/pybay-logo.png")
+  height: 100%;
+  padding: 15px; /* firefox bug fix */
+  width: auto;
+  max-width: 240px;
+}

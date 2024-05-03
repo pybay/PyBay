@@ -34,7 +34,7 @@ text:
   </div>
   <div class="card-body">
     <p class="card-text">We will be returning to the Mission Bay Conference Center</p>
-    <a href="/attending" class="btn btn-outline-secondary">Learn More</a>
+    <a href="./attending" class="btn btn-outline-secondary">Learn More</a>
   </div>
 </div>
 <div class="col-md-4 card text-center">
@@ -43,7 +43,7 @@ text:
   </div>
   <div class="card-body">
     <p class="card-text">PyBay wouldn't be possible without our sponsors. Check out our prospectus and sponsor PyBay today.</p>
-    <a href="/sponsors/sponsor-us/" class="btn btn-outline-secondary">Sponsor Us</a>
+    <a href="./sponsors/sponsor-us/" class="btn btn-outline-secondary">Sponsor Us</a>
   </div>
 </div>
 <div class="col-md-4 card text-center">
@@ -52,7 +52,7 @@ text:
   </div>
   <div class="card-body">
     <p class="card-text">Our call for proposals is available now! Submit your talk proposal today!</p>
-    <a href="/speaking" class="btn btn-outline-secondary">Submit Talks</a>
+    <a href="./speaking" class="btn btn-outline-secondary">Submit Talks</a>
   </div>
 </div>
 </div>

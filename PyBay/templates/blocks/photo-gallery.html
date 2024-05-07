@@ -1,0 +1,12 @@
+{% from 'macros/blocksupport.html' import render_container %}
+<div class="row text-center">
+<h2>{{ this.gallery_name }}</h1>
+{% if this.info.url %}
+<a href="{{ this.info.url|url }}" ><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+{% endif %}
+</div>
+<div class="gallery row  justify-content-between">
+{% for photo_image in this.add_gallery_members.blocks %}
+{{ photo_image }}
+{% endfor %}
+</div>

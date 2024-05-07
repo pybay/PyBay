@@ -1002,7 +1002,7 @@ iframe[src*="player.vimeo.com"]{
   aspect-ratio: 16 / 9;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   video {
     display: none;
   }
@@ -1017,3 +1017,11 @@ iframe[src*="player.vimeo.com"]{
   width: auto;
   max-width: 240px;
 }
+
+.icon-bar {
+    font-size: 28px;
+    a {
+      margin-right: 10px;
+      text-decoration: none;
+    }
+  }

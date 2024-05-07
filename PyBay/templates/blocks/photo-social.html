@@ -1,1 +1,24 @@
-{% set gallery_image = record.attachments.get(this.image) %}
+{% set gallery_image = record.attachments.get(this.gallery_image) %}
+
+<div class="col-md-2  text-center justify-content-between">
+<img src="{{ gallery_image|url}}" alt="{{ this.gallery_name }}" class="img-rounded img-fluid img-thumbnail">
+<div class="heavy-header blue-header">
+  <h4>{{ this.gallery_name }}</h4></div>
+<p>{{ this.gallery_title }}</p>
+{% if this.twitter or this.linkedin or this.mastodon or this.instagram %}
+<div class="icon-bar">
+{% if this.twitter.url %}
+  <a href="{{ this.twitter.url|url }}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></i></a>
+ {% endif %}
+ {% if this.linkedin.url %}
+  <a href="{{ this.linkedin.url|url }}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+ {% endif %}
+  {% if this.mastodon.url %}
+  <a href="{{ this.mastodon.url|url }}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-mastodon"></i></a>
+ {% endif %}
+  {% if this.instagram.url %}
+  <a href="{{ this.instagram.url|url }}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+ {% endif %}
+</div>
+{% endif %}
+</div>

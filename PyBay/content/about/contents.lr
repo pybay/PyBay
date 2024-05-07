@@ -11,5 +11,135 @@ text:
 PyBay is an annual conference gathering of Pythonistas put on by the Bay Area Python Association. We’re excited to announce that we will be returning on September 21, 2024, to the UCSF Mission Bay Conference Center in San Francisco, CA. This event is 100% community organized.
 ----
 class: centered
+#### photo-gallery ####
+gallery_name: Organizers
+----
+info: 
+----
+column_number: 3
+----
+add_gallery_members:
+
+##### photo-social #####
+gallery_name: Swetha Chandraprakash
+-----
+gallery_image: swethachandraprakash-square.jpg
+-----
+gallery_title: Sponsorship Chair
+-----
+linkedin: https://www.linkedin.com/in/swetha-chandraprakash-95666990/
+-----
+mastodon: 
+-----
+twitter: 
+-----
+instagram: 
+##### photo-social #####
+gallery_name: Christopher Brousseau
+-----
+gallery_image: christopherbrousseau-square.jpg
+-----
+gallery_title: Conference Chair
+-----
+linkedin: https://www.linkedin.com/in/chrisbrousseau/
+-----
+mastodon: 
+-----
+twitter: 
+-----
+instagram: 
+##### photo-social #####
+gallery_name: Mehul Jikadra
+-----
+gallery_image: mehuljikadra-square.jpg
+-----
+gallery_title: Organizer
+-----
+linkedin: https://www.linkedin.com/in/mehul-jikadra/
+-----
+mastodon: 
+-----
+twitter: 
+-----
+instagram: 
+#### photo-gallery ####
+gallery_name: BAPyA Board
+----
+info: https://bapya.org
+----
+column_number: 5
+----
+add_gallery_members:
+
+##### photo-social #####
+gallery_name: James Abel
+-----
+gallery_image: jamesabel-square.jpg
+-----
+gallery_title: Director
+-----
+linkedin: https://www.linkedin.com/in/jamesabel
+-----
+mastodon: 
+-----
+twitter: 
+-----
+instagram: 
+##### photo-social #####
+gallery_name: Phebe Polk
+-----
+gallery_image: phebepolk-square.jpg
+-----
+gallery_title: Treasurer
+-----
+linkedin: https://www.linkedin.com/in/phebepolk/
+-----
+mastodon: https://fosstodon.org/@polkphebe
+-----
+twitter: 
+-----
+instagram: 
+##### photo-social #####
+gallery_name: Moshe Zadka
+-----
+gallery_image: moshezadka-square.jpg
+-----
+gallery_title: Secretary
+-----
+linkedin: https://www.linkedin.com/in/moshezadka
+-----
+mastodon: 
+-----
+twitter: 
+-----
+instagram: 
+##### photo-social #####
+gallery_name: Karen Dalton
+-----
+gallery_image: karendalton-square.jpg
+-----
+gallery_title: Board Member
+-----
+linkedin: https://www.linkedin.com/in/karend/
+-----
+mastodon: 
+-----
+twitter: 
+-----
+instagram: 
+##### photo-social #####
+gallery_name: Mahmoud Hashemi
+-----
+gallery_image: mahmoudhashemi-square.jpg
+-----
+gallery_title: Board Member
+-----
+linkedin: https://www.linkedin.com/in/mahmoudhashemi
+-----
+mastodon: 
+-----
+twitter: 
+-----
+instagram: 
 ---
 short: About

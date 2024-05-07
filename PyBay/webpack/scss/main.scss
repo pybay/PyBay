@@ -1002,7 +1002,7 @@ iframe[src*="player.vimeo.com"]{
   aspect-ratio: 16 / 9;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   video {
     display: none;
   }
@@ -1012,9 +1012,16 @@ iframe[src*="player.vimeo.com"]{
   padding: 0px; /* firefox bug fix */
 }
 .navbar-brand>img {
-  src: url("../logos/pybay-logo.png")
   height: 100%;
   padding: 15px; /* firefox bug fix */
   width: auto;
   max-width: 240px;
 }
+
+.icon-bar {
+    font-size: 28px;
+    a {
+      margin-right: 10px;
+      text-decoration: none;
+    }
+  }

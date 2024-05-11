@@ -167,3 +167,6 @@ packages/*/dist
 */webpack/node_modules/*
 *~
 *#
+
+# gh-pages
+docs/CNAME

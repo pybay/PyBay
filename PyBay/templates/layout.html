@@ -46,24 +46,25 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 
       <ul class="nav navbar-nav">
-        {% for project in site.get('/').children %}
-        {% if project.children %}
+        {% for child in site.get('/').children %}
+        {% if child.children %}
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="{{ project|url }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            {{ project.short }}
+          <a class="nav-link dropdown-toggle" href="{{ child|url }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{ child.short }}
           </a>
           <ul class="dropdown-menu">
-            {% for subproj in project.children %}
-            <li><a class="dropdown-item" href="{{ subproj|url }}">{{ subproj.short }}</a></li>
+            {% for grandchild in child.children %}
+            <li><a class="dropdown-item" href="{{ grandchild|url }}">{{ grandchild.short }}</a></li>
             {% endfor %}
           </ul>
         </li>
 
         {% else %}
+        {% if child._id != "coming-soon" %}
                   <li class="nav-item">
-            <a href="{{ project|url }}" class="nav-link">{{ project.short }}</a></li>
+            <a href="{{ child|url }}" class="nav-link">{{ child.short }}</a></li>
         {% endif %}
-
+        {% endif %}
 
         {% endfor %}
       </ul>

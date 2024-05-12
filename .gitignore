@@ -169,4 +169,4 @@ packages/*/dist
 *#
 
 # gh-pages
-docs/CNAME
+*/docs/CNAME

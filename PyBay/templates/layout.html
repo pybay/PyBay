@@ -29,8 +29,8 @@
         <meta name="description" content="{{ share_desc }}" />
 
         {% endblock %} -->
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
+        <html lang="en">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block title %}PyBay 2024{% endblock %}</title>
 </head>
 <body>
@@ -38,8 +38,8 @@
     <div class="container">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="{{ site.get('/')|url }}">
-          <img src="{{ site.get('/')|url }}/pybay-logo.png">
+        <a class="navbar-brand" href="{{ site.get('/')|url }}" aria-label="pybay-logo"/>
+        <img src="/pybay-logo.png" alt="PyBay Conference Logo">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -50,25 +50,25 @@
         {% for child in site.get('/').children %}
         {% if child.children %}
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="{{ child|url }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            {{ child.short }}
-          </a>
-          <ul class="dropdown-menu">
-            {% for grandchild in child.children %}
-            <li><a class="dropdown-item" href="{{ grandchild|url }}">{{ grandchild.short }}</a></li>
-            {% endfor %}
-          </ul>
+            <a class="nav-link dropdown-toggle" href="{{ child|url }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                {{ child.short }}
+            </a>
+            <ul class="dropdown-menu">
+                {% for grandchild in child.children %}
+                <li><a class="dropdown-item" href="{{ grandchild|url }}">{{ grandchild.short }}</a></li>
+                {% endfor %}
+            </ul>
         </li>
-
         {% else %}
         {% if child._id != "coming-soon" %}
-                  <li class="nav-item">
-            <a href="{{ child|url }}" class="nav-link">{{ child.short }}</a></li>
+        <li class="nav-item">
+            <a href="{{ child|url }}" class="nav-link">{{ child.short }}</a>
+        </li>
         {% endif %}
         {% endif %}
-
         {% endfor %}
-      </ul>
+    </ul>
+    
     </div>
 
     </nav>

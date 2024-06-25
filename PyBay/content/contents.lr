@@ -15,15 +15,35 @@ center_image:
 #### text-block ####
 text:
 
-## September 21, 2024 in San Francisco, CA
+# September 21, 2024 in San Francisco, CA
+<div class="row">
+  <div class="col">
+    <span class="dial"><span id="days" class="countdown-number">.</span> D</span>
+    <span class="dial"><span id="hours" class="countdown-number">.</span> H</span>
+    <span class="dial"><span id="minutes" class="countdown-number">.</span> M</span>
+    <span class="dial"><span id="seconds" class="countdown-number">.</span> S</span>
+  </div>
+</div>
+
+<br>
+
+<br>
 
 Join us for at gathering of Python developers in the San Francisco Bay Area.
 
 We'll discuss software development, data science, community, and of course: Python.
 
+<br>
 
-<a href="https://pretix.eu/bapya/pybay-2024/" class="btn btn-outline-secondary">Buy tickets</a>
+<br>
 
+<a href="https://pretix.eu/bapya/pybay-2024/" class="btn attention text-white" style="background-color: #00749E">
+  Buy tickets
+</a>
+
+<br>
+
+<br>
 
 ## What's New At PyBay This Year?
 PyBay is returning to the **Mission Bay Conference Center** which hosted PyBay in the past.
@@ -32,36 +52,44 @@ class: centered
 #### text-block ####
 text:
 
-#### I am interest in...
+<br>
+
+<br>
+
 <div class="row">
 <div class="col-md-4 card text-center">
   <div class="card-header">
-    <i class="fa-solid fa-building"></i> Attending
+    <span class="iwrap"><i class="fa-solid fa-building"></i></span>
   </div>
   <div class="card-body">
+    <b>attending</b>
     <p class="card-text">We will be returning to the Mission Bay Conference Center</p>
-    <a href="./attending" class="btn btn-outline-secondary">Learn More</a>
+    <a href="./attending" class="btn btn-primary">Learn More</a>
   </div>
 </div>
 <div class="col-md-4 card text-center">
   <div class="card-header">
-    <i class="far fa-handshake"></i> Sponsoring
+    <span class="iwrap"><i class="far fa-handshake"></i></span>
   </div>
   <div class="card-body">
+    <b>sponsoring</b>
     <p class="card-text">PyBay wouldn't be possible without our sponsors. Check out our prospectus and sponsor PyBay today.</p>
-    <a href="./sponsors/sponsor-us/" class="btn btn-outline-secondary">Sponsor Us</a>
+    <a href="./sponsors/sponsor-us/" class="btn btn-primary">Sponsor Us</a>
   </div>
 </div>
 <div class="col-md-4 card text-center">
   <div class="card-header">
-    <i class="fa-solid fa-microphone-lines"></i> Speaking
+    <span class="iwrap"><i class="fa-solid fa-microphone-lines"></i> </span>
   </div>
   <div class="card-body">
+    <b>speaking</b>
     <p class="card-text">Our call for proposals is available now! Submit your talk proposal today!</p>
-    <a href="./speaking" class="btn btn-outline-secondary">Submit Talks</a>
+    <a href="./speaking" class="btn rainbow">Submit Talks</a>
   </div>
 </div>
 </div>
+
+
 ----
 class: default
 ---

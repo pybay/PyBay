@@ -1,6 +1,6 @@
 {% set gallery_image = record.attachments.get(this.gallery_image) %}
 
-<div class="col-md-2  text-center justify-content-between">
+<div class="gallery-image col-md-2  text-center justify-content-between">
 <img src="{{ gallery_image|url}}" alt="{{ this.gallery_name }}" class="img-rounded img-fluid img-thumbnail">
 <div class="heavy-header blue-header">
   <h4>{{ this.gallery_name }}</h4></div>

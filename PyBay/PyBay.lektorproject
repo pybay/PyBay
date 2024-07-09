@@ -3,5 +3,8 @@ name = PyBay
 url_style = relative
 included_assets = logos/*
 
+[servers.production]
+target = ghpages://github.com/pybay/PyBay?cname=pybay.org
+
 [packages]
 lektor-webpack-support = 0.6.0

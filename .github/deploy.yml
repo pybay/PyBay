@@ -1,0 +1,37 @@
+name: "Deploy site"
+
+on:
+  pull_request:
+    branches:
+      - "*"
+  push:
+    branches:
+      - "staging"
+  workflow_dispatch:
+    # Allow manually running workflow
+
+env:
+  OUTPUT: ../_site
+
+jobs:
+  build:
+    name: Build lektor website
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "lts/*"
+
+      - name: Install Lektor
+        run: |
+          python -m pip install --upgrade pip setuptools
+          python -m pip install lektor
+
+      - name: Build lektor website
+        run: cd PyBay; lektor build -f webpack -O '${{ env.OUTPUT }}'
+      - uses: actions/upload-pages-artifact@v3
+

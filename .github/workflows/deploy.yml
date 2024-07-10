@@ -34,4 +34,5 @@ jobs:
       - name: Build lektor website
         run: cd PyBay; lektor build -f webpack -O '${{ env.OUTPUT }}'
       - uses: actions/upload-pages-artifact@v3
+      - uses: actions/deploy-pages@v4
 

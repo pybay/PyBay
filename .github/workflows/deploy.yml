@@ -16,6 +16,12 @@ permissions:
 
 
 env:
+  DEPLOY: >-
+    ${{
+    github.event_name != 'pull_request'
+    &&
+    github.ref == 'refs/heads/main'
+    }}
   OUTPUT: ../_site
 
 jobs:
@@ -39,5 +45,7 @@ jobs:
       - name: Build lektor website
         run: cd PyBay; lektor build -f webpack -O '${{ env.OUTPUT }}'
       - uses: actions/upload-pages-artifact@v3
-      - uses: actions/deploy-pages@v4
+      - name: Deploy lektor
+        if: env.DEPLOY == 'true'
+        uses: actions/deploy-pages@v4
 

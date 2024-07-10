@@ -8,16 +8,16 @@
 {% if this.twitter or this.linkedin or this.mastodon or this.instagram %}
 <div class="icon-bar">
 {% if this.twitter.url %}
-  <a href="{{ this.twitter.url|url }}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></i></a>
+  <a href="{{ this.twitter.url }}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></i></a>
  {% endif %}
  {% if this.linkedin.url %}
-  <a href="{{ this.linkedin.url|url }}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+  <a href="{{ this.linkedin.url }}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
  {% endif %}
   {% if this.mastodon.url %}
-  <a href="{{ this.mastodon.url|url }}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-mastodon"></i></a>
+  <a href="{{ this.mastodon.url }}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-mastodon"></i></a>
  {% endif %}
   {% if this.instagram.url %}
-  <a href="{{ this.instagram.url|url }}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+  <a href="{{ this.instagram.url }}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
  {% endif %}
 </div>
 {% endif %}

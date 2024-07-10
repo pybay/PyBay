@@ -68,6 +68,22 @@ mastodon:
 twitter: 
 -----
 instagram: 
+##### photo-social #####
+gallery_name:
+
+ Laura Langdon
+-----
+gallery_image: laura-langdon.png
+-----
+gallery_title: Logistics Chair
+-----
+linkedin: https://www.linkedin.com/in/laura-langdon
+-----
+mastodon: https://hachyderm.io/@LauraLangdon
+-----
+twitter: 
+-----
+instagram: 
 #### photo-gallery ####
 gallery_name: BAPyA Board
 ----

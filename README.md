@@ -2,7 +2,7 @@
 
 ### Contributing
 
- - Create branch from dev branch
+ - Create branch from main branch
  - Open branch in Codespace
  - Install lektor (`pipx install lektor`)
  - Run local instance on server in subdirectory ( `cd PyBay`) and (`lektor server -f webpack`)

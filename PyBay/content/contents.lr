@@ -64,7 +64,7 @@ text:
   <div class="card-body">
     <b>attending</b>
     <p class="card-text">We will be returning to the Mission Bay Conference Center</p>
-    <a href="./attending" class="btn btn-primary">Learn More</a>
+    <a href="./attending" class="btn rainbow">Learn More</a>
   </div>
 </div>
 <div class="col-md-4 card text-center">
@@ -83,13 +83,11 @@ text:
   </div>
   <div class="card-body">
     <b>speaking</b>
-    <p class="card-text">Our call for proposals is available now! Submit your talk proposal today!</p>
-    <a href="./speaking" class="btn rainbow">Submit Talks</a>
+    <p class="card-text">Check out our speakers!</p>
+    <a href="./speaking" class="btn btn-primary">Speakers</a>
   </div>
 </div>
 </div>
-
-
 ----
 class: default
 ---

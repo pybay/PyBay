@@ -2,11 +2,16 @@
 <div class="row text-center">
 <h2>{{ this.gallery_name }}</h1>
 {% if this.info.url %}
-<a href="{{ this.info.url|url }}" ><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+<a href="{{ this.info.url }}" ><i class="fa fa-info-circle" aria-hidden="true"></i></a>
 {% endif %}
 </div>
-<div class="gallery row  justify-content-between">
-{% for photo_image in this.add_gallery_members.blocks %}
+<br>
+
+{% for photo_images in this.add_gallery_members.blocks|slice(2) %}
+<div class="gallery row  justify-content-around">
+{% for photo_image in photo_images%}
 {{ photo_image }}
 {% endfor %}
 </div>
+<br>
+{% endfor %}

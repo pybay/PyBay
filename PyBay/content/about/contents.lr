@@ -98,6 +98,20 @@ mastodon:
 twitter: https://www.x.com/__darlene__
 -----
 instagram: 
+##### photo-social #####
+gallery_name: Evan Xu
+-----
+gallery_image: evan-southamerica.JPG
+-----
+gallery_title: Volunteer Chair
+-----
+linkedin: https://www.linkedin.com/in/evanwxu/
+-----
+mastodon: 
+-----
+twitter: 
+-----
+instagram: 
 #### photo-gallery ####
 gallery_name: BAPyA Board
 ----
@@ -108,20 +122,6 @@ column_number: 5
 add_gallery_members:
 
 ##### photo-social #####
-gallery_name: James Abel
------
-gallery_image: jamesabel-square.jpg
------
-gallery_title: Director
------
-linkedin: https://www.linkedin.com/in/jamesabel
------
-mastodon: 
------
-twitter: 
------
-instagram: 
-##### photo-social #####
 gallery_name: Phebe Polk
 -----
 gallery_image: phebepolk-square.jpg
@@ -131,6 +131,20 @@ gallery_title: Treasurer
 linkedin: https://www.linkedin.com/in/phebepolk/
 -----
 mastodon: https://fosstodon.org/@polkphebe
+-----
+twitter: 
+-----
+instagram: 
+##### photo-social #####
+gallery_name: James Abel
+-----
+gallery_image: jamesabel-square.jpg
+-----
+gallery_title: Director
+-----
+linkedin: https://www.linkedin.com/in/jamesabel
+-----
+mastodon: 
 -----
 twitter: 
 -----

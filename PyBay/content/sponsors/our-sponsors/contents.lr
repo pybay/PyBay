@@ -20,15 +20,15 @@ visual_display: centered
 add_sponsors:
 
 ##### sponsor-block #####
-sponsor_company: Default
+sponsor_company: Intuit
 -----
 sponsored_text:
 
-This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text 
+<a href=https://www.intuit.com/>Intuit</a> is the global financial technology platform that powers prosperity for the people and communities we serve. With 100 million customers worldwide using <a href=https://turbotax.intuit.com/>TurboTax</a>, <a href=https://www.creditkarma.com/>Credit Karma</a>, <a href=https://quickbooks.intuit.com/>QuickBooks</a>, and <a href=https://mailchimp.com/>Mailchimp</a>, we believe that everyone should have the opportunity to prosper. We never stop working to find new, innovative ways to make that possible. 
 -----
-logo_image: your-logo-here.png
+logo_image: intuit-cornerstone-brand-lockup-2-line-color-1920x1080.png
 -----
-sponsor_url: https://www.google.com
+sponsor_url: https://www.intuit.com/
 #### tier-block ####
 tier_name: Silver
 ----
@@ -45,15 +45,13 @@ visual_display: centered
 add_sponsors:
 
 ##### sponsor-block #####
-sponsor_company: Default
+sponsor_company: neo4j
 -----
-sponsored_text:
-
-This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text 
+sponsored_text: Neo4j, the Graph Database & Analytics leader, helps organizations find hidden relationships and patterns across billions of data connections deeply, easily and quickly. Customers leverage the structure of their connected data to reveal new ways of solving their most pressing business problems, with Neo4j’s full graph stack and a vibrant community of developers, data scientists and architects across hundreds of Fortune 500 companies. Visit <a href=https://neo4j.com/>neo4j.com</a>.
 -----
-logo_image: your-logo-here.png
+logo_image: logo-fullcolor-transbg-750x486.png
 -----
-sponsor_url: https://www.google.com
+sponsor_url: https://neo4j.com/
 #### tier-block ####
 tier_name: Bronze
 ----
@@ -70,14 +68,50 @@ visual_display: centered
 add_sponsors:
 
 ##### sponsor-block #####
-sponsor_company: Default
+sponsor_company: Python Software Foundation
 -----
-sponsored_text:
+sponsored_text: The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. The majority of the PSF's work is focused on empowering and supporting people within the Python community. The PSF has active grant programs that support sprints, conferences, meet ups, user groups, and Python development efforts all over the world. In addition, the PSF underwrites and runs PyCon US, the primary Python community conference. Being part of the PSF means being part of the Python community. Recently we changed the PSF to an open membership organization, so that everyone who uses and supports Python can join. To learn more, visit https://www.python.org/psf/membership.
+-----
+logo_image: psf-logo-372x84-alpha.png
+-----
+sponsor_url: https://www.python.org/psf/membership
+#### tier-block ####
+tier_name: Diversity
+----
+description: 
+----
+amount: 2000
+----
+visual_display: centered
+----
+add_sponsors:
 
-This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text that you can have displayed on the website! This is an example of the 100 word summary text 
+##### sponsor-block #####
+sponsor_company: Bloomberg
 -----
-logo_image: your-logo-here.png
+sponsored_text: Bloomberg is building the world's most trusted information network for financial professionals. Our 9,000+ dedicated engineers are advancing and building new systems for the Bloomberg Terminal to solve complex, real-world problems. ​We trust our teams to choose the right technologies for the job; at Bloomberg, the answer’s often Python. Our active community of 4,000+ Python developers have their hands in everything from financial analytics and data science to contributing to open source technologies like Project Jupyter. Bloomberg is a Visionary Sponsor of the Python Software Foundation and hosts many Python community events around the world. <a href=https://www.bloomberg.com/company/values/tech-at-bloomberg/python/>TechAtBloomberg.com/python</a>
 -----
-sponsor_url: https://google.com
+logo_image: new-bloomberg-logo.svg.png
+-----
+sponsor_url: https://www.bloomberg.com/company/values/tech-at-bloomberg/python/
+#### tier-block ####
+tier_name: Community
+----
+description: 
+----
+amount: 3500
+----
+visual_display: centered
+----
+add_sponsors:
+
+##### sponsor-block #####
+sponsor_company: Anaconda
+-----
+sponsored_text: With more than 43 million users, Anaconda is the most popular operating system for AI providing access to the foundational open-source Python packages used in modern AI, data science and machine learning through a seamless platform. We pioneered the use of Python for data science, championed its vibrant community, and continue to steward open-source projects that make tomorrow’s innovations possible. Our enterprise-grade solutions enable corporate, research, and academic institutions around the world to harness the power of open-source for competitive advantage, groundbreaking research, and a better world. To learn more visit https://www.anaconda.com.
+-----
+logo_image: anaconda-logo-rgb.png
+-----
+sponsor_url: https://www.anaconda.com/?utm_source=event-sponsored&utm_medium=event&utm_campaign=PyBay-eventwebsite
 ---
 short: Our Sponsors

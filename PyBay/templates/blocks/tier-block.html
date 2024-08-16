@@ -1,5 +1,5 @@
 {% from 'macros/blocksupport.html' import render_full_width_blocks %}
-<div class="sl-group">
+<div class="sl-group {{this.tier_name}} rotating-gradient">
     <div class="container">
         <div class="row justify-content-md-center">
           <div class="col-sm-12  sl-group-heading text-center">
@@ -11,12 +11,11 @@
     <section class="subscribe-2">
         <div class="container">
           <section class="sponsor-list">
+            <div class="border"></div>
             {{ render_full_width_blocks(this.add_sponsors.blocks, classes='col-md-12') }}
           </section>
         </div>
       </section>
-      <div class="row justify-content-md-center">
-        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-        <a class="btn btn-secondary" href="{{ '/sponsors/sponsor-us/'|url }}"  role="button" aria-disabled="true">Sign Up</a></div></div>
+
 
 </div>

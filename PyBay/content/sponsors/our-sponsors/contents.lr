@@ -113,5 +113,17 @@ sponsored_text: With more than 43 million users, Anaconda is the most popular op
 logo_image: anaconda-logo-rgb.png
 -----
 sponsor_url: https://www.anaconda.com/?utm_source=event-sponsored&utm_medium=event&utm_campaign=PyBay-eventwebsite
+##### sponsor-block #####
+sponsor_company: Hidden Genius Project
+-----
+sponsored_text:
+
+The Hidden Genius Project seeks to reveal the true potential of Black male youth and transform  their communities from the inside out. Through our student-centered, project-based approach, we  invest in young Black men, giving them access to technology training, and plugging them into an  ecosystem of innovation and empowerment. 
+<br>
+Founded in 2012 by five Black male entrepreneurs/technologists who were unnerved by the  dramatic juxtaposition between the high unemployment of Black male youth and the plethora of  career opportunities within the local technology sector. To address this challenge, the founders established a program to connect underserved, young Black males with the skills, mentors, and  experiences they need to become high-performing entrepreneurs and technologists in a 21st  century, global economy.
+-----
+logo_image: hidden-genius-project.png
+-----
+sponsor_url: https://www.hiddengeniusproject.org/
 ---
 short: Our Sponsors

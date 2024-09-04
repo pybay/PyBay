@@ -125,5 +125,13 @@ Founded in 2012 by five Black male entrepreneurs/technologists who were unnerved
 logo_image: hidden-genius-project.png
 -----
 sponsor_url: https://www.hiddengeniusproject.org/
+##### sponsor-block #####
+sponsor_company: NumFOCUS
+-----
+sponsored_text: NumFOCUS is a 501(c)(3) that provides critical resources to some of the world's most leveraged and prominent open-source tools. Our work ensures these essential tools remain accessible, sustainable, and free, empowering researchers and professionals worldwide to achieve groundbreaking discoveries and advancements.
+-----
+logo_image: nf-logo.png
+-----
+sponsor_url: https://numfocus.org/
 ---
 short: Our Sponsors

@@ -52,6 +52,14 @@ sponsored_text: Neo4j, the Graph Database & Analytics leader, helps organization
 logo_image: logo-fullcolor-transbg-750x486.png
 -----
 sponsor_url: https://neo4j.com/
+##### sponsor-block #####
+sponsor_company: Okta
+-----
+sponsored_text: Auth0 by Okta provides a customer identity platform that enables secure, scalable access to any application, for any user. Auth0 offers an implementation that's as simple as development teams want, and as flexible and customizable as they need. Safeguarding billions of login transactions each month, Auth0 delivers convenience, privacy, and security so you can focus on building a great experience for your users. For more information, visit <a href=https://auth0.com>https://auth0.com</a>.
+-----
+logo_image: auth0byokta-stack-rgb-blk.png
+-----
+sponsor_url: https://a0.to/pybay
 #### tier-block ####
 tier_name: Bronze
 ----

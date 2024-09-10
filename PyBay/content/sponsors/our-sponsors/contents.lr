@@ -141,5 +141,13 @@ sponsored_text: NumFOCUS is a 501(c)(3) that provides critical resources to some
 logo_image: nf-logo.png
 -----
 sponsor_url: https://numfocus.org/
+##### sponsor-block #####
+sponsor_company: Zulip
+-----
+sponsored_text: <a href="https://zulip.com/">Zulip</a> is an open-source team chat application designed for seamless remote and hybrid work. With conversations <a href="https://zulip.com/help/introduction-to-topics">organized by topic,</a> Zulip is <a href="https://zulip.com/why-zulip/">ideal</a> for both live and asynchronous communication. Zulip’s 100% open-source software is available as a <a href="https://zulip.com/plans/#cloud">cloud service</a> or a <a href="https://zulip.com/self-hosting/">self-hosted solution,</a> and is used by thousands of organizations around the world.
+-----
+logo_image: zulip-org-logo-500.png
+-----
+sponsor_url: https://zulip.com/
 ---
 short: Our Sponsors

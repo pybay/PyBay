@@ -1,7 +1,0 @@
-_model: redirect
----
-short: Get Tickets
----
-target: http://pretix.eu/bapya/pybay-2024/
----
-title: Get Tickets

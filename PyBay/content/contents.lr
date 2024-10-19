@@ -16,14 +16,7 @@ center_image:
 text:
 
 # September 21, 2024 in San Francisco, CA
-<div class="row">
-  <div class="col">
-    <span class="dial"><span id="days" class="countdown-number">.</span> D</span>
-    <span class="dial"><span id="hours" class="countdown-number">.</span> H</span>
-    <span class="dial"><span id="minutes" class="countdown-number">.</span> M</span>
-    <span class="dial"><span id="seconds" class="countdown-number">.</span> S</span>
-  </div>
-</div>
+
 
 <br>
 
@@ -40,9 +33,7 @@ We'll discuss software development, data science, community, and of course: Pyth
 ## and so much more...
 <br>
 
-<a href="https://pretix.eu/bapya/pybay-2024/" class="btn attention text-white" style="background-color: #00749E">
-  Buy tickets
-</a>
+
 
 <br>
 

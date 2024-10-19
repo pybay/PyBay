@@ -151,3 +151,5 @@ logo_image: zulip-org-logo-500.png
 sponsor_url: https://zulip.com/
 ---
 short: Our Sponsors
+---
+_hidden: yes

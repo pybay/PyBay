@@ -15,7 +15,7 @@ center_image:
 #### text-block ####
 text:
 
-# September 21, 2024 in San Francisco, CA
+# October 2025 in San Francisco, CA
 
 
 <br>
@@ -28,16 +28,6 @@ We'll discuss software development, data science, community, and of course: Pyth
 
 <br>
 
-## Featuring
-<script type="text/javascript" src="https://sessionize.com/api/v2/jmlvp1cu/view/SpeakerWall"></script>
-## and so much more...
-<br>
-
-
-
-<br>
-
-<br>
 
 ## What's New At PyBay This Year?
 PyBay is returning to the **Mission Bay Conference Center** which hosted PyBay in the past.
@@ -77,8 +67,8 @@ text:
   </div>
   <div class="card-body">
     <b>speaking</b>
-    <p class="card-text">Check out our speakers!</p>
-    <a href="./speaking" class="btn btn-primary">Speakers</a>
+    <p class="card-text">Call for Proposals!</p>
+    <a href="./speaking" class="btn btn-primary">Submit!</a>
   </div>
 </div>
 </div>

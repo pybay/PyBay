@@ -27,20 +27,6 @@ column_number: 3
 add_gallery_members:
 
 ##### photo-social #####
-gallery_name: Swetha Chandraprakash
------
-gallery_image: swethachandraprakash-square.jpg
------
-gallery_title: Sponsorship Chair
------
-linkedin: https://www.linkedin.com/in/swetha-chandraprakash-95666990/
------
-mastodon: 
------
-twitter: 
------
-instagram: 
-##### photo-social #####
 gallery_name: Christopher Brousseau
 -----
 gallery_image: christopherbrousseau-square.jpg
@@ -48,64 +34,6 @@ gallery_image: christopherbrousseau-square.jpg
 gallery_title: Conference Chair
 -----
 linkedin: https://www.linkedin.com/in/chrisbrousseau/
------
-mastodon: 
------
-twitter: 
------
-instagram: 
-##### photo-social #####
-gallery_name: Mehul Jikadra
------
-gallery_image: mehuljikadra-square.jpg
------
-gallery_title: Organizer
------
-linkedin: https://www.linkedin.com/in/mehul-jikadra/
------
-mastodon: 
------
-twitter: 
------
-instagram: 
-##### photo-social #####
-gallery_name:
-
- Laura Langdon
------
-gallery_image: laura-langdon.png
------
-gallery_title: Logistics Chair
------
-linkedin: https://www.linkedin.com/in/laura-langdon
------
-mastodon: https://hachyderm.io/@LauraLangdon
------
-twitter: 
------
-instagram: 
-##### photo-social #####
-gallery_name: Darlene Wong
------
-gallery_image: darlene-wong.jpg
------
-gallery_title: Marketing Chair
------
-linkedin: https://www.linkedin.com/in/darlenewong/
------
-mastodon: 
------
-twitter: https://www.x.com/__darlene__
------
-instagram: 
-##### photo-social #####
-gallery_name: Evan Xu
------
-gallery_image: evan-southamerica.JPG
------
-gallery_title: Volunteer Chair
------
-linkedin: https://www.linkedin.com/in/evanwxu/
 -----
 mastodon: 
 -----

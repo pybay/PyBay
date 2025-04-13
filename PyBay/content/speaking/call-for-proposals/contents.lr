@@ -1,0 +1,76 @@
+_model: page
+---
+title: Call for Proposals
+---
+body:
+
+We are accepting the talk proposals now!
+<a href="https://sessionize.com/pybay2025">Submit here</a>
+
+The last date to submit proposal : <b>June 8th 2025</b>
+<br/>
+<br/>
+<h4>Guideline to Proposing Talk</h4>
+
+We are also excited you are considering submitting a talk to PyBay!  
+
+Again this year, we will be using Sessionize again this year for our proposal submission, reviewing and schedule building.
+
+The purpose of this document is to help you submit a good proposal and offers tips to make your proposal more likely to be accepted. Please keep in mind that many more proposals are submitted for talks, tutorials, and posters than can be accepted. But following the recommendations provided here can increase your chances of acceptance.
+
+<b>Timeline</b><br/>
+April 11, 2025 - Call For Proposals Open<br/>
+June 8, 2025 — Call For Proposals Closes<br/>
+Late June 2025 — Notifications are sent to speakers<br/>
+Late June 2025 - Travel Grant applications close and final day for speakers to confirm attendance<br/>
+July  2025 — The talk schedule is posted here on the Pybay website<br/>
+October 18, 2025 — PyBay 2025 in San Francisco, CA<br/>
+
+<br/>
+<b>Topics</b><br/>
+There is no official restriction on the topic that you propose for a talk session. Talks about Python or the Python community are most likely to line up with the interests of the audience, and a key consideration that the talk selection committee will be thinking about is your talk’s ability to draw an audience. We observe a limit of one talk per presenter. You may propose up to 3 talks, but the committee will ask you to choose only one talk if more than one of your proposals is accepted.
+
+There are community members who have blogged about the talk proposal process. Here are a few of the most prominent resources, and a Google search will yield you several more:
+
+<a href="https://nnja.medium.com/the-ultimate-guide-to-memorable-tech-talks-e7c350778d4b">The Ultimate Guide To Memorable Tech Talks</a> — Nina Zakharenko (2019)<br/>
+<a href="https://hynek.me/articles/speaking/">On Conference Speaking</a> — Hynek Schlawack (2017)<br/>
+<a href="http://craigkerstiens.com/2012/06/19/pro-tips-for-conference-talks/">Pro Tips for Conference Talks</a> — Craig Kerstiens (2012)<br/>
+
+<br/>
+<b>Dos for Proposals</b><br/>
+<ul>
+  <li>Submit your proposal early! The program committee will provide feedback on talks that come into our system, and we will work with you to improve 
+         your proposal, but this is only feasible if your proposal is submitted well before the deadline.</li>
+  <li>Be sure your talk answers some basic questions:
+
+Who is the intended audience for your talk? (Be specific; “Python programmers” is not a good answer to this question.)
+
+What will attendees get out of your talk? When they leave the room, what will they know that they didn’t know before?</li>
+  <li>Be Concise and Clear:<br/>
+         Start with a brief summary that clearly states what your presentation will cover. Avoid jargon unless it is well-known within the Python community. If possible, hint at any real-world applications or case studies to pique interest. </li>
+  <li>Your outline should be an enumeration of what you intend to say, along with time estimates. It is not necessary to have completely written your talk already, but you should have an idea of what the points you intend to make are and roughly how long you will spend on each one.
+If you are requesting a 45-minute slot, remember that these are in very limited supply. Be sure to explain how you will change your talk if we can only offer you a 30-minute slot.</li>
+  <li>Ensure that your talk will be relevant to a non-trivial set of people. If your talk is on a particular Python package or piece of software, it should be something that a significant number of people use or want to use. If your talk is about a package that you are writing, ensure that it has gained some acceptance before submitting a talk. If a tool you’re excited about is not used widely, consider shifting the focus of your talk to a related best practice or theme which will have broader applicability and a larger audience.</li>
+  <li>Include links to source code, articles, blog posts, videos, or other resources that add context to your proposal.</li>
+  <li>If you’ve given a talk, tutorial, or other presentation before, especially at an earlier Pybay or another conference, include that information as well as a link to slides or a video if they’re available.</li>
+</ul>
+
+<br/>
+<b>Don’ts for Proposals</b>
+<ul>
+  <li>Avoid infomercials.<br/>
+         That doesn’t mean you can’t talk about your work or company. For instance, we welcome talks on how you or your company solved a problem or notable 
+         open source projects that may benefit attendees.
+         On the other hand, talks on “how to use our product” (or similar) usually aren’t appropriate.</li>
+  <li>Avoid presenting code that is incomplete.</li>
+  <li>Do not submit a proposal that is solely or to a large extent written or includes AI-generated text by a large-scale language model (LLM) such as ChatGPT. Your proposal will not be accepted and will be disregarded without a second chance to submit.</li>
+  <li>Avoid “state of our project” talks, unless you can make a compelling argument that the talk will be well-attended and that attendees will gain value from it.</li>
+</ul>
+
+<br/>
+<b>Expenses</b><br/>
+PyBay receives numerous talk proposals and has limited funds for speaker travel as a nonprofit conference. Historically, most speakers have been local or supported by their employers. However, we can occasionally assist with travel costs for out-of-town speakers. To help us plan effectively, please indicate if you require travel support and estimate the amount needed to participate as a speaker at PyBay.
+
+
+---
+short: Call for Proposals

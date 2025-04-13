@@ -15,7 +15,7 @@ center_image:
 #### text-block ####
 text:
 
-# October 2025 in San Francisco, CA
+# 18 October 2025 in San Francisco, CA
 
 
 <br>
@@ -68,7 +68,7 @@ text:
   <div class="card-body">
     <b>speaking</b>
     <p class="card-text">Call for Proposals!</p>
-    <a href="./speaking" class="btn btn-primary">Submit!</a>
+    <a href="https://sessionize.com/pybay2025" class="btn btn-primary">Submit!</a>
   </div>
 </div>
 </div>

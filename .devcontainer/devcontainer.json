@@ -1,5 +1,5 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {},
-  "postCreateCommand": "pipx install lektor -v3.3.12"
+  "postCreateCommand": "pipx install lektor==3.3.12"
 }

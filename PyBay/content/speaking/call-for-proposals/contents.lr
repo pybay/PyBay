@@ -4,31 +4,72 @@ title: Call for Proposals
 ---
 body:
 
-We are accepting the talk proposals now!
-<a href="https://sessionize.com/pybay2025">Submit here</a>
-
-The last date to submit proposal : <b>June 8th 2025</b>
-<br/>
-<br/>
-<h4>Guideline to Proposing Talk</h4>
-
-We are also excited you are considering submitting a talk to PyBay!  
-
-Again this year, we will be using Sessionize again this year for our proposal submission, reviewing and schedule building.
-
-The purpose of this document is to help you submit a good proposal and offers tips to make your proposal more likely to be accepted. Please keep in mind that many more proposals are submitted for talks, tutorials, and posters than can be accepted. But following the recommendations provided here can increase your chances of acceptance.
-
-<b>Timeline</b><br/>
-April 11, 2025 - Call For Proposals Open<br/>
-June 8, 2025 — Call For Proposals Closes<br/>
-Late June 2025 — Notifications are sent to speakers<br/>
-Late June 2025 - Travel Grant applications close and final day for speakers to confirm attendance<br/>
-July  2025 — The talk schedule is posted here on the Pybay website<br/>
-October 18, 2025 — PyBay 2025 in San Francisco, CA<br/>
 
 <br/>
-<b>Topics</b><br/>
-There is no official restriction on the topic that you propose for a talk session. Talks about Python or the Python community are most likely to line up with the interests of the audience, and a key consideration that the talk selection committee will be thinking about is your talk’s ability to draw an audience. We observe a limit of one talk per presenter. You may propose up to 3 talks, but the committee will ask you to choose only one talk if more than one of your proposals is accepted.
+<br/>
+
+<center>
+
+We are acceptingtalk proposals now!
+
+
+<br/>
+<br/>
+
+<p>
+<a href="https://sessionize.com/pybay2025" class="btn btn-secondary btn-lg">Submit here</a>
+</p>
+
+<br/>
+<br/>
+
+<h5> The last date to submit proposal is <b>June 8th 2025</b> </h5>
+
+</center>
+
+<br/>
+<br/>
+
+#### Guidelines for Proposing Talk
+
+We are so excited that you are considering submitting a talk to PyBay!  
+
+Again this year, we will be using Sessionize for our proposal submission, reviewing and schedule building.
+
+The purpose of this document is to help you submit a good proposal and offers tips to make your proposal more likely to be accepted. Please keep in mind that many more proposals are submitted for talks than can be accepted. But following the recommendations provided here can increase your chances of acceptance.
+
+<br/>
+<br/>
+
+#### Timeline
+
+<br/>
+<br/>
+
+<table class="table">
+<thead>
+<th>Date</th>
+<th>Event</th>
+</thead>
+<tbody>
+<tr><td>April 11, 2025</td><td>Call For Proposals Opens</td></tr>
+<tr><td>June 8, 2025</td><td>Call For Proposals Closes</td></tr>
+<tr><td>Late June 2025</td><td> Notifications are sent to speakers</td></tr>
+<tr><td>Late June 2025</td><td>Travel Grant applications close and final day for speakers to confirm attendance</td></tr>
+<tr><td>July  2025</td><td>The talk schedule is posted here on the Pybay website</td></tr>
+<tr><td>October 18, 2025</td><td>PyBay 2025 in San Francisco, CA</td></tr>
+</tbody>
+</table>
+
+<br/>
+<br/>
+
+#### Topics
+
+<br/>
+<br/>
+
+There is no official restrictions on the topics that you may propose for a talk session. Talks about Python or the Python community are most likely to line up with the interests of the audience, and a key consideration that the talk selection committee will be thinking about is your talk’s ability to draw an audience. We observe a limit of one talk per presenter. You may propose up to 3 talks, but the committee will ask you to choose only one talk if more than one of your proposals is accepted.
 
 There are community members who have blogged about the talk proposal process. Here are a few of the most prominent resources, and a Google search will yield you several more:
 
@@ -39,8 +80,7 @@ There are community members who have blogged about the talk proposal process. He
 <br/>
 <b>Dos for Proposals</b><br/>
 <ul>
-  <li>Submit your proposal early! The program committee will provide feedback on talks that come into our system, and we will work with you to improve 
-         your proposal, but this is only feasible if your proposal is submitted well before the deadline.</li>
+  <li>Submit your proposal early! The program committee will be able to provide feedback on talks that come into our system early, and we will work with you to improve your proposal, but this is only feasible if your proposal is submitted well before the review deadline.</li>
   <li>Be sure your talk answers some basic questions:
 
 Who is the intended audience for your talk? (Be specific; “Python programmers” is not a good answer to this question.)

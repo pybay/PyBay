@@ -10,7 +10,7 @@ body:
 
 <center>
 
-We are acceptingtalk proposals now!
+We are accepting talk proposals now!
 
 
 <br/>
@@ -23,16 +23,16 @@ We are acceptingtalk proposals now!
 <br/>
 <br/>
 
-<h5> The last date to submit proposal is <b>June 8th 2025</b> </h5>
+<h5> The last date to submit a proposal is <b>June 8th 2025</b> </h5>
 
 </center>
 
 <br/>
 <br/>
 
-#### Guidelines for Proposing Talk
+#### Guidelines for Proposing Talk to PyBay
 
-We are so excited that you are considering submitting a talk to PyBay!  
+We are so excited that you are considering submitting a talk!  
 
 Again this year, we will be using Sessionize for our proposal submission, reviewing and schedule building.
 
@@ -69,9 +69,9 @@ The purpose of this document is to help you submit a good proposal and offers ti
 <br/>
 <br/>
 
-There is no official restrictions on the topics that you may propose for a talk session. Talks about Python or the Python community are most likely to line up with the interests of the audience, and a key consideration that the talk selection committee will be thinking about is your talk’s ability to draw an audience. We observe a limit of one talk per presenter. You may propose up to 3 talks, but the committee will ask you to choose only one talk if more than one of your proposals is accepted.
+There is no official restrictions on the topics that you may propose for a talk session - other than that it must be directly related to Python Programming. Talks about Python or the Python community are most likely to line up with the interests of the audience, and a key consideration that the talk selection committee will be thinking about is your talk’s ability to draw an audience. We observe a limit of one talk per presenter. You may propose up to 3 talks, but the committee will ask you to choose only one talk if more than one of your proposals is accepted.
 
-There are community members who have blogged about the talk proposal process. Here are a few of the most prominent resources, and a Google search will yield you several more:
+There are community members who have blogged about the talk proposal process. Here are a few of prominent resource (and a quick Google search will yield several more):
 
 <a href="https://nnja.medium.com/the-ultimate-guide-to-memorable-tech-talks-e7c350778d4b">The Ultimate Guide To Memorable Tech Talks</a> — Nina Zakharenko (2019)<br/>
 <a href="https://hynek.me/articles/speaking/">On Conference Speaking</a> — Hynek Schlawack (2017)<br/>
@@ -109,7 +109,7 @@ If you are requesting a 45-minute slot, remember that these are in very limited 
 
 <br/>
 <b>Expenses</b><br/>
-PyBay receives numerous talk proposals and has limited funds for speaker travel as a nonprofit conference. Historically, most speakers have been local or supported by their employers. However, we can occasionally assist with travel costs for out-of-town speakers. To help us plan effectively, please indicate if you require travel support and estimate the amount needed to participate as a speaker at PyBay.
+PyBay receives numerous talk proposals and has limited funds for speaker travel as a nonprofit conference. Historically, most speakers have been local or supported by their employers. However, based on Sponsorships we can occasionally assist with travel costs for out-of-town speakers. To help us plan effectively, please indicate if you require travel support to speak, as well as the estimated amount needed to participate as a speaker at PyBay (these are optional fields in the Sessionize talk proposal form).
 
 
 ---

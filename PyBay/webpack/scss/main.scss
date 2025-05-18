@@ -1059,7 +1059,7 @@ iframe[src*="player.vimeo.com"]{
   padding: 0px; /* firefox bug fix */
 }
 .navbar-brand>img {
-  height: 100%;
+  height: auto; /* height: 100% was causing logo image distortion on Safari and mobile devices */
   padding: 15px; /* firefox bug fix */
   width: auto;
   max-width: 240px;

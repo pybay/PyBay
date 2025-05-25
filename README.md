@@ -2,9 +2,13 @@
 
 ### Contributing
 
- - Create branch from main branch
- - Open branch in Codespace
- - Run local instance on server in subdirectory ( `cd PyBay`) and (`lektor server -f webpack`)
+ - Create a new branch from main
+ - Open the new branch in Codespace
+ - Run a temporary instance on Codespace server in the PyBay subdirectory ( `cd PyBay`) and (`lektor server -f webpack`)
  - Make changes to code
+ - Check for errors; check that the site displays correctly in multiple browsers and mobile.
+ - Inspect with other support tools (e.g., Lighthouse, https://metatags.io/ for share cards, social metadata. etc.) make sure share cards display correctly and metadata is correct.
  - Commit and push to your branch (`git add -u`) (`git commit -m "your update descriptions here"`) and (`git push`)
- - Open PR request for merge with dev branch
+ - Open PR and request review before merging with the main branch
+ - After comments and requested fixes are made, merge PR to the main branch.
+ - Close related issues on GitHub, be sure to tag each issue with the PR number.

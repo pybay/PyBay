@@ -170,3 +170,6 @@ packages/*/dist
 
 # gh-pages
 */docs/CNAME
+
+# Windows security zone identifier automatically created when copying files to from the internet
+*Zone.Identifier

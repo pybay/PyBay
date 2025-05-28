@@ -13,7 +13,7 @@ These are the perks for this tier.
  - one thing
  - another thing
 ----
-amount: 12000
+amount: 12500
 ----
 visual_display: centered
 ----
@@ -82,26 +82,7 @@ logo_image: bbgengineering-black-2025.png
 -----
 sponsor_url: https://www.bloomberg.com/company/values/tech-at-bloomberg/python/
 #### tier-block ####
-tier_name: Diversity
-----
-description: 
-----
-amount: 2000
-----
-visual_display: centered
-----
-add_sponsors:
-
-##### sponsor-block #####
-sponsor_company: 
------
-sponsored_text: 
------
-logo_image: your-logo-here.png
------
-sponsor_url: 
-#### tier-block ####
-tier_name: Community
+tier_name: Team
 ----
 description: 
 ----

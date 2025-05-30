@@ -49,7 +49,7 @@ sponsored_text: Meta builds technologies that help people connect, find communit
 -----
 logo_image: meta-symbol-positiveprimary-rgb.png
 -----
-sponsor_url: https://engineering.fb.com/2024/02/12/developer-tools/meta-loves-python/
+sponsor_url: https://engineering.fb.com/
 ##### sponsor-block #####
 sponsor_company: Python Software Foundation
 -----
@@ -88,7 +88,26 @@ description:
 ----
 amount: 3500
 ----
-visual_display: centered
+visual_display: default
+----
+add_sponsors:
+
+##### sponsor-block #####
+sponsor_company: 
+-----
+sponsored_text: 
+-----
+logo_image: your-logo-here.png
+-----
+sponsor_url: 
+#### tier-block ####
+tier_name: Community
+----
+description: 
+----
+amount: 
+----
+visual_display: default
 ----
 add_sponsors:
 
@@ -100,6 +119,25 @@ sponsored_text: NumFOCUS is a 501(c)(3) that provides critical resources to some
 logo_image: numfocus-logo-2025.png
 -----
 sponsor_url: https://numfocus.org/
+#### tier-block ####
+tier_name: Diversity
+----
+description: 
+----
+amount: 
+----
+visual_display: default
+----
+add_sponsors:
+
+##### sponsor-block #####
+sponsor_company: 
+-----
+sponsored_text: 
+-----
+logo_image: your-logo-here.png
+-----
+sponsor_url: 
 ---
 short: Our Sponsors
 ---

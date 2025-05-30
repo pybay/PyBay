@@ -13,22 +13,20 @@ These are the perks for this tier.
  - one thing
  - another thing
 ----
-amount: 12000
+amount: 12500
 ----
 visual_display: centered
 ----
 add_sponsors:
 
 ##### sponsor-block #####
-sponsor_company: Intuit
+sponsor_company: 
 -----
-sponsored_text:
-
-<a href=https://www.intuit.com/>Intuit</a> is the global financial technology platform that powers prosperity for the people and communities we serve. With 100 million customers worldwide using <a href=https://turbotax.intuit.com/>TurboTax</a>, <a href=https://www.creditkarma.com/>Credit Karma</a>, <a href=https://quickbooks.intuit.com/>QuickBooks</a>, and <a href=https://mailchimp.com/>Mailchimp</a>, we believe that everyone should have the opportunity to prosper. We never stop working to find new, innovative ways to make that possible. 
+sponsored_text: 
 -----
-logo_image: intuit-cornerstone-brand-lockup-2-line-color-1920x1080.png
+logo_image: your-logo-here.png
 -----
-sponsor_url: https://www.intuit.com/
+sponsor_url: 
 #### tier-block ####
 tier_name: Silver
 ----
@@ -45,21 +43,21 @@ visual_display: centered
 add_sponsors:
 
 ##### sponsor-block #####
-sponsor_company: neo4j
+sponsor_company: Meta
 -----
-sponsored_text: Neo4j, the Graph Database & Analytics leader, helps organizations find hidden relationships and patterns across billions of data connections deeply, easily and quickly. Customers leverage the structure of their connected data to reveal new ways of solving their most pressing business problems, with Neo4j’s full graph stack and a vibrant community of developers, data scientists and architects across hundreds of Fortune 500 companies. Visit <a href=https://neo4j.com/>neo4j.com</a>.
+sponsored_text: Meta builds technologies that help people connect, find communities and grow businesses. When Facebook launched in 2004, it changed the way people connect. Apps like Messenger, Instagram and WhatsApp further empowered billions around the world. Now, Meta is moving beyond 2D screens toward immersive experiences like augmented and virtual reality to help build the next evolution in social technology.
 -----
-logo_image: logo-fullcolor-transbg-750x486.png
+logo_image: meta-symbol-positiveprimary-rgb.png
 -----
-sponsor_url: https://neo4j.com/
+sponsor_url: https://engineering.fb.com/
 ##### sponsor-block #####
-sponsor_company: Okta
+sponsor_company: Python Software Foundation
 -----
-sponsored_text: Auth0 by Okta provides a customer identity platform that enables secure, scalable access to any application, for any user. Auth0 offers an implementation that's as simple as development teams want, and as flexible and customizable as they need. Safeguarding billions of login transactions each month, Auth0 delivers convenience, privacy, and security so you can focus on building a great experience for your users. For more information, visit <a href=https://auth0.com>https://auth0.com</a>.
+sponsored_text: The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. The majority of the PSF's work is focused on empowering and supporting people within the Python community. The PSF has active grant programs that support sprints, conferences, meet ups, user groups, and Python development efforts all over the world. In addition, the PSF underwrites and runs PyCon US, the primary Python community conference. Being part of the PSF means being part of the Python community. Recently we changed the PSF to an open membership organization, so that everyone who uses and supports Python can join. To learn more, visit https://www.python.org/psf/membership.
 -----
-logo_image: auth0byokta-stack-rgb-blk.png
+logo_image: psf-logo-372x84-alpha-2025.png
 -----
-sponsor_url: https://a0.to/pybay
+sponsor_url: https://www.python.org/psf/membership
 #### tier-block ####
 tier_name: Bronze
 ----
@@ -76,80 +74,71 @@ visual_display: centered
 add_sponsors:
 
 ##### sponsor-block #####
-sponsor_company: Python Software Foundation
------
-sponsored_text: The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. The majority of the PSF's work is focused on empowering and supporting people within the Python community. The PSF has active grant programs that support sprints, conferences, meet ups, user groups, and Python development efforts all over the world. In addition, the PSF underwrites and runs PyCon US, the primary Python community conference. Being part of the PSF means being part of the Python community. Recently we changed the PSF to an open membership organization, so that everyone who uses and supports Python can join. To learn more, visit https://www.python.org/psf/membership.
------
-logo_image: psf-logo-372x84-alpha.png
------
-sponsor_url: https://www.python.org/psf/membership
-#### tier-block ####
-tier_name: Diversity
-----
-description: 
-----
-amount: 2000
-----
-visual_display: centered
-----
-add_sponsors:
-
-##### sponsor-block #####
-sponsor_company: Bloomberg
+sponsor_company: Bloomberg Engineering
 -----
 sponsored_text: Bloomberg is building the world's most trusted information network for financial professionals. Our 9,000+ dedicated engineers are advancing and building new systems for the Bloomberg Terminal to solve complex, real-world problems. ​We trust our teams to choose the right technologies for the job; at Bloomberg, the answer’s often Python. Our active community of 4,000+ Python developers have their hands in everything from financial analytics and data science to contributing to open source technologies like Project Jupyter. Bloomberg is a Visionary Sponsor of the Python Software Foundation and hosts many Python community events around the world. <a href=https://www.bloomberg.com/company/values/tech-at-bloomberg/python/>TechAtBloomberg.com/python</a>
 -----
-logo_image: bbgengineering-black.png
+logo_image: bbgengineering-black-2025.png
 -----
 sponsor_url: https://www.bloomberg.com/company/values/tech-at-bloomberg/python/
 #### tier-block ####
-tier_name: Community
+tier_name: Team
 ----
 description: 
 ----
 amount: 3500
 ----
-visual_display: centered
+visual_display: default
 ----
 add_sponsors:
 
 ##### sponsor-block #####
-sponsor_company: Anaconda
+sponsor_company: 
 -----
-sponsored_text: With more than 43 million users, Anaconda is the most popular operating system for AI providing access to the foundational open-source Python packages used in modern AI, data science and machine learning through a seamless platform. We pioneered the use of Python for data science, championed its vibrant community, and continue to steward open-source projects that make tomorrow’s innovations possible. Our enterprise-grade solutions enable corporate, research, and academic institutions around the world to harness the power of open-source for competitive advantage, groundbreaking research, and a better world. To learn more visit https://www.anaconda.com.
+sponsored_text: 
 -----
-logo_image: anaconda-logo-rgb.png
+logo_image: your-logo-here.png
 -----
-sponsor_url: https://www.anaconda.com/?utm_source=event-sponsored&utm_medium=event&utm_campaign=PyBay-eventwebsite
-##### sponsor-block #####
-sponsor_company: Hidden Genius Project
------
-sponsored_text:
+sponsor_url: 
+#### tier-block ####
+tier_name: Community
+----
+description: 
+----
+amount: 
+----
+visual_display: default
+----
+add_sponsors:
 
-The Hidden Genius Project seeks to reveal the true potential of Black male youth and transform  their communities from the inside out. Through our student-centered, project-based approach, we  invest in young Black men, giving them access to technology training, and plugging them into an  ecosystem of innovation and empowerment. 
-<br>
-Founded in 2012 by five Black male entrepreneurs/technologists who were unnerved by the  dramatic juxtaposition between the high unemployment of Black male youth and the plethora of  career opportunities within the local technology sector. To address this challenge, the founders established a program to connect underserved, young Black males with the skills, mentors, and  experiences they need to become high-performing entrepreneurs and technologists in a 21st  century, global economy.
------
-logo_image: hidden-genius-project.png
------
-sponsor_url: https://www.hiddengeniusproject.org/
 ##### sponsor-block #####
 sponsor_company: NumFOCUS
 -----
 sponsored_text: NumFOCUS is a 501(c)(3) that provides critical resources to some of the world's most leveraged and prominent open-source tools. Our work ensures these essential tools remain accessible, sustainable, and free, empowering researchers and professionals worldwide to achieve groundbreaking discoveries and advancements.
 -----
-logo_image: nf-logo.png
+logo_image: numfocus-logo-2025.png
 -----
 sponsor_url: https://numfocus.org/
+#### tier-block ####
+tier_name: Diversity
+----
+description: 
+----
+amount: 
+----
+visual_display: default
+----
+add_sponsors:
+
 ##### sponsor-block #####
-sponsor_company: Zulip
+sponsor_company: 
 -----
-sponsored_text: <a href="https://zulip.com/">Zulip</a> is an open-source team chat application designed for seamless remote and hybrid work. With conversations <a href="https://zulip.com/help/introduction-to-topics">organized by topic,</a> Zulip is <a href="https://zulip.com/why-zulip/">ideal</a> for both live and asynchronous communication. Zulip’s 100% open-source software is available as a <a href="https://zulip.com/plans/#cloud">cloud service</a> or a <a href="https://zulip.com/self-hosting/">self-hosted solution,</a> and is used by thousands of organizations around the world.
+sponsored_text: 
 -----
-logo_image: zulip-org-logo-500.png
+logo_image: your-logo-here.png
 -----
-sponsor_url: https://zulip.com/
+sponsor_url: 
 ---
 short: Our Sponsors
 ---
-_hidden: yes
+_hidden: no

@@ -12,13 +12,19 @@ height: 300
 contents: 
 ----
 center_image: 
+#### countdown-timer ####
+countdown_date: 2025-06-30 23:59:59
+----
+countdown_text: Early Bird Tickets On Sale Now Through
 #### text-block ####
 text:
 
+# PyBay
+# is
 # 18 October 2025 in San Francisco, CA
 
 
-<br>
+
 
 <br>
 
@@ -67,8 +73,8 @@ text:
   </div>
   <div class="card-body">
     <b>speaking</b>
-    <p class="card-text">Call for Proposals!</p>
-    <a href="https://sessionize.com/pybay2025" class="btn btn-primary">Submit!</a>
+    <p class="card-text">Every year we have top speakers.</p>
+    <a href="./speaking/current-speakers" class="btn btn-primary">Check out our speakers!</a>
   </div>
 </div>
 </div>
@@ -77,4 +83,7 @@ class: default
 ---
 _slug: 
 ---
-short: Home
+short:
+
+Home
+

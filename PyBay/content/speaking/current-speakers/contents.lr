@@ -5,6 +5,19 @@ title: 2025 Speakers
 body:
 
 Speakers List will be published in late June 2025.
+In the meantime - checkout <a href="../past-speakers">last years speakers</a> and watch <a href="https://pyvideo.org/events/pybay-2024.html">last year's talks.<a>
+
+Then go ahead and get your early bird tickets!
+
+<div class="text-center">
+
+<h4>Early Bird Tickets On Sale Through June 30, 2025 Midnight PST</h2>
+<countdown-timer date="2025-06-30T00:00:00-08:00"></countdown-timer>
+
+<br>
+<a class="btn btn-secondary btn-lg" target="_blank" href="https://pretix.eu/bapya/pybay-2025/">Buy Tickets!</a>
+</div>
+
 <!-- <script type="text/javascript" src="https://sessionize.com/api/v2/3jihguik/view/SpeakerWall"></script>-->
 ---
 short: Current Speakers

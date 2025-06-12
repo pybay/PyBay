@@ -11,8 +11,8 @@ Then go ahead and get your early bird tickets!
 
 <div class="text-center">
 
-<h4>Early Bird Tickets On Sale Through June 30, 2025 Midnight PST</h2>
-<countdown-timer date="2025-06-30T00:00:00-08:00"></countdown-timer>
+<h4>Early Bird Tickets On Sale Through June 30, 2025 Midnight PDT</h2>
+<countdown-timer date="2025-07-01T00:00:00-07:00"></countdown-timer>
 
 <br>
 <a class="btn btn-secondary btn-lg" target="_blank" href="https://pretix.eu/bapya/pybay-2025/">Buy Tickets!</a>

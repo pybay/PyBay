@@ -32,7 +32,7 @@ $code-bg: #f8eff3;
 
 body {
   padding: 0;
-  background: lighten($gray, 20) url(../images/mesh.png);
+  // background: lighten($gray, 20) url(../images/mesh.png);
   background-size: 256px 256px;
 }
 
@@ -707,7 +707,7 @@ div.showcase {
       display: block;
       padding: 10px;
       margin: 15px 0;
-      background: lighten($gray, 20) url(../images/mesh.png);
+      // background: lighten($gray, 20) url(../images/mesh.png);
       background-size: 256px 256px;
       text-decoration: none;
       border-radius: 3px;
@@ -1062,13 +1062,14 @@ iframe[src*="player.vimeo.com"]{
 }
 
 .navbar-brand {
-  padding: 0px; /* firefox bug fix */
+  padding: 8px; /* firefox bug fix */
 }
 .navbar-brand>img {
   height: auto; /* height: 100% was causing logo image distortion on Safari and mobile devices */
-  padding: 15px; /* firefox bug fix */
+  padding: 8px; /* firefox bug fix */
   width: auto;
   max-width: 240px;
+  max-height: 120px;
 }
 
 .icon-bar {
@@ -1105,3 +1106,30 @@ countdown-timer .label {
   font-size: 0.8rem;
   color: #666;
 }
+header.navbar-custom {
+  background: linear-gradient(135deg, #4BBEDC, hsl(195, 100%, 28%)) !important;
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  z-index: 1055;
+  position: relative;
+  img {
+  background: url('../images/waves.png') repeat-x;
+  animation: wave-scroll 5s linear infinite;
+  background-size: cover;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 6px fade-out($gray, 0.8);
+  }
+  @keyframes wave-scroll {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: 1000px;
+  }
+}
+}
+
+// background-image: url(../images/waves.png), ;

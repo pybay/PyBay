@@ -1132,4 +1132,17 @@ header.navbar-custom {
 }
 }
 
+.video-wrapper video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  /* Fade out bottom with mask-image */
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, black 20%);
+  mask-image: linear-gradient(to top, transparent 0%, black 20%);
+}
+
+
 // background-image: url(../images/waves.png), ;

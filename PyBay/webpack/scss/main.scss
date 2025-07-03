@@ -1145,4 +1145,141 @@ header.navbar-custom {
 }
 
 
+/* 
+Sessionize
+*/
+.sessionize-loader {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 1200px; /* Limit overall width */
+    margin: 20px auto; /* Center the entire block */
+    box-sizing: border-box; /* Include padding in element's total width and height */
+}
+
+
+.sessionize-wrapper > link[rel="stylesheet"] {
+    display: none;
+}
+
+/* Speakers Wall (the main grid) */
+.sz-speakers--wall {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 30px; /* Space between speaker cards */
+    justify-content: center; /* Center items if they don't fill the row */
+}
+
+/* Individual Speaker Card */
+.sz-speaker {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.sz-speaker:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* Speaker Photo */
+.sz-speaker__photo {
+    width: 120px; /* Fixed size for the photo container */
+    height: 120px;
+    border-radius: 50%; /* Make it round */
+    overflow: hidden; /* Hide anything outside the circle */
+    margin-bottom: 15px;
+    border: 3px solid #007bff; /* Accent border color */
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.2); /* Subtle glow effect */
+}
+
+.sz-speaker__photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crop image to fit without distortion */
+    display: block; /* Remove extra space below image */
+}
+
+/* Speaker Name */
+.sz-speaker__name {
+    margin: 0 0 5px 0; /* Adjust spacing */
+    font-size: 1.5em; /* Larger name */
+    font-weight: 600; /* Bolder */
+    line-height: 1.2;
+}
+
+.sz-speaker__name a {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Primary link color */
+    transition: color 0.2s ease-in-out;
+}
+
+.sz-speaker__name a:hover {
+    color: #0056b3; /* Darker on hover */
+}
+
+/* Speaker Tagline/Title */
+.sz-speaker__tagline {
+    margin: 0; /* Remove default margin */
+    font-size: 0.95em;
+    color: #666;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+/* Optional: If you want to customize the modal */
+#sz-modal-container {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+    z-index: 1000; /* Ensure it's on top */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .sz-speakers--wall {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+    }
+
+    .sz-speaker {
+        padding: 15px;
+    }
+
+    .sz-speaker__photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .sz-speaker__name {
+        font-size: 1.3em;
+    }
+
+    .sz-speaker__tagline {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .sz-speakers--wall {
+        grid-template-columns: 1fr; /* Stack items vertically on very small screens */
+    }
+
+    .sessionize-loader {
+        padding: 15px;
+    }
+}
+
+
+
+
 // background-image: url(../images/waves.png), ;

@@ -16,7 +16,21 @@ center_image:
 text:
 
 <div style="background-color: #daeef3;" class="p4 rounded-circle">
-<h3>Featuring</h3>
+<h3 style="
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #006B8F; 
+  text-decoration-thickness: 3px;
+  text-decoration-style: wavy;
+">
+  Featuring
+</h3>
+
+
+
+
+
 <script type="text/javascript" src="https://sessionize.com/api/v2/w0m77abc/view/SpeakerWall"></script>
 </div>
 ----

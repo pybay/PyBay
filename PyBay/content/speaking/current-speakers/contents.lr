@@ -7,9 +7,6 @@ body:
 <div class="text-center">
 <script type="text/javascript" src="https://sessionize.com/api/v2/3jihguik/view/SpeakerWall"></script>
 
-<h4>Early Bird Tickets On Sale Through June 30, 2025 Midnight PDT</h2>
-<countdown-timer date="2025-07-01T00:00:00-07:00"></countdown-timer>
-
 <br>
 <a class="btn btn-secondary btn-lg" target="_blank" href="https://pretix.eu/bapya/pybay-2025/">Buy Tickets!</a>
 </div>

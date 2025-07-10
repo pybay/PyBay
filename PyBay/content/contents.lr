@@ -35,10 +35,6 @@ text:
 </div>
 ----
 class: centered
-#### countdown-timer ####
-countdown_date: 2025-06-30 23:59:59
-----
-countdown_text: Early Bird Tickets On Sale Now Through
 #### text-block ####
 text:
 

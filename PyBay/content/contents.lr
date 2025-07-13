@@ -15,7 +15,6 @@ center_image:
 #### text-block ####
 text:
 
-<div style="background-color: #daeef3;" class="p4 rounded-circle">
 <h3 style="
   font-size: 2.5rem;
   font-weight: bold;
@@ -32,7 +31,7 @@ text:
 
 
 <script type="text/javascript" src="https://sessionize.com/api/v2/w0m77abc/view/SpeakerWall"></script>
-</div>
+
 ----
 class: centered
 #### text-block ####
@@ -65,38 +64,47 @@ text:
 
 <br>
 
-<div class="row">
-<div class="col-md-4 card text-center">
-  <div class="card-header">
-    <span class="iwrap"><i class="fa-solid fa-building"></i></span>
+
+<div class="row g-4 bottom-cards">
+  <div class="col-md-4">
+    <div class="bottom-card text-center">
+      <div class="card-icon">
+        <i class="fa-solid fa-building"></i>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Attending</h5>
+        <p class="card-text">We will be returning to the Mission Bay Conference Center</p>
+        <a href="./attending" class="btn" style="border-bottom: 5px solid orange">Learn More</a>
+      </div>
+    </div>
   </div>
-  <div class="card-body">
-    <b>attending</b>
-    <p class="card-text">We will be returning to the Mission Bay Conference Center</p>
-    <a href="./attending" class="btn rainbow">Learn More</a>
+  <div class="col-md-4">
+    <div class="bottom-card text-center">
+      <div class="card-icon">
+        <i class="far fa-handshake"></i>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Sponsoring</h5>
+        <p class="card-text">PyBay wouldn't be possible without our sponsors. Check out our prospectus and sponsor PyBay today.</p>
+        <a href="./sponsors/sponsor-us/" class="btn" style="border-bottom: 5px solid orange">Sponsor Us</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="bottom-card text-center">
+      <div class="card-icon">
+        <i class="fa-solid fa-microphone-lines"></i>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Speaking</h5>
+        <p class="card-text">Every year we have top speakers.</p>
+        <a href="./speaking/current-speakers" class="btn " style="border-bottom: 5px solid orange">Check out our speakers!</a>
+      </div>
+    </div>
   </div>
 </div>
-<div class="col-md-4 card text-center">
-  <div class="card-header">
-    <span class="iwrap"><i class="far fa-handshake"></i></span>
-  </div>
-  <div class="card-body">
-    <b>sponsoring</b>
-    <p class="card-text">PyBay wouldn't be possible without our sponsors. Check out our prospectus and sponsor PyBay today.</p>
-    <a href="./sponsors/sponsor-us/" class="btn btn-primary">Sponsor Us</a>
-  </div>
-</div>
-<div class="col-md-4 card text-center">
-  <div class="card-header">
-    <span class="iwrap"><i class="fa-solid fa-microphone-lines"></i> </span>
-  </div>
-  <div class="card-body">
-    <b>speaking</b>
-    <p class="card-text">Every year we have top speakers.</p>
-    <a href="./speaking/current-speakers" class="btn btn-primary">Check out our speakers!</a>
-  </div>
-</div>
-</div>
+
+
 ----
 class: default
 ---

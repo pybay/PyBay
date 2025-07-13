@@ -1145,11 +1145,13 @@ header.navbar-custom {
 }
 
 
+/* SpeakerCards */
 
 .sz-speaker {
   background: white;
   border-radius: 12px;
   margin: 10px !important;
+  padding: 24px 20px !important;
   padding: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -1168,6 +1170,42 @@ header.navbar-custom {
 
 .sz-modal .sz-speaker__photo{
   margin: 5px !important
+}
+
+
+/* BottomCards */
+
+.bottom-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  padding: 24px 20px;
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bottom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  color: #006B8F; /* Bootstrap primary color, change as needed */
+}
+
+.card-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.card-body{
+  background-color: white !important;
 }
 
 

@@ -25,13 +25,9 @@ text:
 ">
   Featuring
 </h3>
-
-
-
-
-
+<div class="mx-auto w-75">
 <script type="text/javascript" src="https://sessionize.com/api/v2/w0m77abc/view/SpeakerWall"></script>
-
+</div>
 ----
 class: centered
 #### text-block ####
@@ -103,8 +99,6 @@ text:
     </div>
   </div>
 </div>
-
-
 ----
 class: default
 ---

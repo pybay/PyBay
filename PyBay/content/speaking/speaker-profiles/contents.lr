@@ -1,0 +1,18 @@
+_model: page
+---
+title: Speaker Profiles
+---
+body:
+
+<div class="text-center">
+
+<br>
+<script type="text/javascript" src="https://sessionize.com/api/v2/3jihguik/view/Speakers"></script>
+
+<br>
+
+<a class="btn btn-secondary btn-lg" target="_blank" href="https://pretix.eu/bapya/pybay-2025/">Buy Tickets!</a>
+
+</div>
+---
+short: Speaker Profiles

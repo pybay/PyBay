@@ -1,0 +1,403 @@
+_model: sponsor-display
+---
+title: Past Sponsor
+---
+body:
+
+#### tier-block ####
+tier_name:  Past Sponsors
+----
+description: 
+----
+amount: 
+----
+visual_display: default
+----
+add_sponsors:
+
+##### sponsor-block #####
+sponsor_company: Akasa
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Akasa.com
+##### sponsor-block #####
+sponsor_company: Anthropic
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Anthropic.com
+##### sponsor-block #####
+sponsor_company: Anvil
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Anvil.com
+##### sponsor-block #####
+sponsor_company: Anyscale
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Anyscale.com
+##### sponsor-block #####
+sponsor_company: Avaiga
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Avaiga.com
+##### sponsor-block #####
+sponsor_company: Beomni
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Beomni.com
+##### sponsor-block #####
+sponsor_company: Bit
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Bit.com
+##### sponsor-block #####
+sponsor_company: Blameless
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Blameless.com
+##### sponsor-block #####
+sponsor_company: Bloomberg
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Bloomberg.com
+##### sponsor-block #####
+sponsor_company: Carta
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Carta.com
+##### sponsor-block #####
+sponsor_company: Citusdata
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Citusdata.com
+##### sponsor-block #####
+sponsor_company: Cloverhealth
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Cloverhealth.com
+##### sponsor-block #####
+sponsor_company: Confluent
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Confluent.com
+##### sponsor-block #####
+sponsor_company: Deepnote
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Deepnote.com
+##### sponsor-block #####
+sponsor_company: Edgedb
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Edgedb.com
+##### sponsor-block #####
+sponsor_company: F5
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.F5.com
+##### sponsor-block #####
+sponsor_company: Ggu
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Ggu.com
+##### sponsor-block #####
+sponsor_company: Gmail
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Gmail.com
+##### sponsor-block #####
+sponsor_company: Goodrx
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Goodrx.com
+##### sponsor-block #####
+sponsor_company: Google
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Google.com
+##### sponsor-block #####
+sponsor_company: Gpj
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Gpj.com
+##### sponsor-block #####
+sponsor_company: Hackbrightacademy
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Hackbrightacademy.com
+##### sponsor-block #####
+sponsor_company: Hiremya
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Hiremya.com
+##### sponsor-block #####
+sponsor_company: Hotmail
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Hotmail.com
+##### sponsor-block #####
+sponsor_company: Housecanary
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Housecanary.com
+##### sponsor-block #####
+sponsor_company: Ibm
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Ibm.com
+##### sponsor-block #####
+sponsor_company: Intuit
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Intuit.com
+##### sponsor-block #####
+sponsor_company: Jetbrains
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Jetbrains.com
+##### sponsor-block #####
+sponsor_company: Linkedin
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Linkedin.com
+##### sponsor-block #####
+sponsor_company: Linode
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Linode.com
+##### sponsor-block #####
+sponsor_company: Microsoft
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Microsoft.com
+##### sponsor-block #####
+sponsor_company: Nginx
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Nginx.com
+##### sponsor-block #####
+sponsor_company: Offerup
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Offerup.com
+##### sponsor-block #####
+sponsor_company: Optimizely
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Optimizely.com
+##### sponsor-block #####
+sponsor_company: Paloaltonetworks
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Paloaltonetworks.com
+##### sponsor-block #####
+sponsor_company: Pearson
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Pearson.com
+##### sponsor-block #####
+sponsor_company: Preferred-America
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Preferred-America.com
+##### sponsor-block #####
+sponsor_company: Prophecy
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Prophecy.com
+##### sponsor-block #####
+sponsor_company: Python Software Foundation
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Python Software Foundation.com
+##### sponsor-block #####
+sponsor_company: Rookout
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Rookout.com
+##### sponsor-block #####
+sponsor_company: Saucelabs
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Saucelabs.com
+##### sponsor-block #####
+sponsor_company: Shapeshift
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Shapeshift.com
+##### sponsor-block #####
+sponsor_company: Simplelegal
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Simplelegal.com
+##### sponsor-block #####
+sponsor_company: Sony
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Sony.com
+##### sponsor-block #####
+sponsor_company: Stitchfix
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Stitchfix.com
+##### sponsor-block #####
+sponsor_company: Tempoautomation
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Tempoautomation.com
+##### sponsor-block #####
+sponsor_company: Vinta
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Vinta.com
+##### sponsor-block #####
+sponsor_company: Yelp
+-----
+sponsored_text: Company description
+-----
+logo_image: 
+-----
+sponsor_url: https://www.Yelp.com
+---
+short: Past Sponsor

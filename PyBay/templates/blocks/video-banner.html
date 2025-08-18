@@ -1,6 +1,6 @@
 {% set video = record.attachments.get(this.video) %}
 <div class="hero-slider" style="padding: 0px; position: relative; overflow: hidden;" >
-	<ul class="slides" style="list-style-type: none; height: {{ this.height }}; position: relative; overflow: hidden; .preserve-3d;">
+  <ul class="slides" style="list-style-type: none; height: {{ this.height }}px; position: relative; overflow: hidden;">
 <li class="video-header flex-active-slide">
       <div class="video-wrapper">
         <video autoplay muted loop>
@@ -21,7 +21,7 @@
 {{ this.contents }}
 {% endif %}
 </li>
-<ul>
+</ul>
 </div>
 
 

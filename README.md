@@ -13,3 +13,23 @@
  - Open PR and request review before merging with the main branch
  - After comments and requested fixes are made, merge PR to the main branch.
  - Close related issues on GitHub, be sure to tag each issue with the PR number.
+
+## Running tests
+
+Install the test requirements:
+
+```shell
+pip install -r tests/requirements.txt
+```
+
+Install the Playwright test browser
+
+```shell
+playwright install
+```
+
+Run the tests:
+
+```shell
+pytest tests/test_server.py
+```

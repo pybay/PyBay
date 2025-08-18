@@ -1,4 +1,5 @@
 <!doctype html>
+<html lang="en">
 
 <head>
   <!-- Google tag (gtag.js) -->
@@ -331,13 +332,13 @@
   </div>
 </header>
 
-  <div class="body-wrapper">
+  <main id="main" class="body-wrapper" role="main">
     {% block outerbody %}
     <div class="container">
       {% block body %}{% endblock %}
     </div>
     {% endblock %}
-  </div>
+  </main>
 
   {% block footer %}
   <footer style="background-color: #1D3E56;">
@@ -412,4 +413,17 @@
     console.warn("Bootstrap Dropdown is NOT loaded ❌");
   }
 </script>
+<script>
+  // Hide Lektor dev edit link from accessibility tree and layout
+  document.addEventListener('DOMContentLoaded', function() {
+    const editLink = document.getElementById('lektor-edit-link');
+    if (editLink) {
+      editLink.setAttribute('aria-hidden', 'true');
+      editLink.setAttribute('tabindex', '-1');
+      editLink.style.position = 'absolute';
+      editLink.style.left = '-9999px';
+    }
+  });
+  </script>
 </body>
+</html>

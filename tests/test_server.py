@@ -37,25 +37,36 @@ def free_port() -> int:
         return s.getsockname()[1]
 
 
-def run_server(port: int):
+def run_static_server(directory: str, port: int):
+    # Lightweight static HTTP server rooted at the built output directory
+    from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
+
+    class RootedHandler(SimpleHTTPRequestHandler):
+        def __init__(self, *args, **kwargs):
+            super().__init__(*args, directory=directory, **kwargs)
+
+    httpd = ThreadingHTTPServer(("127.0.0.1", port), RootedHandler)
+    try:
+        httpd.serve_forever()
+    finally:
+        httpd.server_close()
+
+
+@pytest.fixture(scope="session")
+def built_site_dir(tmp_path_factory) -> Path:
+    """Build the Lektor site once and return the output directory."""
     repo_root = Path(__file__).resolve().parents[1]
     site_dir = repo_root / "PyBay"
-    subprocess.run(
-        [
-            "lektor",
-            "server",
-            "-h",
-            "127.0.0.1",
-            "-p",
-            str(port),
-        ],
-        cwd=str(site_dir),
-        check=True,
-    )
+    out_dir = tmp_path_factory.mktemp("lektor-build")
+    subprocess.run([
+        "lektor", "build", "-O", str(out_dir)
+    ], cwd=str(site_dir), check=True)
+    return out_dir
+
 
 @pytest.fixture()
-def live_server_url(free_port: int) -> Generator[str, None, None]:
-    proc = Process(target=run_server, args=(free_port,), daemon=True)
+def static_server_url(free_port: int, built_site_dir: Path) -> Generator[str, None, None]:
+    proc = Process(target=run_static_server, args=(str(built_site_dir), free_port), daemon=True)
     proc.start()
     url = f"http://localhost:{free_port}/"
     wait_for_server_ready(url, timeout=10.0, check_interval=0.5)
@@ -63,8 +74,8 @@ def live_server_url(free_port: int) -> Generator[str, None, None]:
     proc.kill()
 
 
-def test_home(page: Page, live_server_url: str):
-    page.goto(live_server_url)
+def test_home(page: Page, static_server_url: str):
+    page.goto(static_server_url)
     expect(page).to_have_title("PyBay 2025 - 10th Annual Bay Area Python Dev Conference - Welcome to PyBay!")
     results = Axe().run(page)
     assert results.violations_count == 0, results.generate_report()

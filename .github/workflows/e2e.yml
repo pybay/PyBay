@@ -12,15 +12,13 @@ jobs:
     name: Run end-to-end accessibility tests
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "lts/*"
+          cache: pip
+          cache-dependency-path: tests/requirements.txt
 
       - name: Install Python dependencies
         run: |
@@ -31,13 +29,8 @@ jobs:
         run: |
           python -m playwright install --with-deps chromium
 
-      - name: Build site (Lektor)
-        run: |
-          cd PyBay
-          lektor build -f webpack -O ../_site
-
-      - name: Run tests
+      - name: Run E2E a11y tests against built pages
         env:
           PLAYWRIGHT_HEADLESS: "1"
         run: |
-          pytest -q tests/test_server.py
+          pytest tests/test_server.py --maxfail=1 --disable-warnings

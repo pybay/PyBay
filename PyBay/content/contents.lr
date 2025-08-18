@@ -70,7 +70,7 @@ text:
         <i class="fa-solid fa-building"></i>
       </div>
       <div class="card-body">
-  <h3 class="card-title">Attending</h3>
+        <h3 class="card-title">Attending</h3>
         <p class="card-text">We will be returning to the Mission Bay Conference Center</p>
         <a href="./attending" class="btn" style="border-bottom: 5px solid orange">Learn More</a>
       </div>
@@ -82,7 +82,7 @@ text:
         <i class="far fa-handshake"></i>
       </div>
       <div class="card-body">
-  <h3 class="card-title">Sponsoring</h3>
+        <h3 class="card-title">Sponsoring</h3>
         <p class="card-text">PyBay wouldn't be possible without our sponsors. Check out our prospectus and sponsor PyBay today.</p>
         <a href="./sponsors/sponsor-us/" class="btn" style="border-bottom: 5px solid orange">Sponsor Us</a>
       </div>
@@ -94,7 +94,7 @@ text:
         <i class="fa-solid fa-microphone-lines"></i>
       </div>
       <div class="card-body">
-  <h3 class="card-title">Speaking</h3>
+        <h3 class="card-title">Speaking</h3>
         <p class="card-text">Every year we have top speakers.</p>
         <a href="./speaking/current-speakers" class="btn " style="border-bottom: 5px solid orange">Check out our speakers!</a>
       </div>

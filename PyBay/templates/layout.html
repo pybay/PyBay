@@ -283,6 +283,18 @@
   background-color: rgba(255, 145, 77, 0.3);
 }
 
+/* Accessibility: ensure footer text and links have sufficient contrast on dark background */
+footer {
+  color: #fff !important;
+}
+footer a {
+  color: #fff !important;
+}
+footer a:hover,
+footer a:focus {
+  color: #ffefb0 !important;
+}
+
   </style>
 </head>
 
@@ -413,17 +425,5 @@
     console.warn("Bootstrap Dropdown is NOT loaded ❌");
   }
 </script>
-<script>
-  // Hide Lektor dev edit link from accessibility tree and layout
-  document.addEventListener('DOMContentLoaded', function() {
-    const editLink = document.getElementById('lektor-edit-link');
-    if (editLink) {
-      editLink.setAttribute('aria-hidden', 'true');
-      editLink.setAttribute('tabindex', '-1');
-      editLink.style.position = 'absolute';
-      editLink.style.left = '-9999px';
-    }
-  });
-  </script>
 </body>
 </html>

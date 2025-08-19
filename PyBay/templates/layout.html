@@ -1,4 +1,5 @@
 <!doctype html>
+<html lang="en">
 
 <head>
   <!-- Google tag (gtag.js) -->
@@ -282,6 +283,18 @@
   background-color: rgba(255, 145, 77, 0.3);
 }
 
+/* Accessibility: ensure footer text and links have sufficient contrast on dark background */
+footer {
+  color: #fff !important;
+}
+footer a {
+  color: #fff !important;
+}
+footer a:hover,
+footer a:focus {
+  color: #ffefb0 !important;
+}
+
   </style>
 </head>
 
@@ -331,13 +344,13 @@
   </div>
 </header>
 
-  <div class="body-wrapper">
+  <main id="main" class="body-wrapper" role="main">
     {% block outerbody %}
     <div class="container">
       {% block body %}{% endblock %}
     </div>
     {% endblock %}
-  </div>
+  </main>
 
   {% block footer %}
   <footer style="background-color: #1D3E56;">
@@ -413,3 +426,4 @@
   }
 </script>
 </body>
+</html>

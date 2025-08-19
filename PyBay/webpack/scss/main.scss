@@ -1008,6 +1008,15 @@ button.js-gitter-toggle-chat-button {
   font-weight: bold;
 }
 
+.sl-blurb a {
+  color: #2e648e;
+  transition: color 0.3s ease; 
+
+}
+.sl-blurb a:hover {
+  color: #E0AA8F; /* Your desired hover color */
+}
+
 @media(max-width: 1000px) {
   .sponsor-list, .sl-sponsor {
     display: block;
@@ -1107,7 +1116,7 @@ countdown-timer .label {
   color: #666;
 }
 header.navbar-custom {
-  background: linear-gradient(135deg, #169bbd, #006b8f) !important;
+  background: #169bbd linear-gradient(140deg, #169bbd 0%, #169bbd 40%, #006b8f 40%, #006b8f 100%) !important;
   background-blend-mode: overlay;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1130,6 +1139,15 @@ header.navbar-custom {
     background-position-x: 1000px;
   }
 }
+}
+
+@media screen and (max-width: 1200px) {
+ header.navbar-custom {
+  background: #0082c5 !important;
+ }
+ header.navbar-custom a.nav-link {
+  font-size: clamp(12px, 2vw, 14px);
+ }
 }
 
 .video-wrapper video {

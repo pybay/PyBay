@@ -15,7 +15,7 @@ center_image:
 #### text-block ####
 text:
 
-<h3 style="
+<h2 style="
   font-size: 2.5rem;
   font-weight: bold;
   text-decoration: underline;
@@ -24,7 +24,7 @@ text:
   text-decoration-style: wavy;
 ">
   Featuring
-</h3>
+</h2>
 <div class="mx-auto w-75">
 <script type="text/javascript" src="https://sessionize.com/api/v2/w0m77abc/view/SpeakerWall"></script>
 </div>

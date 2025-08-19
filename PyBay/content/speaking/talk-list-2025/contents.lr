@@ -4,14 +4,14 @@ title: Talks
 ---
 body:
 
-<div class="text-center">
 
+<h2>Talk List</h2>
 <br>
 <script type="text/javascript" src="https://sessionize.com/api/v2/3jihguik/view/Sessions"></script>
 
 <br>
-
-<a class="btn btn-secondary btn-lg" target="_blank" href="https://pretix.eu/bapya/pybay-2025/">Buy Tickets!</a>
+<div class="text-center  py-3">
+<a class="btn btn-secondary btn-lg" target="_blank" href="https://pretix.eu/bapya/pybay-2025/" aria-label="Link to Buy Tickets">Buy Tickets!</a>
 
 </div>
 ---

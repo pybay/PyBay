@@ -253,7 +253,7 @@
   }
   /* Match dropdown to navbar color and theme */
 .dropdown-menu {
-  background-color: #00749E; /* same golden yellow, slightly more opaque */
+  background-color: #008bc5; /* same golden yellow, slightly more opaque */
   border: none;
   border-radius: 0;
   box-shadow: none;
@@ -368,7 +368,7 @@ footer a:focus {
           <a href="https://www.linkedin.com/company/pybay/about" title="Find PyBay on LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
         </div>
         <div class="col-sm-8">
-          <a href="https://www.bapya.org/">&copy; Copyright 2024 by BAPyA.</a> •
+          <a href="https://www.bapya.org/" aria-label="Go to Bay Area Python Association Website">&copy; Copyright 2024 by BAPyA.</a> •
           <span class="text-white">Made with <i class="fa fa-fw fa-heart" 
               style="color: rgb(255, 129, 129)" title="Heart"><span hidden>Heart</span></i> using Lektor</span>
         </div>
@@ -376,7 +376,23 @@ footer a:focus {
     </div>
     {% endblock %}
 
-
+<script type="text/javascript">
+_linkedin_partner_id = "7713980";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script><script type="text/javascript">
+(function(l) {
+if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+window.lintrk.q=[]}
+var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})(window.lintrk);
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=7713980&fmt=gif" />
+</noscript>
 
   </footer>
 
@@ -426,4 +442,5 @@ footer a:focus {
   }
 </script>
 </body>
+
 </html>

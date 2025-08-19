@@ -4,7 +4,6 @@ title: Code of Conduct Response Guide
 ---
 body:
 
-
 <p>This document aims to help organizers and moderators of Pybay handle reports of Code of Conduct reports. This includes in-person conferences and online spaces.</p>
 <h2>General guidelines for Code of Conduct response</h2>
 <h3>The role of Code of Conduct response teams</h3>
@@ -20,17 +19,22 @@ body:
 <p>The response team generally works, decides and communicates as a team. If the report indicates that immediate action is required and other response team members are not available, any response team member may take the action they think is necessary. If possible, it’s still preferred to take action after a brief discussion with at least one other response team member, or even any other organiser, rather than acting entirely unilaterally. Formal processes and guidelines must never get in the way of preventing threats to anyone’s safety.</p>
 <p>For example, <strong>you may consider unilateral action</strong>:</p>
 
+<ul>
 <li>If any delay of action will likely bring unacceptable further harm to others. Ongoing disruption, aggression or serious harassment are examples of this.</li>
 <li>If you feel people are in immediate physical danger, it can be appropriate to contact local law enforcement.</li>
 <li>If you witness a presentation which is clearly in violation of the Code of Conduct repeatedly or very seriously. You might simply say “I’m sorry, this presentation cannot be continued at the present time”. Examples of when this is justified could be significant threats of violence, harassment of others, or continuous sexist jokes. Do not end a presentation in cases like a few inappropriate jokes - in that case do report it to the response team.</li>
+</ul>
 
 <h3>Reviewing the report</h3>
 <p>Based on the report and any other available information, the response team will meet to determine, to the best of their ability:</p>
 
+<ul>
 <li>What happened</li>
 <li>Whether this event constitutes a Code of Conduct violation</li>
 <li>Who, if anyone, was the bad actor(s)</li>
 <li>What the appropriate resolution is</li>
+</ul>
+
 <br>
 <p>A written record will be kept of each incident and its review. Although that sometimes seems superflous at the time, hectic environments like conferences can make it easy to forget or confuse details later.</p>
 
@@ -42,6 +46,7 @@ body:
 <h3>Resolutions</h3>
 <p><b>The most common resolutions the response team can decide on are:</b></p>
 
+<ul>
 <li>No action (if the team determines no violation occurred).</li>
 <li>A private or public reprimand.</li>
 <li>Requiring that a public apology is made.</li>
@@ -51,18 +56,23 @@ body:
 <li>Not publishing the video of a conference talk.</li>
 <li>Cancelling a conference talk.</li>
 <li>Removing a participant from the conference, meetup or online space, without refund.</li>
+</ul>
+
 <br>
 <p>Resolutions are not restricted to these options. Any conversations with bad actors are done by two people from the response team, and notes from this conversation will be added to the record of the incident. Regarding apologies, do not place a reporter in a situation where they are pressured to accept apologies from the reported person.</p>
 
 <p>When deciding on a resolution, the basic goal is to address the report in an appropriate way, while also looking to prevent or reduce the risk of continuing harm in the future. For example, you may try to distinguish whether a violation occurred intentionally or not, especially in not too severe cases like inappropriate jokes. In intentional cases, or severe behaviour, stronger measures are probably appropriate. The response team can also use behaviour on social media, the conference slack or personal interactions to further build a picture of the person(s) involved.</p>
 <p><b>To provide a number of examples, these are situations where immediate removal from a space is likely appropriate:</b></p>
 
+<ul>
 <li>Repeated violations that resulted in one or more previous warnings.</li>
 <li>Continuing to harass after any “No” or “Stop” instruction.</li>
 <li>A pattern of harassing behavior, with or without warnings.</li>
 <li>A single physical assault offense (e.g., punching or groping someone).</li>
 <li>A single obviously intentional offense (e.g., taking up-skirt photos).</li>
 <li>Intentionally deceiving someone into drinking alcohol.</li>
+</ul>
+
 <br>
 <p>The response team should not involve venue security or law enforcement, unless they have consent from the affected person(s), or if the safety risk is so significant that there is no other reasonable option. Venue security can be involved to ensure a person can not re-enter the building. However, details of the incident or the reporter must not be shared.</p>
 

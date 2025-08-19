@@ -79,3 +79,48 @@ def test_home(page: Page, static_server_url: str):
     expect(page).to_have_title("PyBay 2025 - 10th Annual Bay Area Python Dev Conference - Welcome to PyBay!")
     results = Axe().run(page)
     assert results.violations_count == 0, results.generate_report()
+
+def test_about(page: Page, static_server_url: str):
+    page.goto(static_server_url + "about")
+    results = Axe().run(page)
+    assert results.violations_count == 0, results.generate_report()
+
+def test_attending(page: Page, static_server_url: str):
+    page.goto(static_server_url + "attending")
+    results = Axe().run(page)
+    assert results.violations_count == 0, results.generate_report()
+
+def test_health_and_safety(page: Page, static_server_url: str):
+    page.goto(static_server_url + "health-and-safety")
+    results = Axe().run(page)
+    assert results.violations_count == 0, results.generate_report()
+
+def test_coc_response(page: Page, static_server_url: str):
+    page.goto(static_server_url + "code-of-conduct/code-of-conduct-response-guide")
+    results = Axe().run(page)
+    assert results.violations_count == 0, results.generate_report()
+
+def test_coc_reporting(page: Page, static_server_url: str):
+    page.goto(static_server_url + "code-of-conduct/code-of-conduct-reporting")
+    results = Axe().run(page)
+    assert results.violations_count == 0, results.generate_report()
+
+def test_coc_code(page: Page, static_server_url: str):
+    page.goto(static_server_url + "code-of-conduct")
+    results = Axe().run(page)
+    assert results.violations_count == 0, results.generate_report()
+
+def test_sponsor_us(page: Page, static_server_url: str):
+    page.goto(static_server_url + "sponsors/sponsor-us")
+    results = Axe().run(page)
+    assert results.violations_count == 0, results.generate_report()
+
+def test_sponsor_us(page: Page, static_server_url: str):
+    page.goto(static_server_url + "sponsors/our-sponsors")
+    results = Axe().run(page)
+    assert results.violations_count == 0, results.generate_report()
+
+def test_speakers_talk_list(page: Page, static_server_url: str):
+    page.goto(static_server_url + "speaking/talk-list-2025")
+    results = Axe().run(page)
+    assert results.violations_count == 0, results.generate_report()

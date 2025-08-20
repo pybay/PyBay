@@ -19,10 +19,10 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install and build frontend assets
+      - name: Build assets with webpack
         run: |
           npm ci --prefix PyBay/webpack
-          npm run build --prefix PyBay/webpack
+          npx --yes webpack --config PyBay/webpack/webpack.config.js --mode=production
 
       - uses: actions/setup-python@v5
         with:

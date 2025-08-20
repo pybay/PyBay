@@ -20,9 +20,10 @@ jobs:
           node-version: '20'
 
       - name: Build assets with webpack
+        working-directory: PyBay/webpack
         run: |
-          npm ci --prefix PyBay/webpack
-          npx --yes webpack --config PyBay/webpack/webpack.config.js --mode=production
+          npm ci
+          npx webpack --config webpack.config.js --mode=production
 
       - uses: actions/setup-python@v5
         with:

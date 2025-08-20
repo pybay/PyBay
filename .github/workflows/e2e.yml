@@ -14,6 +14,16 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install and build frontend assets
+        run: |
+          npm ci --prefix PyBay/webpack
+          npm run build --prefix PyBay/webpack
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

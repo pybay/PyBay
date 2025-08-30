@@ -1,11 +1,7 @@
 _model: page
 ---
-title: Past Sponsors word cloud
+title: Past Sponsors
 ---
-short: Past Sponsors word cloud
+short: Past Sponsors
 ---
-body:
-
-<img src="word-cloud.jpeg"  title="PyBay Past Sponsors Word Cloud" name="PyBay Past Sponsors Word Cloud" alt="PyBay Past Sponsors Word Cloud" width="110%" >
-
-<img src="simplewordcloud.png"  title="PyBay Past Sponsors Word Cloud" name="PyBay Past Sponsors Word Cloud" alt="PyBay Past Sponsors Word Cloud" width="100%" >
+body: <img src="past-sponsor-word-cloud.png"  title="PyBay Past Sponsors Word Cloud" name="PyBay Past Sponsors Word Cloud" alt="PyBay Past Sponsors Word Cloud" width="100%" >

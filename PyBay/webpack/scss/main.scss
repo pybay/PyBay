@@ -1008,6 +1008,15 @@ button.js-gitter-toggle-chat-button {
   font-weight: bold;
 }
 
+.sl-blurb a {
+  color: #2e648e;
+  transition: color 0.3s ease; 
+
+}
+.sl-blurb a:hover {
+  text-decoration-thickness: 2px;
+}
+
 @media(max-width: 1000px) {
   .sponsor-list, .sl-sponsor {
     display: block;
@@ -1107,7 +1116,7 @@ countdown-timer .label {
   color: #666;
 }
 header.navbar-custom {
-  background: linear-gradient(135deg, #169bbd, #006b8f) !important;
+  background: #169bbd linear-gradient(140deg, #169bbd 0%, #169bbd 40%, #006b8f 40%, #006b8f 100%) !important;
   background-blend-mode: overlay;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1130,6 +1139,15 @@ header.navbar-custom {
     background-position-x: 1000px;
   }
 }
+}
+
+@media screen and (max-width: 1200px) {
+ header.navbar-custom {
+  background: #0082c5 !important;
+ }
+ header.navbar-custom a.nav-link {
+  font-size: clamp(12px, 2vw, 14px);
+ }
 }
 
 .video-wrapper video {
@@ -1210,4 +1228,23 @@ header.navbar-custom {
 
 
 
-// background-image: url(../images/waves.png), ;
+
+.btn-move {
+  display: inline-block;
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+.btn-move:hover {
+  box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate(0px, -10px) scale(1.2);
+          transform: translate(0px, -10px) scale(1.2);
+}
+
+.sz-powered-by a a:hover strong small {
+  color:#0A4857 !important;
+
+}

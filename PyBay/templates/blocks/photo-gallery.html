@@ -1,8 +1,8 @@
 {% from 'macros/blocksupport.html' import render_container %}
 <div class="row text-center">
-<h2>{{ this.gallery_name }}</h1>
+<h1>{{ this.gallery_name }}</h1>
 {% if this.info.url %}
-<a href="{{ this.info.url }}" ><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+<a href="{{ this.info.url }}" aria-label="Go to {{this.gallery_name}} website" ><i class="fa fa-info-circle" aria-hidden="true"></i></a>
 {% endif %}
 </div>
 <br>

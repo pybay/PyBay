@@ -51,14 +51,6 @@ logo_image: meta-symbol-positiveprimary-rgb.png
 -----
 sponsor_url: https://engineering.fb.com/
 ##### sponsor-block #####
-sponsor_company: Python Software Foundation
------
-sponsored_text: The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. The majority of the PSF's work is focused on empowering and supporting people within the Python community. The PSF has active grant programs that support sprints, conferences, meet ups, user groups, and Python development efforts all over the world. In addition, the PSF underwrites and runs PyCon US, the primary Python community conference. Being part of the PSF means being part of the Python community. Recently we changed the PSF to an open membership organization, so that everyone who uses and supports Python can join. To learn more, visit https://www.python.org/psf/membership.
------
-logo_image: psf-logo-372x84-alpha-2025.png
------
-sponsor_url: https://www.python.org/psf/membership
-##### sponsor-block #####
 sponsor_company: Temporal
 -----
 sponsored_text: Temporal is an open source platform that helps developers build and scale resilient Enterprise and AI applications. Complex workflows are easily orchestrated with durable execution, ensuring they never fail or lose state. Get started today at <a href=https://temporal.io/>temporal.io</a>
@@ -89,6 +81,14 @@ sponsored_text: Bloomberg is building the world's most trusted information netwo
 logo_image: bbgengineering-black-2025.png
 -----
 sponsor_url: https://www.bloomberg.com/company/values/tech-at-bloomberg/python/
+##### sponsor-block #####
+sponsor_company: Python Software Foundation
+-----
+sponsored_text: The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. The majority of the PSF's work is focused on empowering and supporting people within the Python community. The PSF has active grant programs that support sprints, conferences, meet ups, user groups, and Python development efforts all over the world. In addition, the PSF underwrites and runs PyCon US, the primary Python community conference. Being part of the PSF means being part of the Python community. Recently we changed the PSF to an open membership organization, so that everyone who uses and supports Python can join. To learn more, visit https://www.python.org/psf/membership.
+-----
+logo_image: psf-logo-372x84-alpha-2025.png
+-----
+sponsor_url: https://www.python.org/psf/membership
 #### tier-block ####
 tier_name: Team
 ----

@@ -1,0 +1,61 @@
+name: "E2E and accessibility tests"
+
+on:
+  push:
+    branches:
+      - "main"
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Run end-to-end accessibility tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build assets with webpack
+        working-directory: PyBay/webpack
+        run: |
+          npm ci
+          npx webpack --config webpack.config.js --mode=production
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: tests/requirements.txt
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r tests/requirements.txt
+
+      - name: Install Playwright browsers
+        run: |
+          python -m playwright install --with-deps chromium
+
+      - name: Run E2E a11y tests against built pages
+        id: e2e
+        env:
+          PLAYWRIGHT_HEADLESS: "1"
+          PYTEST_PLAYWRIGHT_OUTPUT_DIR: test-results
+        run: |
+          # Retain artifacts on failure so we can upload them
+          pytest tests/test_server.py \
+            --maxfail=1 --disable-warnings \
+            --tracing=retain-on-failure \
+            --screenshot=only-on-failure
+
+      - name: Upload Playwright artifacts
+        if: ${{ failure() && steps.e2e.conclusion == 'failure' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-artifacts
+          path: |
+            test-results

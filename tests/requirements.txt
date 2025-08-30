@@ -1,0 +1,6 @@
+pytest
+requests
+playwright
+pytest-playwright
+axe-playwright-python
+lektor

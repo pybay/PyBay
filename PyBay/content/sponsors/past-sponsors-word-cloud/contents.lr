@@ -1,0 +1,7 @@
+_model: page
+---
+title: Past Sponsors
+---
+short: Past Sponsors
+---
+body: <img src="past-sponsor-word-cloud.png"  title="PyBay Past Sponsors Word Cloud" name="PyBay Past Sponsors Word Cloud" alt="PyBay Past Sponsors Word Cloud" width="100%" >

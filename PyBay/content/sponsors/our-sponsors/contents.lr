@@ -27,6 +27,14 @@ sponsored_text: CodeRabbit is the industry's leading AI Code Review platform hel
 logo_image: logo-coderabbit-primary.svg
 -----
 sponsor_url: https://www.coderabbit.ai/
+##### sponsor-block #####
+sponsor_company: Intuit
+-----
+sponsored_text: <a href=https://www.intuit.com/> Intuit</a> is the global financial technology platform that powers prosperity for the people and communities we serve. With 100 million customers worldwide using <a href=https://turbotax.intuit.com/>TurboTax</a>,<a href=https://www.creditkarma.com/> Credit Karma</a>, <a href=https://quickbooks.intuit.com/>QuickBooks</a>, and <a href=https://mailchimp.com/>Mailchimp</a>, we believe that everyone should have the opportunity to prosper. We never stop working to find new, innovative ways to make that possible.
+-----
+logo_image: intuit-logo-super-blue-1600x1200.png
+-----
+sponsor_url: https://www.intuit.com/
 #### tier-block ####
 tier_name: Silver
 ----
@@ -58,6 +66,14 @@ sponsored_text: Temporal is an open source platform that helps developers build 
 logo_image: temporal-logolockup-horizontal-dark-1-2x.png
 -----
 sponsor_url: https://temporal.io/
+##### sponsor-block #####
+sponsor_company: Neo4J
+-----
+sponsored_text: Neo4j Graph Database is the AI enabler that provides the industry-leading knowledge graph to help organizations build breakthrough GenAI applications.
+-----
+logo_image: neo4j-logo-fullcolor-transbg-750x486.png
+-----
+sponsor_url: https://neo4j.com/
 #### tier-block ####
 tier_name: Bronze
 ----

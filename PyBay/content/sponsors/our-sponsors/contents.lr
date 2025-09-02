@@ -35,14 +35,6 @@ sponsored_text: <a href=https://www.intuit.com/> Intuit</a> is the global financ
 logo_image: intuit-logo-super-blue-1600x1200.png
 -----
 sponsor_url: https://www.intuit.com/
-##### sponsor-block #####
-sponsor_company: Neo4J
------
-sponsored_text: Neo4j Graph Database is the AI enabler that provides the industry-leading knowledge graph to help organizations build breakthrough GenAI applications.
------
-logo_image: neo4j-logo-fullcolor-transbg-750x486.png
------
-sponsor_url: https://neo4j.com/
 #### tier-block ####
 tier_name: Silver
 ----
@@ -74,6 +66,14 @@ sponsored_text: Temporal is an open source platform that helps developers build 
 logo_image: temporal-logolockup-horizontal-dark-1-2x.png
 -----
 sponsor_url: https://temporal.io/
+##### sponsor-block #####
+sponsor_company: Neo4J
+-----
+sponsored_text: Neo4j Graph Database is the AI enabler that provides the industry-leading knowledge graph to help organizations build breakthrough GenAI applications.
+-----
+logo_image: neo4j-logo-fullcolor-transbg-750x486.png
+-----
+sponsor_url: https://neo4j.com/
 #### tier-block ####
 tier_name: Bronze
 ----

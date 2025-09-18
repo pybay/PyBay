@@ -10,6 +10,9 @@ import pytest
 import requests
 from playwright.sync_api import Page, expect
 from axe_playwright_python.sync_playwright import Axe
+from lektor.project import Project
+from lektor import db
+
 
 expect.set_options(timeout=10_000)
 
@@ -56,7 +59,7 @@ def run_static_server(directory: str, port: int):
 def built_site_dir(tmp_path_factory) -> Path:
     """Build the Lektor site once and return the output directory."""
     repo_root = Path(__file__).resolve().parents[1]
-    site_dir = repo_root / "PyBay"
+    site_dir = repo_root 
     out_dir = tmp_path_factory.mktemp("lektor-build")
     subprocess.run([
         "lektor", "build", "-O", str(out_dir)
@@ -64,8 +67,8 @@ def built_site_dir(tmp_path_factory) -> Path:
     return out_dir
 
 
-@pytest.fixture()
-def static_server_url(free_port: int, built_site_dir: Path) -> Generator[str, None, None]:
+@pytest.fixture(scope="session")
+def base_url(free_port: int, built_site_dir: Path) -> Generator[str, None, None]:
     proc = Process(target=run_static_server, args=(str(built_site_dir), free_port), daemon=True)
     proc.start()
     url = f"http://localhost:{free_port}/"
@@ -73,54 +76,26 @@ def static_server_url(free_port: int, built_site_dir: Path) -> Generator[str, No
     yield url
     proc.kill()
 
+    
+def get_pages(query, pad, pages: set[str]):
+    for page in query.all():
+        # lektor gives us page names without a trailing slash, but 
+        # our server redirects to the page with the trailing slash. 
+        # it doesn't cause any issues, but makes logs chattier and 
+        # is probably imperceptibly slower
+        pages.add(f"{page.path}/")  
+        get_pages(db.Query(page.path, pad), pad, pages)
+    return pages
+    
+def all_pages() -> list[str]:
+    project = Project.discover()
+    env = project.make_env()
+    pad = env.new_pad()
+    return get_pages(db.Query("/", pad), pad, set())
+    
 
-def test_home(page: Page, static_server_url: str):
-    page.goto(static_server_url)
-    expect(page).to_have_title("PyBay 2025 - 10th Annual Bay Area Python Dev Conference - Welcome to PyBay!")
-    results = Axe().run(page)
-    assert results.violations_count == 0, results.generate_report()
-
-def test_about(page: Page, static_server_url: str):
-    page.goto(static_server_url + "about")
-    results = Axe().run(page)
-    assert results.violations_count == 0, results.generate_report()
-
-def test_attending(page: Page, static_server_url: str):
-    page.goto(static_server_url + "attending")
-    results = Axe().run(page)
-    assert results.violations_count == 0, results.generate_report()
-
-def test_health_and_safety(page: Page, static_server_url: str):
-    page.goto(static_server_url + "health-and-safety")
-    results = Axe().run(page)
-    assert results.violations_count == 0, results.generate_report()
-
-def test_coc_response(page: Page, static_server_url: str):
-    page.goto(static_server_url + "code-of-conduct/code-of-conduct-response-guide")
-    results = Axe().run(page)
-    assert results.violations_count == 0, results.generate_report()
-
-def test_coc_reporting(page: Page, static_server_url: str):
-    page.goto(static_server_url + "code-of-conduct/code-of-conduct-reporting")
-    results = Axe().run(page)
-    assert results.violations_count == 0, results.generate_report()
-
-def test_coc_code(page: Page, static_server_url: str):
-    page.goto(static_server_url + "code-of-conduct")
-    results = Axe().run(page)
-    assert results.violations_count == 0, results.generate_report()
-
-def test_sponsor_us(page: Page, static_server_url: str):
-    page.goto(static_server_url + "sponsors/sponsor-us")
-    results = Axe().run(page)
-    assert results.violations_count == 0, results.generate_report()
-
-def test_sponsor_us(page: Page, static_server_url: str):
-    page.goto(static_server_url + "sponsors/our-sponsors")
-    results = Axe().run(page)
-    assert results.violations_count == 0, results.generate_report()
-
-def test_speakers_talk_list(page: Page, static_server_url: str):
-    page.goto(static_server_url + "speaking/talk-list-2025")
+@pytest.mark.parametrize("lektor_page", all_pages())
+def test_all_posts(page: Page, base_url: str, lektor_page: str):
+    page.goto(lektor_page)
     results = Axe().run(page)
     assert results.violations_count == 0, results.generate_report()

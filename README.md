@@ -16,6 +16,12 @@
 
 ## Running tests
 
+Change directory
+
+```shell
+cd PyBay
+```
+
 Install the test requirements:
 
 ```shell

@@ -2,6 +2,6 @@ _model: redirect
 ---
 short: schedule
 ---
-target: ../attending/schedule/
+target: ../speaking/schedule/
 ---
 title: 

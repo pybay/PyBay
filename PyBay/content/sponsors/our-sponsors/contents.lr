@@ -105,6 +105,14 @@ sponsored_text: The mission of the Python Software Foundation is to promote, pro
 logo_image: psf-logo-372x84-alpha-2025.png
 -----
 sponsor_url: https://www.python.org/psf/membership
+##### sponsor-block #####
+sponsor_company: Microsoft
+-----
+sponsored_text: Azure enriches the database platforms that Python developers rely on to build intelligent apps and agents with less friction. Our fully-managed database services come backed with industry-leading security, compliance and reliability and are equipped with advanced features to support modern workloads. Azure Cosmos DB is a serverless and scalable, low-latency NoSQL database with built-in vector and hybrid search, perfect for powering AI, RAG pipelines, and multi-agent systems. Azure Database for PostgreSQL combines the power of open-source Postgres with enterprise-ready scale and security, is infused with genAI capabilities and natively supports vector data and advanced RAG techniques. And with DocumentDB—our new open-source, MongoDB-compatible engine—you get flexibility and choice backed by the Linux Foundation. All three services integrate seamlessly with Python SDKs and tools, so you can build apps, APIs, and AI workloads faster, without worrying about infrastructure.
+-----
+logo_image: msft-pybay-sponsor-v3-4x.png
+-----
+sponsor_url: https://www.microsoft.com/en-us/
 #### tier-block ####
 tier_name: Community
 ----
@@ -124,6 +132,22 @@ sponsored_text: NumFOCUS is a 501(c)(3) that provides critical resources to some
 logo_image: numfocus-logo-2025.png
 -----
 sponsor_url: https://numfocus.org/
+##### sponsor-block #####
+sponsor_company: Black Python Devs
+-----
+sponsored_text: Our mission is to build the world’s largest community of Black Python developers, fostering mentorship, career growth, and greater representation across the global Python ecosystem
+-----
+logo_image: bpd-white-stacked.png
+-----
+sponsor_url: https://blackpythondevs.com/index.html
+##### sponsor-block #####
+sponsor_company: Talk Python
+-----
+sponsored_text: Talk Python is the weekly Talk Python To Me podcast plus a deep library of demo-based Python courses. Hear creators and maintainers share how real-world Python gets built, then turn insights into skills with 270+ hours of training on web, data, and automation. We help teams and individuals learn faster and ship better software.
+-----
+logo_image: talk-python-lightbg.png
+-----
+sponsor_url: https://talkpython.fm/
 ---
 short: Our Sponsors
 ---

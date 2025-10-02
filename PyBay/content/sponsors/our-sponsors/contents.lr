@@ -106,25 +106,6 @@ logo_image: psf-logo-372x84-alpha-2025.png
 -----
 sponsor_url: https://www.python.org/psf/membership
 #### tier-block ####
-tier_name: Team
-----
-description: 
-----
-amount: 3500
-----
-visual_display: default
-----
-add_sponsors:
-
-##### sponsor-block #####
-sponsor_company: 
------
-sponsored_text: 
------
-logo_image: your-logo-here.png
------
-sponsor_url: 
-#### tier-block ####
 tier_name: Community
 ----
 description: 
@@ -143,25 +124,6 @@ sponsored_text: NumFOCUS is a 501(c)(3) that provides critical resources to some
 logo_image: numfocus-logo-2025.png
 -----
 sponsor_url: https://numfocus.org/
-#### tier-block ####
-tier_name: Diversity
-----
-description: 
-----
-amount: 
-----
-visual_display: default
-----
-add_sponsors:
-
-##### sponsor-block #####
-sponsor_company: 
------
-sponsored_text: 
------
-logo_image: your-logo-here.png
------
-sponsor_url: 
 ---
 short: Our Sponsors
 ---

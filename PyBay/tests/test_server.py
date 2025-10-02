@@ -83,7 +83,9 @@ def get_pages(query, pad, pages: set[str]):
         # our server redirects to the page with the trailing slash. 
         # it doesn't cause any issues, but makes logs chattier and 
         # is probably imperceptibly slower
-        pages.add(f"{page.path}/")  
+        if page._data["_model"] != "redirect":
+            # Ignore redirect pages
+            pages.add(f"{page.path}/")  
         get_pages(db.Query(page.path, pad), pad, pages)
     return pages
     

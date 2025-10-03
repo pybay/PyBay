@@ -7,7 +7,7 @@ body:
 #### video-banner ####
 video: video.webm
 ----
-height: 300
+height: 
 ----
 contents: 
 ----

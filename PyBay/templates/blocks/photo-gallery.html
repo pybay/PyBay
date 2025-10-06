@@ -7,7 +7,7 @@
 </div>
 <br>
 
-{% for photo_images in this.add_gallery_members.blocks|slice(2) %}
+{% for photo_images in this.add_gallery_members.blocks|slice(this.column_number) %}
 <div class="gallery row  justify-content-around">
 {% for photo_image in photo_images%}
 {{ photo_image }}

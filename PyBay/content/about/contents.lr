@@ -99,6 +99,20 @@ twitter:
 -----
 instagram: 
 ##### photo-social #####
+gallery_name: Conrad Brousseau
+-----
+gallery_image: conrad-brousseau-graphic-design.jpg
+-----
+gallery_title: Graphic Design
+-----
+linkedin: https://www.linkedin.com/in/conrad-brousseau-75434236b/
+-----
+mastodon: 
+-----
+twitter: 
+-----
+instagram: 
+##### photo-social #####
 gallery_name: Laura Langdon
 -----
 gallery_image: laura-langdon.png
@@ -145,7 +159,7 @@ gallery_name: BAPyA Board
 ----
 info: https://bapya.org
 ----
-column_number: 5
+column_number: 2
 ----
 add_gallery_members:
 

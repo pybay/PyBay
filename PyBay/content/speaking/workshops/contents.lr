@@ -1,0 +1,46 @@
+_model: page
+---
+title: Workshops
+---
+body:
+
+Be prepared to roll up your sleeves, learn, and participate in an interactive team environment.
+
+Limited seats. Secure your spot today!
+
+
+#####Workshop 1: Azure Database for PostgreSQL workshop#####
+######Time: 10:30am - 12:30pm######
+######Title: Build Agentic AI with Semantic Kernel and Graph RAG on PostgreSQL######
+######Abstract######
+In this hands-on lab, you will build an agent-driven Retrieval-Augmented Generation (RAG) application using a U.S. Case Law dataset. You will work with Azure Database for PostgreSQL, Visual Studio Code, and the Semantic Kernel Agent Framework to explore AI-powered text and vector search. The lab also introduces GraphRAG with Apache AGE, enabling enriched querying across structured and graph-based data. By the end, you'll gain practical skills in semantic search, vector indexing, and intelligent data retrieval.
+######Topics Covered######
+Setup your Azure PostgreSQL Database<br>
+Launch PSQL Command Line Shell in VS Code<br>
+Using AI-driven features in Postgres<br>
+Using Semantic Vector Search and DiskANN Index<br>
+Perform a Semantic Search Query<br>
+Semantic Agent Configuration and Plugin Assembly<br>
+
+
+#####Workshop 2: Azure Cosmos DB workshop#####
+######Time: 1:30pm - 3:30pm######
+######Title: Building a Full-Stack FastAPI App with Open Source DocumentDB via Docker######
+######Abstract######
+This hands-on lab guides you through the process of building a modern, full-stack web application using FastAPI for the backend and open source DocumentDB as the database, all orchestrated with Docker containers. Attendees will learn how to rapidly prototype and deploy scalable Python APIs, leverage containerization for consistent development and testing, and integrate with DocumentDB for flexible, cloud-ready data storage.
+######Topics covered######
+Setting up a FastAPI backend and connecting it to DocumentDB using Docker Compose.<br>
+Best practices for local development, testing, and CI/CD integration with Docker.<br>
+How open source DocumentDB enables rapid iteration and seamless migration to cloud environments.<br>
+Real-world patterns for building, running, and debugging full-stack apps in isolated, reproducible environments.<br>
+
+By the end of the lab, you’ll have a working application, a deeper understanding of containerized development workflows, and practical experience with the latest open source tools for Python and NoSQL development.
+
+
+####Workshop Sponsor:  Microsoft Azure Databases####
+Azure enriches the database platforms that Python developers rely on to build intelligent apps and agents with less friction. Our fully-managed database services come backed with industry-leading security, compliance and reliability and are equipped with advanced features to support modern workloads. Azure Cosmos DB is a serverless and scalable, low-latency NoSQL database with built-in vector and hybrid search, perfect for powering AI, RAG pipelines, and multi-agent systems. Azure Database for PostgreSQL combines the power of open-source Postgres with enterprise-ready scale and security, is infused with genAI capabilities and natively supports vector data and advanced RAG techniques. And with DocumentDB—our new open-source, MongoDB-compatible engine—you get flexibility and choice backed by the Linux Foundation. All three services integrate seamlessly with Python SDKs and tools, so you can build apps, APIs, and AI workloads faster, without worrying about infrastructure.
+
+All participants must register individually.<br>
+Attendees must adhere to the Microsoft Code of Conduct. https://aka.ms/EventsCodeOfConduct
+---
+short: Workshops

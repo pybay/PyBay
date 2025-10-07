@@ -4,10 +4,14 @@ title: Workshops
 ---
 body:
 
-Be prepared to roll up your sleeves, learn, and participate in an interactive team environment.
+Get ready to roll up your sleeves, learn, and participate in an interactive team environment.
 
-Limited seats. Secure your spot today!
+Start your laptops .... Get Set .... Go!
 
+Limited seats. <a href="https://pretix.eu/bapya/pybay-2025/">Secure your spot today!</a><br>
+Reserve your spot when you buy your ticket. If you have already bought a ticket, you can update your booking and add the workshop reservation to it.
+
+<br>
 
 #####Workshop 1: Azure Database for PostgreSQL workshop#####
 ######Time: 10:30am - 12:30pm######
@@ -22,6 +26,7 @@ Using Semantic Vector Search and DiskANN Index<br>
 Perform a Semantic Search Query<br>
 Semantic Agent Configuration and Plugin Assembly<br>
 
+<br>
 
 #####Workshop 2: Azure Cosmos DB workshop#####
 ######Time: 1:30pm - 3:30pm######
@@ -36,11 +41,17 @@ Real-world patterns for building, running, and debugging full-stack apps in isol
 
 By the end of the lab, you’ll have a working application, a deeper understanding of containerized development workflows, and practical experience with the latest open source tools for Python and NoSQL development.
 
+<br>
 
 ####Workshop Sponsor:  Microsoft Azure Databases####
 Azure enriches the database platforms that Python developers rely on to build intelligent apps and agents with less friction. Our fully-managed database services come backed with industry-leading security, compliance and reliability and are equipped with advanced features to support modern workloads. Azure Cosmos DB is a serverless and scalable, low-latency NoSQL database with built-in vector and hybrid search, perfect for powering AI, RAG pipelines, and multi-agent systems. Azure Database for PostgreSQL combines the power of open-source Postgres with enterprise-ready scale and security, is infused with genAI capabilities and natively supports vector data and advanced RAG techniques. And with DocumentDB—our new open-source, MongoDB-compatible engine—you get flexibility and choice backed by the Linux Foundation. All three services integrate seamlessly with Python SDKs and tools, so you can build apps, APIs, and AI workloads faster, without worrying about infrastructure.
 
+<br>
+
 All participants must register individually.<br>
 Attendees must adhere to the Microsoft Code of Conduct. https://aka.ms/EventsCodeOfConduct
+
+<a href="https://pretix.eu/bapya/pybay-2025/">Secure your spot today!</a><br>
+Reserve your spot when you buy your ticket. If you have already bought a ticket, you can update your booking and add the workshop reservation to it.
 ---
 short: Workshops

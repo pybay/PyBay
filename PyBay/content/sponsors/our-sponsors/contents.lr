@@ -92,7 +92,7 @@ add_sponsors:
 ##### sponsor-block #####
 sponsor_company: Bloomberg Engineering
 -----
-sponsored_text: Bloomberg is building the world's most trusted information network for financial professionals. Our 9,000+ dedicated engineers are advancing and building new systems for the Bloomberg Terminal to solve complex, real-world problems. ​We trust our teams to choose the right technologies for the job; at Bloomberg, the answer’s often Python. Our active community of 4,000+ Python developers have their hands in everything from financial analytics and data science to contributing to open source technologies like Project Jupyter. Bloomberg is a Visionary Sponsor of the Python Software Foundation and hosts many Python community events around the world. <a href=https://www.bloomberg.com/company/values/tech-at-bloomberg/python/>TechAtBloomberg.com/python</a>
+sponsored_text: Bloomberg is building the world's most trusted information network for financial professionals. Our 9,000+ engineers are dedicated to advancing and building new systems for the Bloomberg Terminal to solve complex, real-world problems. We trust our teams to choose the right technologies for the job, and, at Bloomberg, the answer is often Python. We employ an active community of 4,000+ Python developers who have their hands in everything from financial analytics and data science to contributing to open source technologies like Project Jupyter. Bloomberg is proud to be a Visionary Sponsor of the Python Software Foundation and sponsor of many Python community events around the world. Learn more at <a href=https://www.bloomberg.com/company/values/tech-at-bloomberg/python/>TechAtBloomberg.com/python</a>.
 -----
 logo_image: bbgengineering-black-2025.png
 -----

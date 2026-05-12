@@ -7,7 +7,7 @@ body:
 #### video-banner ####
 video: video.webm
 ----
-height: 
+height: 300
 ----
 contents: 
 ----
@@ -15,43 +15,15 @@ center_image:
 #### text-block ####
 text:
 
-<h2 style="
-  font-size: 2.5rem;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: #006B8F; 
-  text-decoration-thickness: 3px;
-  text-decoration-style: wavy;
-">
-  Featuring
-</h2>
-<div class="mx-auto w-75">
-<script type="text/javascript" src="https://sessionize.com/api/v2/w0m77abc/view/SpeakerWall"></script>
-</div>
-----
-class: centered
-#### text-block ####
-text:
-
 # PyBay
 # is
-# 18 October 2025 in San Francisco, CA
-
-
-<br>
-<h2>T-Shirts and Community Tickets On Sale Only Until October 3, 2025</h2>
-
-
-<countdown-timer date="2025-10-04T00:00:00-07:00"></countdown-timer>
-
-
-<a class="btn btn-move py-4" style="border: 5px solid orange" href="https://pretix.eu/bapya/pybay-2025/">Buy Tickets!</a>
+# 3 October 2026 in San Francisco, CA
 
 <br>
 
 Join us for at gathering of Python developers in the San Francisco Bay Area.
 
-We'll discuss software development, data science, community, and of course: Python.
+We'll discuss software development, AI, security, data science, community, and of course: Python.
 
 <br>
 
@@ -100,8 +72,8 @@ text:
       </div>
       <div class="card-body">
         <h3 class="card-title">Speaking</h3>
-        <p class="card-text">Every year we have top speakers.</p>
-        <a href="./speaking/current-speakers" class="btn " style="border-bottom: 5px solid orange">Check out our speakers!</a>
+        <p class="card-text">Call for Proposals!</p>
+        <a href="./speaking/call-for-proposals" class="btn " style="border-bottom: 5px solid orange">Submit! </a>
       </div>
     </div>
   </div>

@@ -11,3 +11,5 @@ body:
 short: Schedule
 ---
 hide_title: no
+---
+_hidden: yes

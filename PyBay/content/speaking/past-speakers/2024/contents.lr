@@ -1,0 +1,16 @@
+_model: page
+---
+title: 2024 Speakers
+---
+body:
+
+<div class="text-center">
+<a href="https://www.youtube.com/playlist?list=PL85KuAjbN_gvx5b_BgLVcKfccnlZAVPMk" title="PyBay 2024 YouTube">
+<i class="fa-brands fa-youtube" aria-hidden="true" style="font-size: 3em;"></i> <h2>Watch Now!</h2>
+</a>
+<script type="text/javascript" src="https://sessionize.com/api/v2/btze2s8u/view/SpeakerWall"></script>
+</div>
+
+---
+short: 2024 Speakers
+

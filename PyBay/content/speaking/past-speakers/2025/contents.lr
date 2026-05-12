@@ -1,0 +1,17 @@
+_model: page
+---
+title: 2025 Speakers
+---
+body:
+<div class="text-center">
+<a href="https://www.youtube.com/playlist?list=PL85KuAjbN_gseSuHZTUCgNAHLeKuMDBxI" title="PyBay 2025 YouTube">
+<i class="fa-brands fa-youtube" aria-hidden="true" style="font-size: 3em;"></i> <h2>Watch Now!</h2>
+</a>
+
+<script type="text/javascript" src="https://sessionize.com/api/v2/3jihguik/view/SpeakerWall"></script>
+</div>
+
+
+
+---
+short: 2025 Speakers

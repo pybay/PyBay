@@ -13,17 +13,6 @@ contents:
 #### text-block ####
 text:
 
-## Purchase Tickets
-
-Regular bird tickets are on sale now! Regular Tickets only available until October 3rd! You must agree to the [code of conduct policy](/code-of-conduct) and the [health and safety policy](/health-and-safety) when you purchase a ticket. Check out the [amazing speakers](/speaking/current-speakers) you will get to see at PyBay!
-
-<br>
-
-<div class="text-center" style="margin-bottom: 30px">
-<a class="btn btn-move py-4" style="border: 5px solid orange" href="https://pretix.eu/bapya/pybay-2025/" aria-label="Link to buy conference tickets">Buy Tickets!</a>
-</div>
-
-
 ##Venue
 
 PyBay is returning to our *indoor* conference venue at University of California San Francisco. 

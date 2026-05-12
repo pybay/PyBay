@@ -1,9 +1,17 @@
-_model: redirect
----
-target: /code-of-conduct
+_model: page
 ---
 _slug: code-of-conduct-policy
 ---
 short: Code Of Conduct Policy
 ---
-title: CoC Redirect
+title: Code Of Conduct Policy
+---
+body:
+
+<p>PyBay’s Code of Conduct is maintained on the BAPyA website.</p>
+
+<p>Please use the link below to view the current version.</p>
+
+<p>
+	<a class="btn btn-secondary btn-lg" target="_blank" rel="noopener noreferrer" href="https://www.bapya.org/coc">Read the full Code of Conduct on BAPyA (external site)</a>
+</p>

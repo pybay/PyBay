@@ -1,12 +1,13 @@
-<div class="countdown-timer-{{ this.class }}">
-  <div class="text-center">
-<div class="countdown" role="timer" aria-live="polite">
-<h4>{{ this.countdown_text }} {{ this.countdown_date | datetimeformat('medium') }} </h2>
-
-<countdown-timer date="{{ this.countdown_date }}"></countdown-timer>
-
-
-<br>
-<a class="btn btn-secondary btn-lg" target="_blank" href="https://pretix.eu/bapya/pybay-2025/">Buy Tickets!</a>
-</div>
+<div class="callout callout--info text-center" style="text-align: center;">
+  <div role="timer" aria-live="polite">
+    <p class="text-mono text-muted" style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.75rem; margin-bottom: 8px;">
+      {{ this.countdown_text }} {{ this.countdown_date | datetimeformat('medium') }}
+    </p>
+    <countdown-timer date="{{ this.countdown_date }}"></countdown-timer>
+    <div style="margin-top: 16px;">
+      <a class="pybtn pybtn--install" target="_blank" href="https://pretix.eu/bapya/pybay-2026/">
+        <span class="install-prefix">pip install</span> tickets
+      </a>
+    </div>
+  </div>
 </div>

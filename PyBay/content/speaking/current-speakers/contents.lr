@@ -1,16 +1,15 @@
 _model: page
 ---
-title: 2025 Speakers
+title: 2026 Speakers
 ---
 body:
 
-<div class="text-center">
 <script type="text/javascript" src="https://sessionize.com/api/v2/3jihguik/view/SpeakerWall"></script>
 
-<br>
-<a class="btn btn-secondary btn-lg" target="_blank" href="https://pretix.eu/bapya/pybay-2025/">Buy Tickets!</a>
+<div style="text-align: center; margin-top: var(--space-6);">
+  <a class="pybtn pybtn--install pybtn--lg" target="_blank" href="https://pretix.eu/bapya/pybay-2026/">
+    <span class="install-prefix">pip install</span> tickets
+  </a>
 </div>
-
-
 ---
 short: Current Speakers

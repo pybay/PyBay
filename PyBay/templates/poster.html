@@ -1,7 +1,610 @@
 {% extends "layout.html" %}
 {% from 'macros/blocksupport.html' import render_full_width_blocks %}
-{% block title %}{{ this.title }}{% endblock %}
-{% block bodyclass %}poster{% endblock %}
+{% block title %}{% if this == site.get('/') %} — Home{% else %} — {{ this.title }}{% endif %}{% endblock %}
+
 {% block outerbody %}
-  {{ render_full_width_blocks(this.body.blocks, classes='col-md-12') }}
+
+  {% if this == site.get('/') %}
+  <!-- ================================================================ -->
+  <!-- HERO (homepage only)                                              -->
+  <!-- ================================================================ -->
+  <section class="hero pybay-section--hero" style="--hero-bg-image: url('/static/conference-venue.gif');" aria-label="Conference hero">
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-import">from pybay import</span>
+        <h1 class="hero-title">2026</h1>
+        <p class="hero-subtitle">11th Annual Bay Area Python Developer Conference</p>
+        <p class="hero-desc">
+          A one-day gathering of Python developers in San Francisco. Talks, workshops,
+          and community — built by the community, for the community.
+        </p>
+        <div class="package-meta">
+          <span class="meta-key">Date:</span>
+          <span class="meta-value">3 October 2026</span>
+          <span class="meta-key">Venue:</span>
+          <span class="meta-value">Mission Bay Conference Center, San Francisco</span>
+          <span class="meta-key">Attendees:</span>
+          <span class="meta-value">500+ Python developers</span>
+          <span class="meta-key">Tracks:</span>
+          <span class="meta-value">Web, Data, Community, &amp; more</span>
+        </div>
+        <div class="hero-actions">
+          <a href="https://pretix.eu/bapya/pybay-2026/" class="pybtn pybtn--install pybtn--lg" target="_blank" rel="noopener">
+            <span class="install-prefix">pip install</span> tickets
+          </a>
+          <a href="{{ '/speaking/current-speakers'|url }}" class="pybtn pybtn--outline pybtn--lg" style="margin-left: 12px;">
+            View speakers
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- Flow block content (editable) -->
+  {% if this.body.blocks %}
+    {{ render_full_width_blocks(this.body.blocks, classes='col-md-12') }}
+  {% endif %}
+
+  {% if this == site.get('/') %}
+
+  <!-- ================================================================ -->
+  <!-- SPEAKER HIGHLIGHTS                                                -->
+  <!-- ================================================================ -->
+  <section class="pybay-section pybay-section--compact" style="padding-top: 24px;" aria-labelledby="speakers-heading">
+    <div class="container">
+      <header class="section-header">
+        <span class="import-statement">
+          <span class="keyword">from</span>
+          <span class="module">pybay</span>
+          <span class="keyword">import</span>
+          <span class="name">speakers</span>
+        </span>
+        <h2 id="speakers-heading">Featured Speakers</h2>
+        <p class="section-description">
+          Industry leaders and community members sharing their expertise across
+          web development, data science, DevOps, and Python itself.
+        </p>
+      </header>
+
+      <div class="section-grid section-grid--3" id="speaker-grid">
+        <!-- Speaker 1 -->
+        <article class="speaker-card">
+          <img src="https://sessionize.com/image/placeholder.jpg"
+               alt="Speaker photo"
+               class="speaker-photo"
+               loading="lazy"
+               onerror="this.style.display='none'">
+          <h3 class="speaker-name">Speaker Name</h3>
+          <p class="speaker-title">Title, Organization</p>
+          <p class="speaker-talk">Talk title to be announced</p>
+        </article>
+
+        <!-- Speaker 2 -->
+        <article class="speaker-card">
+          <img src="https://sessionize.com/image/placeholder.jpg"
+               alt="Speaker photo"
+               class="speaker-photo"
+               loading="lazy"
+               onerror="this.style.display='none'">
+          <h3 class="speaker-name">Speaker Name</h3>
+          <p class="speaker-title">Title, Organization</p>
+          <p class="speaker-talk">Talk title to be announced</p>
+        </article>
+
+        <!-- Speaker 3 -->
+        <article class="speaker-card">
+          <img src="https://sessionize.com/image/placeholder.jpg"
+               alt="Speaker photo"
+               class="speaker-photo"
+               loading="lazy"
+               onerror="this.style.display='none'">
+          <h3 class="speaker-name">Speaker Name</h3>
+          <p class="speaker-title">Title, Organization</p>
+          <p class="speaker-talk">Talk title to be announced</p>
+        </article>
+
+        <!-- Speaker 4 -->
+        <article class="speaker-card">
+          <img src="https://sessionize.com/image/placeholder.jpg"
+               alt="Speaker photo"
+               class="speaker-photo"
+               loading="lazy"
+               onerror="this.style.display='none'">
+          <h3 class="speaker-name">Speaker Name</h3>
+          <p class="speaker-title">Title, Organization</p>
+          <p class="speaker-talk">Talk title to be announced</p>
+        </article>
+
+        <!-- Speaker 5 -->
+        <article class="speaker-card">
+          <img src="https://sessionize.com/image/placeholder.jpg"
+               alt="Speaker photo"
+               class="speaker-photo"
+               loading="lazy"
+               onerror="this.style.display='none'">
+          <h3 class="speaker-name">Speaker Name</h3>
+          <p class="speaker-title">Title, Organization</p>
+          <p class="speaker-talk">Talk title to be announced</p>
+        </article>
+
+        <!-- Speaker 6 -->
+        <article class="speaker-card">
+          <img src="https://sessionize.com/image/placeholder.jpg"
+               alt="Speaker photo"
+               class="speaker-photo"
+               loading="lazy"
+               onerror="this.style.display='none'">
+          <h3 class="speaker-name">Speaker Name</h3>
+          <p class="speaker-title">Title, Organization</p>
+          <p class="speaker-talk">Talk title to be announced</p>
+        </article>
+      </div>
+
+      <div class="section-cta">
+        <a href="{{ '/speaking/current-speakers'|url }}" class="pybtn pybtn--outline">
+          <span class="import-statement" style="margin-bottom: 0; font-size: 0.8125rem;">
+            <span class="keyword">from</span>
+            <span class="module">pybay</span>
+            <span class="keyword">import</span>
+            <span class="name" style="font-size: 1em;">all_speakers</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- SCHEDULE PREVIEW                                                   -->
+  <!-- ================================================================ -->
+  <section class="pybay-section" aria-labelledby="schedule-heading" style="background: var(--bg-subtle);">
+    <div class="container">
+      <header class="section-header">
+        <span class="import-statement">
+          <span class="keyword">from</span>
+          <span class="module">pybay</span>
+          <span class="keyword">import</span>
+          <span class="name">schedule</span>
+        </span>
+        <h2 id="schedule-heading">Schedule Preview</h2>
+        <p class="section-description">
+          A single track of talks, workshops, and keynotes. Full schedule with
+          speaker assignments coming soon.
+        </p>
+      </header>
+
+      <div class="schedule-timeline">
+        <div class="schedule-header">
+          <span class="schedule-col">Time</span>
+          <span class="schedule-col">Main Track</span>
+          <span class="schedule-col">Workshops</span>
+          <span class="schedule-col">Community</span>
+        </div>
+
+        <div class="schedule-row">
+          <span class="schedule-time">09:00</span>
+          <div class="schedule-slot">
+            <span class="slot-badge slot-badge--keynote">Keynote</span>
+            <div class="slot-title">Opening Keynote</div>
+            <div class="slot-speaker">TBA</div>
+          </div>
+          <div class="schedule-slot">
+            <div class="slot-title">Registration &amp; Coffee</div>
+          </div>
+          <div class="schedule-slot">
+            <div class="slot-title">Community Welcome</div>
+          </div>
+        </div>
+
+        <div class="schedule-row">
+          <span class="schedule-time">10:00</span>
+          <div class="schedule-slot">
+            <div class="slot-title">Web Development with Python</div>
+            <div class="slot-speaker">TBA</div>
+          </div>
+          <div class="schedule-slot">
+            <span class="slot-badge slot-badge--workshop">Workshop</span>
+            <div class="slot-title">Async Python Workshop</div>
+            <div class="slot-speaker">TBA</div>
+          </div>
+          <div class="schedule-slot">
+            <div class="slot-title">Lightning Talks</div>
+          </div>
+        </div>
+
+        <div class="schedule-row">
+          <span class="schedule-time">11:00</span>
+          <div class="schedule-slot">
+            <div class="slot-title">Data Science &amp; ML</div>
+            <div class="slot-speaker">TBA</div>
+          </div>
+          <div class="schedule-slot">
+            <div class="slot-title">DevOps &amp; Infrastructure</div>
+            <div class="slot-speaker">TBA</div>
+          </div>
+          <div class="schedule-slot">
+            <span class="slot-badge slot-badge--workshop">Workshop</span>
+            <div class="slot-title">Python Packaging</div>
+            <div class="slot-speaker">TBA</div>
+          </div>
+        </div>
+
+        <div class="schedule-row">
+          <span class="schedule-time">12:00</span>
+          <div class="schedule-slot">
+            <div class="slot-title">Lunch Break</div>
+          </div>
+          <div class="schedule-slot">
+            <div class="slot-title">Lunch &amp; Networking</div>
+          </div>
+          <div class="schedule-slot">
+            <div class="slot-title">Open Space</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-cta">
+        <a href="{{ '/schedule'|url }}" class="pybtn pybtn--outline">
+          <span class="import-statement" style="margin-bottom: 0; font-size: 0.8125rem;">
+            <span class="keyword">from</span>
+            <span class="module">pybay</span>
+            <span class="keyword">import</span>
+            <span class="name" style="font-size: 1em;">full_schedule</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- TRACKS                                                            -->
+  <!-- ================================================================ -->
+  <section class="pybay-section" aria-labelledby="tracks-heading">
+    <div class="container">
+      <header class="section-header">
+        <span class="import-statement">
+          <span class="keyword">from</span>
+          <span class="module">pybay</span>
+          <span class="keyword">import</span>
+          <span class="name">tracks</span>
+        </span>
+        <h2 id="tracks-heading">Conference Tracks</h2>
+        <p class="section-description">
+          Sessions organized into thematic tracks. Each track is a deep dive
+          into a specific area of Python development.
+        </p>
+      </header>
+
+      <div class="track-tabs" role="tablist" aria-label="Conference tracks">
+        <button class="track-tab active" role="tab" aria-selected="true" aria-controls="track-web" data-track="web">
+          [ web ]
+        </button>
+        <button class="track-tab" role="tab" aria-selected="false" aria-controls="track-data" data-track="data">
+          [ data ]
+        </button>
+        <button class="track-tab" role="tab" aria-selected="false" aria-controls="track-devops" data-track="devops">
+          [ devops ]
+        </button>
+        <button class="track-tab" role="tab" aria-selected="false" aria-controls="track-community" data-track="community">
+          [ community ]
+        </button>
+      </div>
+
+      <!-- Web Track -->
+      <div class="track-panel active" id="track-web" role="tabpanel">
+        <div class="track-session">
+          <div class="slot-title">Modern Web Frameworks in 2026</div>
+          <div class="slot-speaker">Exploring FastAPI, Django, and the async web ecosystem</div>
+        </div>
+        <div class="track-session">
+          <div class="slot-title">Building Real-time Applications</div>
+          <div class="slot-speaker">WebSockets, SSE, and event-driven architectures in Python</div>
+        </div>
+        <div class="track-session">
+          <div class="slot-title">Python Frontends: Past, Present, Future</div>
+          <div class="slot-speaker">From Pyodide to seamless full-stack Python</div>
+        </div>
+      </div>
+
+      <!-- Data Track -->
+      <div class="track-panel" id="track-data" role="tabpanel">
+        <div class="track-session">
+          <div class="slot-title">Production ML Pipelines</div>
+          <div class="slot-speaker">Building reliable data pipelines with Python</div>
+        </div>
+        <div class="track-session">
+          <div class="slot-title">Data Visualization That Communicates</div>
+          <div class="slot-speaker">Principles and tools for effective visual communication</div>
+        </div>
+        <div class="track-session">
+          <div class="slot-title">Python for Scientific Computing</div>
+          <div class="slot-speaker">NumPy, SciPy, and beyond</div>
+        </div>
+      </div>
+
+      <!-- DevOps Track -->
+      <div class="track-panel" id="track-devops" role="tabpanel">
+        <div class="track-session">
+          <div class="slot-title">Containerized Python Deployments</div>
+          <div class="slot-speaker">Best practices for Docker and Python</div>
+        </div>
+        <div class="track-session">
+          <div class="slot-title">Observability for Python Services</div>
+          <div class="slot-speaker">Tracing, metrics, and logging in production</div>
+        </div>
+        <div class="track-session">
+          <div class="slot-title">CI/CD for Python Projects</div>
+          <div class="slot-speaker">Automated testing, packaging, and deployment</div>
+        </div>
+      </div>
+
+      <!-- Community Track -->
+      <div class="track-panel" id="track-community" role="tabpanel">
+        <div class="track-session">
+          <div class="slot-title">Building Inclusive Python Communities</div>
+          <div class="slot-speaker">Lessons from running local user groups</div>
+        </div>
+        <div class="track-session">
+          <div class="slot-title">Open Source Maintenance</div>
+          <div class="slot-speaker">Sustainability, burnout, and community health</div>
+        </div>
+        <div class="track-session">
+          <div class="slot-title">Teaching Python to New Developers</div>
+          <div class="slot-speaker">Approaches, tools, and success stories</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- WORKSHOPS                                                         -->
+  <!-- ================================================================ -->
+  <section class="pybay-section" aria-labelledby="workshops-heading" style="background: var(--bg-subtle);">
+    <div class="container">
+      <header class="section-header">
+        <span class="import-statement">
+          <span class="keyword">from</span>
+          <span class="module">pybay</span>
+          <span class="keyword">import</span>
+          <span class="name">workshops</span>
+        </span>
+        <h2 id="workshops-heading">Workshops</h2>
+        <p class="section-description">
+          Hands-on workshops led by experienced practitioners. Limited capacity —
+          register early to secure your spot.
+        </p>
+      </header>
+
+      <div class="section-grid section-grid--2">
+        <article class="workshop-card">
+          <div class="workshop-meta">
+            <span class="meta-key">Package:</span>
+            <span class="meta-value">Advanced Async Patterns</span>
+            <span class="meta-key">Version:</span>
+            <span class="meta-value">Half-Day Workshop</span>
+            <span class="meta-key">Maintainer:</span>
+            <span class="meta-value">TBA</span>
+          </div>
+          <p class="workshop-desc">
+            Build production-ready async Python applications. Covers asyncio,
+            structured concurrency, and real-world patterns for web services.
+          </p>
+          <a href="#" class="pybtn pybtn--outline pybtn--sm" style="align-self: flex-start;">Register</a>
+        </article>
+
+        <article class="workshop-card">
+          <div class="workshop-meta">
+            <span class="meta-key">Package:</span>
+            <span class="meta-value">ML in Production</span>
+            <span class="meta-key">Version:</span>
+            <span class="meta-value">Half-Day Workshop</span>
+            <span class="meta-key">Maintainer:</span>
+            <span class="meta-value">TBA</span>
+          </div>
+          <p class="workshop-desc">
+            From notebook to deployed model. Learn MLOps fundamentals, model
+            serving, monitoring, and pipeline automation with Python.
+          </p>
+          <a href="#" class="pybtn pybtn--outline pybtn--sm" style="align-self: flex-start;">Register</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- SPONSORS                                                          -->
+  <!-- ================================================================ -->
+  <section class="pybay-section" aria-labelledby="sponsors-heading">
+    <div class="container">
+      <header class="section-header">
+        <span class="import-statement">
+          <span class="keyword">from</span>
+          <span class="module">pybay</span>
+          <span class="keyword">import</span>
+          <span class="name">dependencies</span>
+        </span>
+        <h2 id="sponsors-heading">Sponsors</h2>
+        <p class="section-description">
+          PyBay is made possible by the generous support of our sponsors.
+          These organizations share our commitment to the Python community.
+        </p>
+      </header>
+
+      <div class="sponsor-tier">
+        <h3 class="tier-header">Platinum Sponsors</h3>
+        <div class="sponsor-grid sponsor-grid--platinum">
+          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
+            <img src="{{ '/static/sponsors/platinum.svg'|asseturl }}" alt="Platinum sponsor">
+          </a>
+          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
+            <img src="{{ '/static/sponsors/platinum.svg'|asseturl }}" alt="Platinum sponsor">
+          </a>
+          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
+            <img src="{{ '/static/sponsors/platinum.svg'|asseturl }}" alt="Platinum sponsor">
+          </a>
+        </div>
+      </div>
+
+      <div class="sponsor-tier">
+        <h3 class="tier-header">Gold Sponsors</h3>
+        <div class="sponsor-grid sponsor-grid--gold">
+          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
+            <img src="{{ '/static/sponsors/gold.svg'|asseturl }}" alt="Gold sponsor">
+          </a>
+          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
+            <img src="{{ '/static/sponsors/gold.svg'|asseturl }}" alt="Gold sponsor">
+          </a>
+          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
+            <img src="{{ '/static/sponsors/gold.svg'|asseturl }}" alt="Gold sponsor">
+          </a>
+          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
+            <img src="{{ '/static/sponsors/gold.svg'|asseturl }}" alt="Gold sponsor">
+          </a>
+        </div>
+      </div>
+
+      <div class="sponsor-tier">
+        <h3 class="tier-header">Community Partners</h3>
+        <div class="sponsor-grid sponsor-grid--community">
+          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
+            <img src="{{ '/static/sponsors/community.svg'|asseturl }}" alt="Community partner">
+          </a>
+          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
+            <img src="{{ '/static/sponsors/community.svg'|asseturl }}" alt="Community partner">
+          </a>
+          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
+            <img src="{{ '/static/sponsors/community.svg'|asseturl }}" alt="Community partner">
+          </a>
+          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
+            <img src="{{ '/static/sponsors/community.svg'|asseturl }}" alt="Community partner">
+          </a>
+          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
+            <img src="{{ '/static/sponsors/community.svg'|asseturl }}" alt="Community partner">
+          </a>
+          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
+            <img src="{{ '/static/sponsors/community.svg'|asseturl }}" alt="Community partner">
+          </a>
+        </div>
+      </div>
+
+      <div class="section-cta">
+        <a href="{{ '/sponsors/sponsor-us/'|url }}" class="pybtn pybtn--outline">
+          <span class="import-statement" style="margin-bottom: 0; font-size: 0.8125rem;">
+            <span class="keyword">from</span>
+            <span class="module">pybay</span>
+            <span class="keyword">import</span>
+            <span class="name" style="font-size: 1em;">become_sponsor</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- VENUE                                                             -->
+  <!-- ================================================================ -->
+  <section class="pybay-section" aria-labelledby="venue-heading" style="background: var(--bg-subtle);">
+    <div class="container">
+      <header class="section-header">
+        <span class="import-statement">
+          <span class="keyword">from</span>
+          <span class="module">pybay</span>
+          <span class="keyword">import</span>
+          <span class="name">venue</span>
+        </span>
+        <h2 id="venue-heading">Venue</h2>
+        <p class="section-description">
+          Returning to the Mission Bay Conference Center in the heart of
+          San Francisco's innovation district.
+        </p>
+      </header>
+
+      <div class="venue-layout">
+        <div>
+          <h3 class="venue-name">Mission Bay Conference Center</h3>
+          <p class="venue-address" title="Click to copy address" data-copy-address>
+            1675 Owens Street<br>
+            San Francisco, CA 94158
+          </p>
+
+          <div class="venue-meta">
+            <span class="meta-key">Date:</span>
+            <span class="meta-value">3 October 2026</span>
+            <span class="meta-key">Time:</span>
+            <span class="meta-value">09:00 – 18:00 PDT</span>
+            <span class="meta-key">Capacity:</span>
+            <span class="meta-value">500+ attendees</span>
+            <span class="meta-key">Accessibility:</span>
+            <span class="meta-value">Fully wheelchair accessible</span>
+            <span class="meta-key">Public Transit:</span>
+            <span class="meta-value">UCSF/Mission Bay Station (N Judah &amp; KT Ingleside)</span>
+          </div>
+
+          <div style="margin-top: var(--space-4);">
+            <a href="https://maps.google.com/?q=1675+Owens+Street+San+Francisco+CA+94158" class="pybtn pybtn--outline" target="_blank" rel="noopener">
+              Open in Maps &rarr;
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <img src="/pybay-logo-share-card.1200x630.png"
+               alt="Mission Bay Conference Center"
+               class="venue-photo"
+               loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- COMMUNITY                                                         -->
+
+
+  <!-- ================================================================ -->
+  <!-- JAVASCRIPT: Track tabs                                           -->
+  <!-- ================================================================ -->
+  <script>
+    (function() {
+      var tabs = document.querySelectorAll('[data-track]');
+      var panels = document.querySelectorAll('.track-panel');
+
+      if (tabs.length && panels.length) {
+        tabs.forEach(function(tab) {
+          tab.addEventListener('click', function() {
+            // Deactivate all
+            tabs.forEach(function(t) {
+              t.classList.remove('active');
+              t.setAttribute('aria-selected', 'false');
+            });
+            panels.forEach(function(p) {
+              p.classList.remove('active');
+            });
+
+            // Activate clicked
+            tab.classList.add('active');
+            tab.setAttribute('aria-selected', 'true');
+            var panel = document.getElementById(tab.getAttribute('aria-controls'));
+            if (panel) panel.classList.add('active');
+          });
+        });
+      }
+
+      // Copy address
+      var addrEl = document.querySelector('[data-copy-address]');
+      if (addrEl) {
+        addrEl.addEventListener('click', function() {
+          var text = addrEl.textContent.trim().replace(/\s+/g, ' ');
+          navigator.clipboard.writeText(text).then(function() {
+            addrEl.style.color = 'var(--color-success)';
+            setTimeout(function() {
+              addrEl.style.color = '';
+            }, 1500);
+          });
+        });
+      }
+    })();
+  </script>
+
+{% endif %}
 {% endblock %}

@@ -1,27 +1,19 @@
 {% set video = record.attachments.get(this.video) %}
-<div class="hero-slider" style="padding: 0px; position: relative; overflow: hidden;" >
-	<ul class="slides" style="list-style-type: none; height: {{ this.height }}; position: relative; overflow: hidden; .preserve-3d;">
-<li class="video-header flex-active-slide">
-      <div class="video-wrapper">
-        <video autoplay muted loop>
-          <source src="{{ video|url }}" >
-        </video>
-      </div>
+<div class="hero" style="min-height: {{ this.height }}px;">
+  <div style="position: absolute; inset: 0; z-index: 0; overflow: hidden;">
+    <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover; opacity: 0.3;">
+      <source src="{{ video|url }}">
+    </video>
+  </div>
+  <div class="container" style="position: relative; z-index: 1;">
+    <div class="hero-content">
       {% if this.center_image %}
-      {% set logo = record.attachments.get(this.center_image) %}
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-          <img alt="logo" class="logo" src="{{ logo|url }}">
-      </div>
-      </div>
-      </div>
+        {% set logo = record.attachments.get(this.center_image) %}
+        <img alt="logo" src="{{ logo|url }}" style="max-height: 80px; margin-bottom: 24px;">
       {% endif %}
-  {% if this.contents %}
-{{ this.contents }}
-{% endif %}
-</li>
-<ul>
+      {% if this.contents %}
+        {{ this.contents }}
+      {% endif %}
+    </div>
+  </div>
 </div>
-
-

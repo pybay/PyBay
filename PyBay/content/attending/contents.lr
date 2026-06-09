@@ -3,76 +3,209 @@ _model: poster
 title: Attending
 ---
 body:
-
-#### banner ####
-image: conference-venue.gif
-----
-height: 300
-----
-contents: 
 #### text-block ####
 text:
 
-###Venue
+<section class="pybay-section--compact" style="padding-top: 0;">
+  <header class="section-header">
+    <span class="import-statement">
+      <span class="keyword">from</span>
+      <span class="module">pybay</span>
+      <span class="keyword">import</span>
+      <span class="name">attending</span>
+    </span>
+    <h2>Venue</h2>
+    <p class="section-description">
+      PyBay returns to the Mission Bay Conference Center at UCSF —
+      a purpose-built conference venue in the heart of San Francisco's
+      innovation district.
+    </p>
+  </header>
 
-PyBay is returning to our *indoor* conference venue at University of California San Francisco. 
+  <div>
+    <h3 class="venue-name">Mission Bay Conference Center</h3>
+    <p class="venue-address">
+      1675 Owens Street, Suite 251<br>
+      San Francisco, CA 94143-3008
+    </p>
 
-<div class="text-center">
-Mission Bay Conference Center at UCSF<br>
-1675 Owens Street<br>
-Suite 251<br>
-San Francisco, CA 94143-3008 <br>
-<a class="btn btn-outline-secondary" target="_blank" href="http://www.acc-missionbayconferencecenter.com/">Venue</a>
-</div>
+    <div class="package-meta" style="margin-bottom: var(--space-4);">
+      <span class="meta-key">Date:</span>
+      <span class="meta-value">3 October 2026</span>
+      <span class="meta-key">Time:</span>
+      <span class="meta-value">09:00 – 18:00 PDT</span>
+      <span class="meta-key">Capacity:</span>
+      <span class="meta-value">500+ attendees</span>
+      <span class="meta-key">Accessibility:</span>
+      <span class="meta-value">Fully wheelchair accessible</span>
+      <span class="meta-key">Transit:</span>
+      <span class="meta-value">UCSF/Mission Bay Station (N Judah &amp; KT Ingleside)</span>
+    </div>
 
-### Purchase Tickets
+    <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+      <a href="https://maps.google.com/?q=1675+Owens+Street+San+Francisco+CA+94158" class="pybtn pybtn--outline" target="_blank" rel="noopener">
+        Open in Maps &rarr;
+      </a>
+      <a href="http://www.acc-missionbayconferencecenter.com/" class="pybtn pybtn--outline" target="_blank" rel="noopener">
+        Venue Website &rarr;
+      </a>
+    </div>
+  </div>
+</section>
 
-Regular bird tickets are on sale now! You must agree to the [code of conduct policy](/code-of-conduct) and the [health and safety policy](/health-and-safety) when you purchase a ticket. Check out the [amazing speakers](/speaking) you will get to see at PyBay!
+<hr>
 
-<div class="text-center">
-<a class="btn btn-outline-secondary" target="_blank" href="https://pretix.eu/bapya/pybay-2025/">Buy Tickets!</a>
-</div>
+<section class="pybay-section--compact">
+  <header class="section-header">
+    <span class="import-statement">
+      <span class="keyword">from</span>
+      <span class="module">pybay</span>
+      <span class="keyword">import</span>
+      <span class="name">tickets</span>
+    </span>
+    <h2>Purchase Tickets</h2>
+    <p class="section-description">
+      Register for PyBay 2026. Early bird pricing available for a limited time.
+    </p>
+  </header>
 
-Please buy tickets as soon as you can because they will go up in price closer to the event.
+  <div class="callout callout--info">
+    <strong>Early bird pricing</strong> — Tickets are on sale now at the early bird rate.
+    Prices increase as the conference approaches. All attendees must agree to the
+    <a href="/code-of-conduct">Code of Conduct</a> and
+    <a href="/health-and-safety">Health &amp; Safety Policy</a>.
+  </div>
 
-<br><br><br>
-### Map
+  <div style="margin-top: var(--space-4);">
+    <a href="https://pretix.eu/bapya/pybay-2026/" class="pybtn pybtn--install pybtn--lg" target="_blank" rel="noopener">
+      <span class="install-prefix">pip install</span> tickets
+    </a>
+  </div>
+</section>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6307.893282852009!2d-122.39562602277908!3d37.7678493125568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7fcefeed530f%3A0xcb08bae8f5ba0a48!2sMission%20Bay%20Conference%20Center!5e0!3m2!1sen!2sus!4v1713979345847!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<hr>
 
- <br><br><br>
-### Parking and Transportation
+<section class="pybay-section--compact">
+  <header class="section-header">
+    <span class="import-statement">
+      <span class="keyword">from</span>
+      <span class="module">pybay</span>
+      <span class="keyword">import</span>
+      <span class="name">map</span>
+    </span>
+    <h2>Map</h2>
+  </header>
 
-If this is your first visit to San Francisco, then this guide can help you use public transportation in the city.
+  <div style="border: 1px solid var(--border-color); border-radius: var(--border-radius); overflow: hidden;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6307.893282852009!2d-122.39562602277908!3d37.7678493125568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7fcefeed530f%3A0xcb08bae8f5ba0a48!2sMission%20Bay%20Conference%20Center!5e0!3m2!1sen!2sus!4v1713979345847!5m2!1sen!2sus"
+      width="100%" height="400" style="border:0; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
 
-<a class="btn btn-outline-secondary" target="_blank" href="https://www.sftravel.com/info/transportation-basics-how-to-get-around-san-francisco">SF Travel Guide</a>
+<hr>
 
-The conference venue also has detailed public transit information available.
+<section class="pybay-section--compact">
+  <header class="section-header">
+    <span class="import-statement">
+      <span class="keyword">from</span>
+      <span class="module">pybay</span>
+      <span class="keyword">import</span>
+      <span class="name">transportation</span>
+    </span>
+    <h2>Getting There</h2>
+    <p class="section-description">
+      San Francisco is well-connected by public transit, rideshare, and bike.
+      The venue is in the Mission Bay neighborhood, minutes from downtown.
+    </p>
+  </header>
 
-<a class="btn btn-outline-secondary" target="_blank" href="http://www.acc-missionbayconferencecenter.com/visiting-mbcc/parking-and-public-transportation.html">Conference Venue Transportation Recommendations</a>
+  <div class="section-grid section-grid--3">
+    <div class="package-card">
+      <h4 style="margin-bottom: 4px;">Public Transit</h4>
+      <p class="text-small" style="margin-bottom: 12px;">
+        The UCSF/Mission Bay station serves the N Judah and KT Ingleside
+        Muni lines. Caltrain's 22nd Street station is a 10-minute walk.
+      </p>
+      <a href="https://www.sftravel.com/info/transportation-basics-how-to-get-around-san-francisco" class="pybtn pybtn--ghost pybtn--sm" target="_blank" rel="noopener" style="align-self: flex-start;">
+        SF Travel Guide &rarr;
+      </a>
+    </div>
 
-There is also several parking garages in the immediate area around the conference venue which can be reserved in advance.
+    <div class="package-card">
+      <h4 style="margin-bottom: 4px;">Parking</h4>
+      <p class="text-small" style="margin-bottom: 12px;">
+        Several parking garages are within walking distance of the venue.
+        Reserve in advance for guaranteed availability.
+      </p>
+      <a href="https://en.parkopedia.com/parking/garage/1670_owens_street_garage/94107/san_francisco/" class="pybtn pybtn--ghost pybtn--sm" target="_blank" rel="noopener" style="align-self: flex-start;">
+        Area Parking &rarr;
+      </a>
+    </div>
 
-<a class="btn btn-outline-secondary" target="_blank" href="https://en.parkopedia.com/parking/garage/1670_owens_street_garage/94107/san_francisco/?arriving=202404241100&leaving=202404241300">Area Parking Garages</a>
-<br><br><br>
-### Hotels
-<div class="text-center">
-<strong>Hyatt Place San Francisco Downtown</strong><br>
-701 3rd St<br>
-San Francisco, CA, 94107<br>
-<a class="btn btn-outline-secondary" target="_blank" href="https://www.hyatt.com/hyatt-place/en-US/sfozs-hyatt-place-san-francisco-downtown">Hyatt</a>
-<br><br><br>
-<strong>San Francisco Marriott Marquis</strong><br>
-780 Mission St<br> San Francisco, CA 94103<br>
-<a class="btn btn-outline-secondary" target="_blank" href="https://www.marriott.com/en-us/hotels/sfodt-san-francisco-marriott-marquis/overview/">Marriot</a>
-</div>
+    <div class="package-card">
+      <h4 style="margin-bottom: 4px;">Venue Details</h4>
+      <p class="text-small" style="margin-bottom: 12px;">
+        Detailed transit and parking information from the conference center,
+        including bike racks and rideshare drop-off zones.
+      </p>
+      <a href="http://www.acc-missionbayconferencecenter.com/visiting-mbcc/parking-and-public-transportation.html" class="pybtn pybtn--ghost pybtn--sm" target="_blank" rel="noopener" style="align-self: flex-start;">
+        Venue Transport &rarr;
+      </a>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<section class="pybay-section--compact">
+  <header class="section-header">
+    <span class="import-statement">
+      <span class="keyword">from</span>
+      <span class="module">pybay</span>
+      <span class="keyword">import</span>
+      <span class="name">hotels</span>
+    </span>
+    <h2>Hotels</h2>
+    <p class="section-description">
+      We recommend the following hotels within walking distance or a short
+      transit ride from the venue.
+    </p>
+  </header>
+
+  <div class="section-grid section-grid--3">
+    <div class="package-card" style="text-align: center;">
+      <h4 style="margin-bottom: 2px;">Hyatt Place San Francisco</h4>
+      <p class="text-small">701 3rd St, San Francisco</p>
+      <div style="margin-top: auto; padding-top: 12px;">
+        <a href="https://www.hyatt.com/hyatt-place/en-US/sfozs-hyatt-place-san-francisco-downtown" class="pybtn pybtn--outline pybtn--sm" target="_blank" rel="noopener">
+          Book &rarr;
+        </a>
+      </div>
+    </div>
+
+    <div class="package-card" style="text-align: center;">
+      <h4 style="margin-bottom: 2px;">San Francisco Marriott Marquis</h4>
+      <p class="text-small">780 Mission St, San Francisco</p>
+      <div style="margin-top: auto; padding-top: 12px;">
+        <a href="https://www.marriott.com/en-us/hotels/sfodt-san-francisco-marriott-marquis/overview/" class="pybtn pybtn--outline pybtn--sm" target="_blank" rel="noopener">
+          Book &rarr;
+        </a>
+      </div>
+    </div>
+
+    <div class="package-card" style="text-align: center;">
+      <h4 style="margin-bottom: 2px;">More Options</h4>
+      <p class="text-small">Search hotels near Mission Bay</p>
+      <div style="margin-top: auto; padding-top: 12px;">
+        <a href="https://maps.google.com/?q=hotels+near+1675+Owens+Street+San+Francisco" class="pybtn pybtn--outline pybtn--sm" target="_blank" rel="noopener">
+          Search &rarr;
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 ----
 class: default
-#### banner ####
-image: cdbg.jpg
-----
-height: 300
-----
-contents: 
 ---
 short: Attending

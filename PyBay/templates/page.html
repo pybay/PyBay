@@ -1,6 +1,16 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-  <h2>{{ this.title }}</h2>
+<div class="pybay-section--compact">
+  <header class="section-header">
+    <span class="import-statement">
+      <span class="keyword">from</span>
+      <span class="module">pybay</span>
+      <span class="keyword">import</span>
+      <span class="name">{{ this.title.lower().replace(' ', '_') }}</span>
+    </span>
+    <h2>{{ this.title }}</h2>
+  </header>
   {{ this.body }}
+</div>
 {% endblock %}

@@ -1,22 +1,26 @@
 {% extends "layout.html" %}
 {% from 'macros/blocksupport.html' import render_full_width_blocks %}
 {% block title %}{{ this.title }}{% endblock %}
-{% block bodyclass %}
-
-{% endblock %}
 {% block outerbody %}
-<div class="sponsor-list-page">
+<div class="pybay-section">
+  <div class="container">
+    <header class="section-header">
+      <span class="import-statement">
+        <span class="keyword">from</span>
+        <span class="module">pybay</span>
+        <span class="keyword">import</span>
+        <span class="name">dependencies</span>
+      </span>
+      <h2>{{ this.title }}</h2>
+    </header>
 
-  {{ render_full_width_blocks(this.body.blocks, classes='col-md-12') }}
-  <div class="row justify-content-md-center">
-    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-    <a class="btn attention text-white" style="background-color: darkgreen;" href="{{ '/sponsors/sponsor-us/'|url }}"  role="button" aria-disabled="true">Sponsor PyBay</a>
-  </div>
-  </div>
-</div>
-<div class="row sponsor-footer">
-    <div class="sponsor-footer-list">
-        
+    {{ render_full_width_blocks(this.body.blocks, classes='col-md-12') }}
+
+    <div style="text-align: center; margin-top: 48px;">
+      <a class="pybtn pybtn--accent pybtn--lg" href="{{ '/sponsors/sponsor-us/'|url }}" role="button">
+        Sponsor PyBay
+      </a>
     </div>
+  </div>
 </div>
 {% endblock %}

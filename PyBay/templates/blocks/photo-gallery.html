@@ -1,17 +1,22 @@
 {% from 'macros/blocksupport.html' import render_container %}
-<div class="row text-center">
-<h2>{{ this.gallery_name }}</h1>
-{% if this.info.url %}
-<a href="{{ this.info.url }}" ><i class="fa fa-info-circle" aria-hidden="true"></i></a>
-{% endif %}
+<div class="pybay-section--compact">
+  <header class="section-header">
+    <span class="import-statement">
+      <span class="keyword">from</span>
+      <span class="module">pybay</span>
+      <span class="keyword">import</span>
+      <span class="name">{{ this.gallery_name.lower().replace(' ', '_') }}</span>
+    </span>
+    <h2>{{ this.gallery_name }}</h2>
+    {% if this.info.url %}
+      <a href="{{ this.info.url }}" class="text-small" style="margin-top: 4px; display: inline-block;">
+        learn more &rarr;
+      </a>
+    {% endif %}
+  </header>
+  <div class="contributor-grid">
+  {% for photo_image in this.add_gallery_members.blocks %}
+    {{ photo_image }}
+  {% endfor %}
+  </div>
 </div>
-<br>
-
-{% for photo_images in this.add_gallery_members.blocks|slice(2) %}
-<div class="gallery row  justify-content-around">
-{% for photo_image in photo_images%}
-{{ photo_image }}
-{% endfor %}
-</div>
-<br>
-{% endfor %}

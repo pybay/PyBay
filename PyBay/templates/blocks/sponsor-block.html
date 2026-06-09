@@ -1,8 +1,8 @@
-<div class="sl-sponsor">
-  <div class="sl-blurb">
-    <a class="sl-logo" href="{{ this.sponsor_url }}" target="_blank" rel="noopener noreferrer">
-      <img alt="{{ this.sponsor_company }}" src="{{ this.logo_image }}" />
-    </a>
-    <p class="sl-intro">{{ this.sponsored_text|urlize }}</p>
-  </div>
+<div class="sponsor-logo" style="display: flex; flex-direction: column; gap: 8px; filter: none; opacity: 1;">
+  <a href="{{ this.sponsor_url }}" target="_blank" rel="noopener noreferrer" style="display: flex; justify-content: center;">
+    <img alt="{{ this.sponsor_company }}" src="{{ this.logo_image }}" style="max-height: 50px; max-width: 100%; object-fit: contain;" />
+  </a>
+  {% if this.sponsored_text %}
+    <p class="text-small" style="margin: 0; text-align: center;">{{ this.sponsored_text|urlize }}</p>
+  {% endif %}
 </div>

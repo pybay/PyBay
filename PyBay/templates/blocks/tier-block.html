@@ -1,21 +1,12 @@
 {% from 'macros/blocksupport.html' import render_full_width_blocks %}
-<div class="sl-group {{this.tier_name}} rotating-gradient">
-    <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="col-sm-12  sl-group-heading text-center">
-            <h1 class="large-h1">{{ this.tier_name }}</h1><a href="{{ '/sponsors/sponsor-us/'|url }}" ><i class="fa fa-info-circle" aria-hidden="true"></i></a>
-          </div>
-        </div>
-      </div>
-
-    <section class="subscribe-2">
-        <div class="container">
-          <section class="sponsor-list">
-            <div class="border"></div>
-            {{ render_full_width_blocks(this.add_sponsors.blocks, classes='col-md-12') }}
-          </section>
-        </div>
-      </section>
-
-
+<div class="sponsor-tier" style="margin-top: var(--space-6);">
+  <h3 class="tier-header">{{ this.tier_name }} Sponsors</h3>
+  <div class="sponsor-grid sponsor-grid--{{ this.tier_name.lower() }}">
+    {{ render_full_width_blocks(this.add_sponsors.blocks, classes='col-md-12') }}
+  </div>
+  {% if this.description %}
+    <div style="margin-top: var(--space-3);">
+      {{ this.description }}
+    </div>
+  {% endif %}
 </div>

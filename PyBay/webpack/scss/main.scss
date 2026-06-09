@@ -250,7 +250,7 @@ blockquote {
 hr {
   border: none;
   border-top: 1px solid var(--border-color);
-  margin: var(--space-6) 0;
+  margin: var(--space-4) 0;
 }
 
 ::selection {
@@ -319,7 +319,7 @@ hr {
   padding: var(--space-12) 0;
 
   &--compact {
-    padding: var(--space-8) 0;
+    padding: var(--space-5) 0;
   }
 
   &--hero {
@@ -539,9 +539,19 @@ hr {
   margin-bottom: var(--space-6);
 
   .meta-key {
+    color: var(--text-muted);
+    text-align: right;
+  }
+
+  .meta-value {
+    color: var(--text-primary);
+  }
+}
+
+.hero .package-meta {
+  .meta-key {
     color: var(--hero-muted);
     opacity: 0.7;
-    text-align: right;
   }
 
   .meta-value {
@@ -588,13 +598,24 @@ hr {
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
   padding: var(--space-3);
-  transition: border-color 200ms ease;
+  transition: border-color 200ms ease, transform 200ms ease, box-shadow 200ms ease;
   display: flex;
   flex-direction: column;
 
   &:hover {
     border-color: var(--border-color-strong);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   }
+}
+
+.card-icon {
+  width: 28px;
+  height: 28px;
+  color: var(--text-muted);
+  margin-bottom: var(--space-2);
+  flex-shrink: 0;
+  align-self: center;
 }
 
 // ============================================================================
@@ -916,8 +937,17 @@ hr {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  &--community {
-    grid-template-columns: repeat(6, 1fr);
+  &--silver {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &--bronze {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &--community,
+  &--diversity {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
@@ -1455,7 +1485,10 @@ hr {
 
   .sponsor-grid--platinum,
   .sponsor-grid--gold,
-  .sponsor-grid--community {
+  .sponsor-grid--silver,
+  .sponsor-grid--bronze,
+  .sponsor-grid--community,
+  .sponsor-grid--diversity {
     grid-template-columns: repeat(2, 1fr);
   }
 

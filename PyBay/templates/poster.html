@@ -48,6 +48,8 @@
 
   {% if this == site.get('/') %}
 
+  {% set sp = site.get('/sponsors/our-sponsors') %}
+
   <!-- ================================================================ -->
   <!-- SPEAKER HIGHLIGHTS                                                -->
   <!-- ================================================================ -->
@@ -431,58 +433,31 @@
       </header>
 
       <div class="sponsor-tier">
-        <h3 class="tier-header">Platinum Sponsors</h3>
-        <div class="sponsor-grid sponsor-grid--platinum">
-          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
-            <img src="{{ '/static/sponsors/platinum.svg'|asseturl }}" alt="Platinum sponsor">
+        <h3 class="tier-header">Silver Sponsors</h3>
+        <div class="sponsor-grid sponsor-grid--gold">
+          <a href="https://engineering.fb.com/" class="sponsor-logo" target="_blank" rel="noopener">
+            <img src="{{ sp.attachments.get('meta-symbol-positiveprimary-rgb.png')|url }}" alt="Meta">
           </a>
-          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
-            <img src="{{ '/static/sponsors/platinum.svg'|asseturl }}" alt="Platinum sponsor">
-          </a>
-          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
-            <img src="{{ '/static/sponsors/platinum.svg'|asseturl }}" alt="Platinum sponsor">
+          <a href="https://www.python.org/psf/membership" class="sponsor-logo" target="_blank" rel="noopener">
+            <img src="{{ sp.attachments.get('psf-logo-372x84-alpha-2025.png')|url }}" alt="Python Software Foundation">
           </a>
         </div>
       </div>
 
       <div class="sponsor-tier">
-        <h3 class="tier-header">Gold Sponsors</h3>
-        <div class="sponsor-grid sponsor-grid--gold">
-          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
-            <img src="{{ '/static/sponsors/gold.svg'|asseturl }}" alt="Gold sponsor">
-          </a>
-          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
-            <img src="{{ '/static/sponsors/gold.svg'|asseturl }}" alt="Gold sponsor">
-          </a>
-          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
-            <img src="{{ '/static/sponsors/gold.svg'|asseturl }}" alt="Gold sponsor">
-          </a>
-          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
-            <img src="{{ '/static/sponsors/gold.svg'|asseturl }}" alt="Gold sponsor">
+        <h3 class="tier-header">Bronze Sponsors</h3>
+        <div class="sponsor-grid sponsor-grid--gold" style="grid-template-columns: repeat(2, 1fr);">
+          <a href="https://www.bloomberg.com/company/values/tech-at-bloomberg/python/" class="sponsor-logo" target="_blank" rel="noopener">
+            <img src="{{ sp.attachments.get('bbgengineering-black-2025.png')|url }}" alt="Bloomberg Engineering">
           </a>
         </div>
       </div>
 
       <div class="sponsor-tier">
         <h3 class="tier-header">Community Partners</h3>
-        <div class="sponsor-grid sponsor-grid--community">
-          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
-            <img src="{{ '/static/sponsors/community.svg'|asseturl }}" alt="Community partner">
-          </a>
-          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
-            <img src="{{ '/static/sponsors/community.svg'|asseturl }}" alt="Community partner">
-          </a>
-          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
-            <img src="{{ '/static/sponsors/community.svg'|asseturl }}" alt="Community partner">
-          </a>
-          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
-            <img src="{{ '/static/sponsors/community.svg'|asseturl }}" alt="Community partner">
-          </a>
-          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
-            <img src="{{ '/static/sponsors/community.svg'|asseturl }}" alt="Community partner">
-          </a>
-          <a href="#" class="sponsor-logo" target="_blank" rel="noopener">
-            <img src="{{ '/static/sponsors/community.svg'|asseturl }}" alt="Community partner">
+        <div class="sponsor-grid sponsor-grid--community" style="grid-template-columns: repeat(2, 1fr);">
+          <a href="https://numfocus.org/" class="sponsor-logo" target="_blank" rel="noopener">
+            <img src="{{ sp.attachments.get('numfocus-logo-2025.png')|url }}" alt="NumFOCUS">
           </a>
         </div>
       </div>

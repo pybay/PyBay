@@ -22,38 +22,44 @@ text:
     </p>
   </header>
 
-  <div>
-    <h3 class="venue-name">Mission Bay Conference Center</h3>
-    <p class="venue-address">
-      1675 Owens Street, Suite 251<br>
-      San Francisco, CA 94143-3008
-    </p>
+  <div class="venue-layout">
+    <div>
+      <h3 class="venue-name">Mission Bay Conference Center</h3>
+      <p class="venue-address">
+        1675 Owens Street, Suite 251<br>
+        San Francisco, CA 94143-3008
+      </p>
 
-    <div class="package-meta" style="margin-bottom: var(--space-4);">
-      <span class="meta-key">Date:</span>
-      <span class="meta-value">3 October 2026</span>
-      <span class="meta-key">Time:</span>
-      <span class="meta-value">09:00 – 18:00 PDT</span>
-      <span class="meta-key">Capacity:</span>
-      <span class="meta-value">500+ attendees</span>
-      <span class="meta-key">Accessibility:</span>
-      <span class="meta-value">Fully wheelchair accessible</span>
-      <span class="meta-key">Transit:</span>
-      <span class="meta-value">UCSF/Mission Bay Station (N Judah &amp; KT Ingleside)</span>
+      <div class="package-meta" style="margin-bottom: var(--space-4);">
+        <span class="meta-key">Date:</span>
+        <span class="meta-value">3 October 2026</span>
+        <span class="meta-key">Time:</span>
+        <span class="meta-value">09:00 – 18:00 PDT</span>
+        <span class="meta-key">Capacity:</span>
+        <span class="meta-value">500+ attendees</span>
+        <span class="meta-key">Accessibility:</span>
+        <span class="meta-value">Fully wheelchair accessible</span>
+        <span class="meta-key">Transit:</span>
+        <span class="meta-value">UCSF/Mission Bay Station (N Judah &amp; KT Ingleside)</span>
+      </div>
+
+      <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: var(--space-4);">
+        <a href="https://maps.google.com/?q=1675+Owens+Street+San+Francisco+CA+94158" class="pybtn pybtn--outline" target="_blank" rel="noopener">
+          Open in Maps &rarr;
+        </a>
+        <a href="http://www.acc-missionbayconferencecenter.com/" class="pybtn pybtn--outline" target="_blank" rel="noopener">
+          Venue Website &rarr;
+        </a>
+      </div>
     </div>
 
-    <div style="display: flex; gap: 8px; flex-wrap: wrap;">
-      <a href="https://maps.google.com/?q=1675+Owens+Street+San+Francisco+CA+94158" class="pybtn pybtn--outline" target="_blank" rel="noopener">
-        Open in Maps &rarr;
-      </a>
-      <a href="http://www.acc-missionbayconferencecenter.com/" class="pybtn pybtn--outline" target="_blank" rel="noopener">
-        Venue Website &rarr;
-      </a>
+    <div style="border: 1px solid var(--border-color); border-radius: var(--border-radius); overflow: hidden;">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6307.893282852009!2d-122.39562602277908!3d37.7678493125568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7fcefeed530f%3A0xcb08bae8f5ba0a48!2sMission%20Bay%20Conference%20Center!5e0!3m2!1sen!2sus!4v1713979345847!5m2!1sen!2sus"
+          width="100%" height="100%" style="border:0; display: block; min-height: 280px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
     </div>
   </div>
 </section>
-
-<hr>
 
 <section class="pybay-section--compact">
   <header class="section-header">
@@ -83,27 +89,7 @@ text:
   </div>
 </section>
 
-<hr>
 
-<section class="pybay-section--compact">
-  <header class="section-header">
-    <span class="import-statement">
-      <span class="keyword">from</span>
-      <span class="module">pybay</span>
-      <span class="keyword">import</span>
-      <span class="name">map</span>
-    </span>
-    <h2>Map</h2>
-  </header>
-
-  <div style="border: 1px solid var(--border-color); border-radius: var(--border-radius); overflow: hidden;">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6307.893282852009!2d-122.39562602277908!3d37.7678493125568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7fcefeed530f%3A0xcb08bae8f5ba0a48!2sMission%20Bay%20Conference%20Center!5e0!3m2!1sen!2sus!4v1713979345847!5m2!1sen!2sus"
-      width="100%" height="400" style="border:0; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-  </div>
-</section>
-
-<hr>
 
 <section class="pybay-section--compact">
   <header class="section-header">
@@ -122,6 +108,13 @@ text:
 
   <div class="section-grid section-grid--3">
     <div class="package-card">
+      <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="3" width="18" height="12" rx="2"/>
+        <path d="M7 15v3"/>
+        <path d="M17 15v3"/>
+        <path d="M3 9h18"/>
+        <path d="M7 21h10"/>
+      </svg>
       <h4 style="margin-bottom: 4px;">Public Transit</h4>
       <p class="text-small" style="margin-bottom: 12px;">
         The UCSF/Mission Bay station serves the N Judah and KT Ingleside
@@ -133,6 +126,12 @@ text:
     </div>
 
     <div class="package-card">
+      <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 17h14l2-6H3l2 6z"/>
+        <path d="M7 17a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+        <path d="M17 17a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+        <path d="M3 11V9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2"/>
+      </svg>
       <h4 style="margin-bottom: 4px;">Parking</h4>
       <p class="text-small" style="margin-bottom: 12px;">
         Several parking garages are within walking distance of the venue.
@@ -144,6 +143,19 @@ text:
     </div>
 
     <div class="package-card">
+      <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="4" y="2" width="16" height="20" rx="2"/>
+        <path d="M9 22v-4h6v4"/>
+        <path d="M8 6h.01"/>
+        <path d="M16 6h.01"/>
+        <path d="M12 6h.01"/>
+        <path d="M8 10h.01"/>
+        <path d="M16 10h.01"/>
+        <path d="M12 10h.01"/>
+        <path d="M8 14h.01"/>
+        <path d="M16 14h.01"/>
+        <path d="M12 14h.01"/>
+      </svg>
       <h4 style="margin-bottom: 4px;">Venue Details</h4>
       <p class="text-small" style="margin-bottom: 12px;">
         Detailed transit and parking information from the conference center,

@@ -49,7 +49,7 @@ text:
       <div class="card-body">
         <h3 class="card-title">Attending</h3>
         <p class="card-text">We will be returning to the Mission Bay Conference Center</p>
-        <a href="./attending" class="btn" style="border-bottom: 5px solid orange">Learn More</a>
+        <a href="./attending" class="btn" style="border-bottom: 5px solid orange">Buy Tickets!</a>
       </div>
     </div>
   </div>

@@ -13,7 +13,36 @@ contents:
 #### text-block ####
 text:
 
-##Venue
+## Tickets
+
+Early bird tickets are on sale now through July 31! Prices will go up after July 31. The early bird discount is significant, so get your ticket today!
+
+<div class="text-center">
+<a class="btn btn-outline-secondary" href="https://pretix.eu/bapya/pybay-2026/">Buy Tickets!</a>
+</div>
+
+<br><br><br>
+
+<table class="table">
+<thead>
+<th>Date</th>
+<th>Event</th>
+</thead>
+<tbody>
+<tr><td>June 18, 2026</td><td>Tickets on Sale</td></tr>
+<tr><td>July 31, 2026</td><td>Early Bird Ticket Sales End</td></tr>
+<tr><td>September 5, 2026</td><td> T Shirts Sales Close</td></tr>
+<tr><td>September 19, 2026</td><td>Regular Ticket Sales End</td></tr>
+<tr><td>October 3, 2026</td><td>PyBay 2026 in San Francisco, CA</td></tr>
+</tbody>
+</table>
+
+<br>
+<br>
+
+
+## Venue
+
 
 PyBay is returning to our *indoor* conference venue at University of California San Francisco. 
 

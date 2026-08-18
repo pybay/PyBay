@@ -9,20 +9,7 @@ body:
 
 <center>
 
-We are accepting talk proposals now!
-
-
-<br/>
-<br/>
-
-<p>
-<a href="https://sessionize.com/pybay2026" class="btn btn-secondary btn-lg">Submit here</a>
-</p>
-
-<br/>
-<br/>
-
-<strong> DEADLINE EXTENDED: The last date to submit a proposal is July 26th 2026 </strong>
+<strong>We are no longer accepting talk proposals.</strong>
 
 </center>
 
@@ -55,7 +42,7 @@ The purpose of this document is to help you submit a good proposal and offers ti
 <tr><td>July 26, 2026</td><td>Call For Proposals Closes</td></tr>
 <tr><td>Late July 2026</td><td> Notifications are sent to speakers</td></tr>
 <tr><td>Late July 2026</td><td>Travel Grant applications close and final day for speakers to confirm attendance</td></tr>
-<tr><td>August  2026</td><td>The talk schedule is posted here on the Pybay website</td></tr>
+<tr><td>August  2026</td><td>The talk schedule is posted here on the PyBay website</td></tr>
 <tr><td>October 3, 2026</td><td>PyBay 2026 in San Francisco, CA</td></tr>
 </tbody>
 </table>
@@ -113,3 +100,5 @@ PyBay receives numerous talk proposals and has limited funds for speaker travel 
 
 ---
 short: Call for Proposals
+---
+_hidden: yes

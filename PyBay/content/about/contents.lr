@@ -27,15 +27,15 @@ column_number: 3
 add_gallery_members:
 
 ##### photo-social #####
-gallery_name: Christopher Brousseau
+gallery_name: Phebe Polk
 -----
-gallery_image: christopherbrousseau-square.jpg
+gallery_image: phebepolk-square.jpg
 -----
 gallery_title: Conference Chair
 -----
-linkedin: https://www.linkedin.com/in/chrisbrousseau/
+linkedin: https://www.linkedin.com/in/phebepolk/
 -----
-mastodon: 
+mastodon: https://fosstodon.org/@polkphebe
 -----
 twitter: 
 -----
@@ -71,48 +71,6 @@ twitter:
 -----
 instagram: 
 ##### photo-social #####
-gallery_name: Darlene Wong
------
-gallery_image: darlene-wong.jpg
------
-gallery_title: Marketing Chair
------
-linkedin: https://www.linkedin.com/in/darlenewong/
------
-mastodon: 
------
-twitter: 
------
-instagram: 
-##### photo-social #####
-gallery_name: Hana Lee
------
-gallery_image: unknown-speaker.png
------
-gallery_title: Marketing / Art
------
-linkedin: https://www.linkedin.com/in/lee-hana/
------
-mastodon: 
------
-twitter: 
------
-instagram: 
-##### photo-social #####
-gallery_name: Conrad Brousseau
------
-gallery_image: conrad-brousseau-graphic-design.jpg
------
-gallery_title: Graphic Design
------
-linkedin: https://www.linkedin.com/in/conrad-brousseau-75434236b/
------
-mastodon: 
------
-twitter: 
------
-instagram: 
-##### photo-social #####
 gallery_name: Laura Langdon
 -----
 gallery_image: laura-langdon.png
@@ -127,13 +85,13 @@ twitter:
 -----
 instagram: 
 ##### photo-social #####
-gallery_name: Slava Balashov
+gallery_name: Moshe Zadka
 -----
-gallery_image: slava-balashov.jpg
+gallery_image: moshezadka-square.jpg
 -----
-gallery_title: Volunteer Support
+gallery_title: Speaker Selection Chair
 -----
-linkedin: https://www.linkedin.com/in/slavabalashov/
+linkedin: https://www.linkedin.com/in/moshezadka
 -----
 mastodon: 
 -----
@@ -141,15 +99,43 @@ twitter:
 -----
 instagram: 
 ##### photo-social #####
-gallery_name: Jai Purandare
+gallery_name: Karina Souza
 -----
-gallery_image: jai-purandare.jpg
+gallery_image: karina-souza.jpg
+-----
+gallery_title: Volunteer Director
+-----
+linkedin: https://www.linkedin.com/in/moshezadka
+-----
+mastodon: 
+-----
+twitter: 
+-----
+instagram: 
+##### photo-social #####
+gallery_name: Phinhas
+-----
+gallery_image: unknown-speaker.png
+-----
+gallery_title: Social Media Director
+-----
+linkedin: 
+-----
+mastodon: 
+-----
+twitter: 
+-----
+instagram: 
+##### photo-social #####
+gallery_name: Sharif Naas
+-----
+gallery_image: unknown-speaker.png
 -----
 gallery_title: Web Dev Lead
 -----
-linkedin: https://www.linkedin.com/in/jaipurandare/
+linkedin: 
 -----
-mastodon: 
+mastodon: https://fosstodon.org/@sharif
 -----
 twitter: 
 -----
@@ -192,15 +178,15 @@ twitter:
 -----
 instagram: 
 ##### photo-social #####
-gallery_name: Moshe Zadka
+gallery_name: Amythest Reese
 -----
-gallery_image: moshezadka-square.jpg
+gallery_image: amythest-reese.png
 -----
-gallery_title: Secretary
+gallery_title: Board Member
 -----
-linkedin: https://www.linkedin.com/in/moshezadka
+linkedin: 
 -----
-mastodon: 
+mastodon: https://toots.n7.gg/@amethyst
 -----
 twitter: 
 -----

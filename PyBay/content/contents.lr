@@ -72,8 +72,7 @@ text:
       </div>
       <div class="card-body">
         <h3 class="card-title">Speaking</h3>
-        <p class="card-text">Call for Proposals!</p>
-        <a href="./speaking/call-for-proposals" class="btn " style="border-bottom: 5px solid orange">Submit! </a>
+        <p class="card-text">Call for Proposals is closed.</p>
       </div>
     </div>
   </div>

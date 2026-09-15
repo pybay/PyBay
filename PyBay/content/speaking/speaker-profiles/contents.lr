@@ -5,7 +5,7 @@ title: Speaker Profiles
 body:
 
 <div class="text-center">
-<h2>...</h2>
+<h2 class="visually-hidden">2026 Speakers</h2>
 <br>
 <script type="text/javascript" src="https://sessionize.com/api/v2/zufvhf96/view/Speakers"></script>
 

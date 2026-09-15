@@ -410,40 +410,6 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   <script src="https://kit.fontawesome.com/f4feb5c95e.js" crossorigin="anonymous"></script>
  <script type=text/javascript src="{{  '/static/gen/app.js'|asseturl }}" charset="utf-8"></script>
 
-  <script>
-    const targetDate = new Date('2024-09-21T00:00:00');
-
-    function updateCountdown() {
-        const now = new Date().getTime();
-        const distance = targetDate - now;
-
-        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        document.getElementById('days').textContent = days;
-        document.getElementById('hours').textContent = hours;
-        document.getElementById('minutes').textContent = minutes;
-        document.getElementById('seconds').textContent = seconds;
-
-        const totalSeconds = Math.floor(distance / 1000);
-        const elapsedSeconds = Math.floor((targetDate - now) / 1000);
-        const progress = (elapsedSeconds / totalSeconds) * 100;
-
-
-        if (distance < 0) {
-            clearInterval(countdownInterval);
-            document.getElementById('days').textContent = '0';
-            document.getElementById('hours').textContent = '0';
-            document.getElementById('minutes').textContent = '0';
-            document.getElementById('seconds').textContent = '0';
-        }
-    }
-
-    const countdownInterval = setInterval(updateCountdown, 1000);
-    updateCountdown();
-</script>
 <script>
   if (typeof bootstrap?.Dropdown === "function") {
     console.log("Bootstrap Dropdown is loaded ✅");

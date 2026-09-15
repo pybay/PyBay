@@ -7,6 +7,7 @@ body:
 <link rel="stylesheet" type="text/css" href="https://pretix.eu/bapya/pybay-2026/widget/v2.css" crossorigin>
 <script type="text/javascript" src="https://pretix.eu/widget/v2.en.js" async crossorigin></script>
 
+<h2 class="visually-hidden">Available Tickets</h2>
 <pretix-widget event="https://pretix.eu/bapya/pybay-2026/"></pretix-widget>
 <noscript>
    <div class="pretix-widget">

@@ -21,6 +21,10 @@ text:
 
 <br>
 
+<h2>Regular ticket sales end September 19, 2026</h2>
+
+<countdown-timer date="2026-09-20T00:00:00-07:00" expired-message="Regular ticket sales have ended."></countdown-timer>
+
 Join us for at gathering of Python developers in the San Francisco Bay Area.
 
 We'll discuss software development, AI, security, data science, community, and of course: Python.

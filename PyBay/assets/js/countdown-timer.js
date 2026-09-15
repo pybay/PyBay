@@ -7,7 +7,15 @@ class CountdownTimer extends HTMLElement {
 
   connectedCallback() {
     const dateAttr = this.getAttribute('date');
+    const expiredMessage = this.getAttribute('expired-message');
+
+    if (!expiredMessage) {
+      console.error('<countdown-timer> requires an expired-message attribute.');
+      return;
+    }
+
     this.targetDate = dateAttr ? new Date(dateAttr) : null;
+    this.expiredMessage = expiredMessage;
 
     this.innerHTML = `
       <div class="countdown">
@@ -36,7 +44,7 @@ class CountdownTimer extends HTMLElement {
     const diff = this.targetDate.getTime() - now;
 
     if (diff <= 0) {
-      this.querySelector('.countdown').innerHTML = `<h1>🎉 It's here!</h1>`;
+      this.querySelector('.countdown').innerHTML = this.expiredMessage;
       clearInterval(this.timer);
       return;
     }

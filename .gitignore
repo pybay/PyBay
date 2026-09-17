@@ -173,3 +173,6 @@ packages/*/dist
 
 # Windows security zone identifier automatically created when copying files to from the internet
 *Zone.Identifier
+
+# macOS
+.DS_Store

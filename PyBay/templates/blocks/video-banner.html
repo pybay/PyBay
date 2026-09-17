@@ -1,10 +1,12 @@
 {% set video = record.attachments.get(this.video) %}
+{% set video_mimetypes = {'webm': 'video/webm', 'mp4': 'video/mp4', 'm4v': 'video/mp4',
+                          'ogv': 'video/ogg', 'ogg': 'video/ogg', 'mov': 'video/quicktime'} %}
 <div class="hero-slider" style="padding: 0px; position: relative; overflow: hidden;" >
  <ul class="slides" style="list-style-type: none; height: {{ this.height }}px; position: relative; overflow: hidden;">
 <li class="video-header flex-active-slide">
       <div class="video-wrapper">
-        <video autoplay muted loop>
-          <source src="{{ video|url }}" >
+        <video autoplay muted loop playsinline preload="auto">
+          <source src="{{ video|url }}" type="{{ video_mimetypes.get(video._id.rsplit('.', 1)|last|lower, '') }}" >
         </video>
       </div>
       {% if this.center_image %}

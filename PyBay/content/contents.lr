@@ -21,9 +21,16 @@ text:
 
 <br>
 
-<h2>Regular ticket sales end September 19, 2026</h2>
+<script type="text/javascript" src="https://sessionize.com/api/v2/y61a6bhc/view/SpeakerWall"></script>
 
-<countdown-timer date="2026-09-20T00:00:00-07:00" expired-message="Regular ticket sales have ended."></countdown-timer>
+<br>
+
+<h2>Regular ticket sales <s>end September 19, 2026</s> <br> extended until September 26, 2026</h2>
+<h3> but come on now... buy your tickets!!</h3>
+
+<countdown-timer date="2026-09-27T00:00:00-07:00" expired-message="Regular ticket sales have ended."></countdown-timer>
+
+<a class="btn btn-move py-4" style="border: 5px solid orange" href="https://pretix.eu/bapya/pybay-2026/">Buy Tickets!</a>
 
 Join us for at gathering of Python developers in the San Francisco Bay Area.
 

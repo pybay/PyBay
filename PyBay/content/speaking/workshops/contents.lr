@@ -13,23 +13,20 @@ Reserve your spot when you buy your ticket. If you have already bought a ticket,
 
 <br>
 
-## Workshop 1: Azure Database for PostgreSQL workshop
+## Workshop 1: Agent Speedrun
+<br>
 ### Time: 10:30am - 12:30pm
-### Title: Build Agentic AI with Semantic Kernel and Graph RAG on PostgreSQL
+<br>
+### Title: Agent Speedrun: Idea → Code → Deploy → Observe, Fix → Ship
 ### Abstract
-In this hands-on lab, you will build an agent-driven Retrieval-Augmented Generation (RAG) application using a U.S. Case Law dataset. You will work with Azure Database for PostgreSQL, Visual Studio Code, and the Semantic Kernel Agent Framework to explore AI-powered text and vector search. The lab also introduces GraphRAG with Apache AGE, enabling enriched querying across structured and graph-based data. By the end, you'll gain practical skills in semantic search, vector indexing, and intelligent data retrieval.
-### Topics Covered
-Setup your Azure PostgreSQL Database<br>
-Launch PSQL Command Line Shell in VS Code<br>
-Using AI-driven features in Postgres<br>
-Using Semantic Vector Search and DiskANN Index<br>
-Perform a Semantic Search Query<br>
-Semantic Agent Configuration and Plugin Assembly<br>
+One agent. Fully deployed to production before the workshop ends. We'll take you from a blank file to a running production agent using Amazon Bedrock AgentCore and Strands Agents, covering the full lifecycle: ideation, coding the agent loop, deploying to serverless infrastructure, wiring up observability, breaking it intentionally, fixing it with tracing data, and shipping the final version. Bring your laptop and leave with a deployed agent.
 
 <br>
 
-## Workshop 2: Stop AI Agent Hallucinations With Code, Not Prompts
+## Workshop 2: Stop AI Agent Hallucinations
+<br>
 ### Time: 1:30pm - 3:30pm
+<br>
 ### Title: Stop AI Agent Hallucinations With Code, Not Prompts
 ### Abstract
 
@@ -42,6 +39,11 @@ This hands-on workshop walks through 5 techniques to stop these failures: Graph-
 <br>
 
 ## Workshop Sponsor:  Strands by AWS
+
+<a href="https://aws.amazon.com/blogs/opensource/introducing-strands-agents-an-open-source-ai-agents-sdk/"><image src="/sponsors/our-sponsors/strands-wordmark-green-2.svg" style="width: 15vw; height: auto;" ></a>
+
+created by      <a href="https://aws.amazon.com/blogs/opensource/introducing-strands-agents-an-open-source-ai-agents-sdk/"><image src="/sponsors/our-sponsors/aws-logo.png" style="width: 3vw; height: auto;" ></a>
+
 Strands Agents is an open source SDK that takes a model-driven approach to building and running AI agents in just a few lines of code. Strands scales from simple to complex agent use cases, and from local development to deployment in production. Multiple teams at AWS already use Strands for their AI agents in production, including Amazon Q Developer, AWS Glue, and VPC Reachability Analyzer. 
 
 Compared with frameworks that require developers to define complex workflows for their agents, Strands simplifies agent development by embracing the capabilities of state-of-the-art models to plan, chain thoughts, call tools, and reflect. With Strands, developers can simply define a prompt and a list of tools in code to build an agent, then test it locally and deploy it to the cloud. Like the two strands of DNA, Strands connects two core pieces of the agent together: the model and the tools. Strands plans the agent’s next steps and executes tools using the advanced reasoning capabilities of models. For more complex agent use cases, developers can customize their agent’s behavior in Strands. For example, you can specify how tools are selected, customize how context is managed, choose where session state and memory are stored, and build multi-agent applications. Strands can run anywhere and can support any model with reasoning and tool use capabilities, including models in Amazon Bedrock, Anthropic, Ollama, Meta, and other providers through LiteLLM.
@@ -57,4 +59,4 @@ Reserve your spot when you buy your ticket. If you have already bought a ticket,
 ---
 short: Workshops
 ---
-_hidden: yes
+_hidden: no
